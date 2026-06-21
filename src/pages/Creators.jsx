@@ -44,10 +44,10 @@ function Creators() {
             variants={fadeInUp}
           >
             <span>Join Our</span>
-            <span className="text-customPurple-500 relative flex items-start justify-center">
+            <span className="text-customPurple-500 relative flex items-center justify-center gap-1">
               Creator Family
               <motion.span
-                className="absolute top-0 md:-top-1 left-full ml-1 md:ml-2"
+                className="relative -top-2 md:-top-3"
                 initial={{ rotate: 0, scale: 0 }}
                 animate={{ rotate: 0, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.8, ease: "backOut" }}
