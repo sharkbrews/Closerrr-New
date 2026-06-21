@@ -27,10 +27,10 @@ useEffect(() => {
           </span>
           {/* Mobile View */}
           <span className="inline md:hidden">
-            <span className="text-customPurple-500">For Creators</span> <br />
-            Ready to Start <br />
-            Something Real <br />
-            on <span className="text-customPurple-500 font-fredoka">Closerrr</span>...
+            <span className="text-customPurple-500">For Creators</span> Ready <br />
+            to Start <br />
+            Something Real on <br />
+            <span className="text-customPurple-500 font-fredoka">Closerrr</span>...
           </span>
         </h1>
       </div>
