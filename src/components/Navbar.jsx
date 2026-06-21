@@ -21,6 +21,8 @@ const SmoothScrollLink = ({ to, children, className, onClick, style }) => {
   const handleClick = (e) => {
     e.preventDefault();
     
+    if (onClick) onClick();
+
     if (location.pathname !== "/") {
       navigate("/");
       setTimeout(() => {
@@ -29,16 +31,16 @@ const SmoothScrollLink = ({ to, children, className, onClick, style }) => {
           duration: 500,
           offset: -50,
         });
-      }, 300);
+      }, 350);
     } else {
-      scroller.scrollTo(to, {
-        smooth: true,
-        duration: 500,
-        offset: -50,
-      });
+      setTimeout(() => {
+        scroller.scrollTo(to, {
+          smooth: true,
+          duration: 500,
+          offset: -50,
+        });
+      }, 150);
     }
-    
-    if (onClick) onClick();
   };
 
   return (
@@ -86,18 +88,18 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
   >
     {/* Backdrop */}
     <div 
-      className="absolute inset-0 bg-black/40 backdrop-blur-[3px] transition-opacity duration-300"
+      className="absolute inset-0 bg-customPurple-500/20 backdrop-blur-sm transition-opacity duration-300"
       onClick={onClose}
     />
     
     {/* Slide-in Menu */}
     <div 
-      className={`relative z-10 text-customPurple-500 float-right h-full w-80 max-w-[85%] bg-white/90 backdrop-blur-xl border-l border-purple-100/50 shadow-[0_0_50px_rgba(75,22,76,0.15)] transform transition-transform duration-300 ease-out flex flex-col ${
+      className={`relative z-10 text-customPurple-500 float-right h-full w-80 max-w-[85%] bg-gradient-to-b from-white/95 to-purple-50/95 backdrop-blur-xl border-l border-customPink-500/20 shadow-[-10px_0_30px_rgba(75,22,76,0.08)] transform transition-transform duration-300 ease-out flex flex-col ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
       {/* Menu Header */}
-      <div className="flex items-center justify-between p-6 border-b border-purple-50 bg-white/50 backdrop-blur-sm flex-shrink-0">
+      <div className="flex items-center justify-between p-6 border-b border-purple-100/50 bg-transparent flex-shrink-0">
         <div 
           onClick={() => {
             onLogoClick();
@@ -123,53 +125,62 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
       </div>
       
       {/* Scrollable Menu Content */}
-      <div className="flex-1 overflow-y-auto py-6 px-4 space-y-2">
-        {NAVIGATION_ITEMS.map((item, index) => (
+      <div className="flex-1 overflow-y-auto py-8 px-6 space-y-6 flex flex-col justify-between">
+        <div className="space-y-4">
+          {NAVIGATION_ITEMS.map((item, index) => (
+            <SmoothScrollLink
+              key={item.target}
+              to={item.target}
+              className="group flex justify-between items-center px-4 py-3.5 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-white/65 rounded-xl transition-all duration-200 font-hellix-bold shadow-sm shadow-transparent hover:shadow-purple-100/30"
+              onClick={onClose}
+              style={{ 
+                transitionDelay: `${index * 50}ms`,
+                transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
+                opacity: isOpen ? 1 : 0
+              }}
+            >
+              <span>{item.label}</span>
+              <span className="text-customPink-500 text-xl translate-x-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                →
+              </span>
+            </SmoothScrollLink>
+          ))}
+          
           <SmoothScrollLink
-            key={item.target}
-            to={item.target}
-            className="block px-5 py-4 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/30 rounded-xl transition-all duration-200 font-hellix-bold"
+            to="faq"
+            className="group flex justify-between items-center px-4 py-3.5 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-white/65 rounded-xl transition-all duration-200 font-hellix-bold shadow-sm shadow-transparent hover:shadow-purple-100/30"
             onClick={onClose}
             style={{ 
-              transitionDelay: `${index * 50}ms`,
+              transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
               transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
               opacity: isOpen ? 1 : 0
             }}
           >
-            {item.label}
+            <span>FAQs</span>
+            <span className="text-customPink-500 text-xl translate-x-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
           </SmoothScrollLink>
-        ))}
-        
-        <SmoothScrollLink
-          to="faq"
-          className="block px-5 py-4 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/30 rounded-xl transition-all duration-200 font-hellix-bold"
-          onClick={onClose}
-          style={{ 
-            transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
-            transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
-            opacity: isOpen ? 1 : 0
-          }}
-        >
-          FAQs
-        </SmoothScrollLink>
-      </div>
+        </div>
 
-      {/* Fixed Download Button at Bottom */}
-      <div className="p-6 border-t border-purple-50 bg-white/50 backdrop-blur-sm flex-shrink-0 flex justify-center">
-        <SmoothScrollLink
-          to="download"
-          onClick={onClose}
-          className="w-full flex justify-center"
+        <div 
+          className="pt-6 border-t border-purple-100/50"
           style={{ 
             transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
             transform: isOpen ? 'translateY(0)' : 'translateY(20px)',
             opacity: isOpen ? 1 : 0
           }}
         >
-          <GradientButton width="w-full" height="h-14" textSize="text-xl">
-            Download App
-          </GradientButton>
-        </SmoothScrollLink>
+          <SmoothScrollLink
+            to="download"
+            onClick={onClose}
+            className="w-full flex justify-center"
+          >
+            <GradientButton width="w-full" height="h-14" textSize="text-xl">
+              Download App
+            </GradientButton>
+          </SmoothScrollLink>
+        </div>
       </div>
     </div>
   </div>
@@ -220,26 +231,19 @@ const Navbar = () => {
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
+    const html = document.documentElement;
     const body = document.body;
     if (isMobileMenuOpen) {
-      // Store the current scroll position
-      const scrollY = window.scrollY;
-      
-      // Prevent scrolling on the body
-      body.style.position = 'fixed';
-      body.style.top = `-${scrollY}px`;
-      body.style.width = '100%';
       body.style.overflow = 'hidden';
-      
-      return () => {
-        // Restore the scroll position when menu is closed
-        body.style.position = '';
-        body.style.top = '';
-        body.style.width = '';
-        body.style.overflow = '';
-        window.scrollTo(0, scrollY);
-      };
+      html.style.overflow = 'hidden';
+    } else {
+      body.style.overflow = '';
+      html.style.overflow = '';
     }
+    return () => {
+      body.style.overflow = '';
+      html.style.overflow = '';
+    };
   }, [isMobileMenuOpen]);
 
   // Navigation handlers
