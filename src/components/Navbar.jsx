@@ -68,9 +68,9 @@ const BrandLogo = ({ onClick }) => (
 );
 
 // Mobile menu component - Full screen slide-in panel
-const MobileMenu = ({ isOpen, onClose, isCreatorsRoute }) => (
+const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
   <div 
-    className={`fixed  inset-0 z-50 lg:hidden transition-opacity duration-300 ease-in-out ${
+    className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ease-in-out ${
       isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
     }`}
     style={{
@@ -86,39 +86,49 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute }) => (
   >
     {/* Backdrop */}
     <div 
-      className="absolute inset-0 bg-black/60"
+      className="absolute inset-0 bg-black/40 backdrop-blur-[3px] transition-opacity duration-300"
       onClick={onClose}
     />
     
     {/* Slide-in Menu */}
     <div 
-      className={`relative z-10 text-customPurple-500 float-right h-full w-80 max-w-[85%] bg-white shadow-2xl transform transition-transform duration-300 ease-in-out flex flex-col ${
+      className={`relative z-10 text-customPurple-500 float-right h-full w-80 max-w-[85%] bg-white/90 backdrop-blur-xl border-l border-purple-100/50 shadow-[0_0_50px_rgba(75,22,76,0.15)] transform transition-transform duration-300 ease-out flex flex-col ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
       {/* Menu Header */}
-      <div className="flex items-center justify-between p-5 border-b border-gray-200 bg-white flex-shrink-0">
-       <img
-        className=" h-10 "
-        src="/Final_Closerrr_1.png"
-        alt="Closerrr Logo"
-      />
-        <h2 className="text-3xl font-fredoka relative right-5 text-customPurple-500">Closerrr</h2>
+      <div className="flex items-center justify-between p-6 border-b border-purple-50 bg-white/50 backdrop-blur-sm flex-shrink-0">
+        <div 
+          onClick={() => {
+            onLogoClick();
+            onClose();
+          }}
+          className="flex gap-3 items-center cursor-pointer group"
+        >
+          <img
+            className="h-10 transition-transform duration-300 group-hover:scale-105"
+            src="/Final_Closerrr_1.png"
+            alt="Closerrr Logo"
+          />
+          <h2 className="text-3xl font-fredoka text-customPurple-500 transition-colors group-hover:text-customPink-500">
+            Closerrr
+          </h2>
+        </div>
         <button 
           onClick={onClose}
-          className="p-2 text-customPurple-500 hover:text-customPurple-500 hover:bg-gray-100 rounded-full transition-colors"
+          className="p-2 text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/50 rounded-full transition-all duration-200"
         >
           <X size={24} />
         </button>
       </div>
       
       {/* Scrollable Menu Content */}
-      <div className="flex-1 overflow-y-auto py-4 px-2 bg-white">
+      <div className="flex-1 overflow-y-auto py-6 px-4 space-y-2">
         {NAVIGATION_ITEMS.map((item, index) => (
           <SmoothScrollLink
             key={item.target}
             to={item.target}
-            className="block px-4 py-4 text-2xl text-customPink-500  hover:bg-gray-50 rounded-lg transition-all duration-200 font-hellix-bold"
+            className="block px-5 py-4 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/30 rounded-xl transition-all duration-200 font-hellix-bold"
             onClick={onClose}
             style={{ 
               transitionDelay: `${index * 50}ms`,
@@ -132,7 +142,7 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute }) => (
         
         <SmoothScrollLink
           to="faq"
-          className="block px-4 py-4 text-2xl text-customPink-500  hover:bg-gray-50 rounded-lg transition-all duration-200 font-hellix-bold"
+          className="block px-5 py-4 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/30 rounded-xl transition-all duration-200 font-hellix-bold"
           onClick={onClose}
           style={{ 
             transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
@@ -145,24 +155,22 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute }) => (
       </div>
 
       {/* Fixed Download Button at Bottom */}
-      {!isCreatorsRoute && (
-        <div className="p-2 border-t border-gray-200 bg-white flex-shrink-0">
-          <SmoothScrollLink
-            to="download"
-            onClick={onClose}
-            className="block w-full py-3 px-6 hover:bg-customPurple-600 text-white text-center rounded-xl font-hellix-bold text-2xl transition-all duration-200 transform hover:scale-105"
-            style={{ 
-              transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
-              transform: isOpen ? 'translateY(0)' : 'translateY(20px)',
-              opacity: isOpen ? 1 : 0
-            }}
-          >
-          <GradientButton>
+      <div className="p-6 border-t border-purple-50 bg-white/50 backdrop-blur-sm flex-shrink-0 flex justify-center">
+        <SmoothScrollLink
+          to="download"
+          onClick={onClose}
+          className="w-full flex justify-center"
+          style={{ 
+            transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
+            transform: isOpen ? 'translateY(0)' : 'translateY(20px)',
+            opacity: isOpen ? 1 : 0
+          }}
+        >
+          <GradientButton width="w-full" height="h-14" textSize="text-xl">
             Download App
-            </GradientButton>
-          </SmoothScrollLink>
-        </div>
-      )}
+          </GradientButton>
+        </SmoothScrollLink>
+      </div>
     </div>
   </div>
 );
@@ -235,7 +243,16 @@ const Navbar = () => {
   }, [isMobileMenuOpen]);
 
   // Navigation handlers
-  const handleLogoClick = () => navigate("/");
+  const handleLogoClick = () => {
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 300);
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
   const handleMobileMenuToggle = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const handleMobileMenuClose = () => setIsMobileMenuOpen(false);
 
@@ -297,7 +314,7 @@ const Navbar = () => {
       <MobileMenu
         isOpen={isMobileMenuOpen}
         onClose={handleMobileMenuClose}
-        isCreatorsRoute={isCreatorsRoute}
+        onLogoClick={handleLogoClick}
       />
     </div>
   );
