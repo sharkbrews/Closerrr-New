@@ -34,7 +34,7 @@ function Creators() {
     <div className="flex-1 min-h-screen scroll-smooth hide-scrollbar">
       <div className="w-full min-h-screen flex flex-col ">
         <motion.div
-          className="w-full min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 pb-24 md:pb-0 gap-[3.3vmax]"
+          className="w-full min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 pb-36 md:pb-0 gap-[3.3vmax]"
           initial="initial"
           animate="animate"
           variants={staggerContainer}
