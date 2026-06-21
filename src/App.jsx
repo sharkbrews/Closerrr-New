@@ -42,10 +42,8 @@ const App = () => {
 
   //  only creator legal pages are standalone
   const isStandalonePage = [
-    "/creator/termsandconditions",
-    "/creator/privacyandpolicy",
-    "/join-closerrr/termsandconditions",
-    "/join-closerrr/privacyandpolicy",
+    "/legal/creator-terms-and-conditions",
+    "/legal/creator-privacy-policy",
   ].includes(location.pathname);
 
   return (
@@ -54,11 +52,9 @@ const App = () => {
 
       {isStandalonePage ? (
         <Routes>
-          <Route path="/creator/termsandconditions" element={<Navigate to="/join-closerrr/termsandconditions" replace />} />
-          <Route path="/join-closerrr/termsandconditions" element={<CreatorTAndC />} />
-          <Route path="/creator/privacyandpolicy" element={<Navigate to="/join-closerrr/privacyandpolicy" replace />} />
+          <Route path="/legal/creator-terms-and-conditions" element={<CreatorTAndC />} />
           <Route
-            path="/join-closerrr/privacyandpolicy"
+            path="/legal/creator-privacy-policy"
             element={<CreatorPrivacyAndPolicy />}
           />
         </Routes>

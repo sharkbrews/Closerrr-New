@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const htmlContent = `
@@ -211,6 +212,13 @@ const htmlContent = `
 `;
 
 function CreatorPrivacyAndPolicy() {
+  useEffect(() => {
+    document.title = "Creator Privacy Policy | Closerrr";
+    return () => {
+      document.title = "Closerrr";
+    };
+  }, []);
+
   return (
     <div className="bg-secondary-500">
       <div className="px-8 lg:px-32 bg-secondary-500 pt-40 flex items-center flex-col w-full">
