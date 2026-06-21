@@ -159,12 +159,12 @@ function Download() {
           <div className="relative w-fit lg:w-full flex flex-col lg:items-end items-center lg:flex-row">
             {/* Text content */}
             <div className="max-w-full lg:w-2/3 lg:pl-[4em] lg:py-[9em] pt-[3em] lg:px-0 px-[2em] flex flex-col lg:gap-5 gap-3 md:gap-1 justify-center items-center lg:items-start text-center lg:text-left">
-              <h1 className="lg:text-download-subheading text-2xl text-customBrown-500 font-hellix-medium leading-[1.5rem] md:leading-[2.25rem]">
+              <h1 className="lg:text-download-subheading text-2xl text-customBrown-500 font-hellix-medium leading-[1.5rem] md:leading-[2.25rem] mb-3 md:mb-0">
                 Some bonds deserve their own space – made for the ones you hold
                 closest.
               </h1>
               <h1 className="md:text-download-heading text-[2rem] text-customPurple-500 leading-tight font-hellix-bold">
-                Download <span className="font-fredoka">Closerrr</span> today!
+                Download <span className="font-fredoka">Closerrr</span> Today!
               </h1>
               <div className="w-full flex gap-2 justify-center lg:justify-start lg:gap-6 mt-2">
                 <a href={iphoneLink} target="_blank" rel="noopener noreferrer">
