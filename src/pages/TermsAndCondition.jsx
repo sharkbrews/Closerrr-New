@@ -156,7 +156,7 @@ const htmlContent = `
 <p>(B) Any such Modifications may be implemented with or without prior notice to the User. Where required by applicable law or where deemed material in nature (as determined by the Company in its sole discretion), the Company may, but is not obligated to, provide reasonable advance notice of such Modifications through in-app notifications, email, official communication channels, or by posting a revised version of the Terms on its website or within the Platform.</p>
 <p>(C) Your continued access to or use of the Services after the effective date of any Modifications shall constitute your irrevocable and binding acceptance of the revised Terms, and you hereby waive any right to contest the enforceability of such Modifications on grounds of lack of notice or explicit consent. If you do not agree to any changes, your sole and exclusive remedy is to discontinue use of the Services and terminate your account.</p>
 <p>(D) The Company assumes no responsibility for the User&rsquo;s failure to review updated Terms or notices. It is your duty to periodically review the Terms &amp; Conditions for updates or modifications. Failure to do so shall not absolve you of any obligations or restrictions under the revised Terms.</p>
-<p><strong>Effective Date:</strong> 20/07/2025<br /><strong>Last Updated:</strong> 20/07/2025</p>
+<p><strong>Effective Date:</strong> 14/02/2025<br /><strong>Last Updated:</strong> 08/05/2026</p>
 <br/>
 <p><strong>12. Intellectual Property:</strong></p>
 <br/>

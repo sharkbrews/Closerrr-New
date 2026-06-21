@@ -406,8 +406,8 @@ const htmlContent = `
 
 <p>(D) No Obligation to Maintain Backward Compatibility<br>Closerrr makes no representations or warranties that future updates will remain compatible with any earlier versions of the app, tools, or integrations. Creators are solely responsible for keeping their devices, app versions, and usage practices aligned with the latest supported configurations.</p>
 
-<p><strong>Effective Date:</strong> 20/07/2025&nbsp;</p>
-<p><strong>Last Updated:</strong> 20/07/2025</p>
+<p><strong>Effective Date:</strong> 14/02/2025&nbsp;</p>
+<p><strong>Last Updated:</strong> 08/05/2026</p>
 <br/>
 <p><strong>26. Audit Rights &amp; Compliance Reviews:</strong></p>
 <br/>

@@ -197,7 +197,7 @@ const htmlContent = `<ul>
         <p>(a) Email notification sent to the contact address associated with your Creator account;<br>(b) Platform-based alerts delivered via Creator support channels or web dashboard interface;<br>(c) Updated version of the Privacy Policy made accessible through Closerrr&rsquo;s official website or documentation portal.</p>
         <p>(D) Your continued access to or use of your Creator account following the effective date of any revised version of this Privacy Policy shall constitute your binding acceptance of such changes. If you do not agree with the modified terms, you must immediately cease using the Platform and may request account termination in accordance with Section 8 (Data Retention &amp; Deletion).</p>
         <p>(E) For transparency and recordkeeping, Closerrr shall include a versioning clause at the end of this document that reflects the &ldquo;Effective Date&rdquo; and &ldquo;Last Updated&rdquo; date of this Policy. Historical versions may be retained by Closerrr for compliance and audit purposes and may be made available upon reasonable written request.</p>
-        <p><strong>Effective Date: </strong> 20/07/2025 <br> <strong>Last Updated: </strong> 20/07/2025</p>
+        <p><strong>Effective Date: </strong> 14/02/2025 <br> <strong>Last Updated: </strong> 08/05/2026</p>
         <br/>
         <p><strong>18. Governing Law &amp; Jurisdiction:</strong></p>
         <br/>
