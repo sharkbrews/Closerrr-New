@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ArrowRight, HelpCircle, Sparkles, Info, Download } from "lucide-react";
 import { useScrollDirection } from "../utils/ScrollDirection";
 import { scroller } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -130,24 +130,24 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
         bottom: 0
       }}
     >
-      {/* Backdrop */}
+      {/* Backdrop with soft purple tint and premium glassmorphism */}
       <div 
-        className="absolute inset-0 bg-black/30"
+        className="absolute inset-0 bg-customPurple-500/10 backdrop-blur-sm transition-opacity duration-300"
         onClick={onClose}
       />
       
       {/* Slide-in Menu */}
       <div 
-        className={`relative z-10 float-right w-80 max-w-[85%] bg-white shadow-2xl transform transition-transform duration-300 ease-out flex flex-col ${
+        className={`relative z-10 float-right w-80 max-w-[85%] bg-gradient-to-b from-secondary-500 via-white to-white border-l border-customPink-500/10 shadow-[-10px_0_40px_rgba(77,10,132,0.1)] transform transition-transform duration-300 ease-out flex flex-col ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
         style={{ height: '100dvh' }}
       >
         {/* Menu Header */}
-        <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 flex-shrink-0">
+        <div className="flex items-center justify-between px-6 py-5 border-b border-customPurple-500/5 bg-white/50 backdrop-blur-sm flex-shrink-0">
           <div 
             onClick={handleLogoTap}
-            className="flex gap-2 items-center cursor-pointer"
+            className="flex gap-2 items-center cursor-pointer active:scale-95 transition-transform"
           >
             <img
               className="h-9"
@@ -160,59 +160,104 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
           </div>
           <button 
             onClick={onClose}
-            className="p-2 text-gray-400 hover:text-customPurple-500 rounded-full transition-colors"
+            className="p-2 text-customPurple-500/60 hover:text-customPink-500 hover:bg-customPink-500/5 active:scale-90 rounded-full transition-all duration-200"
           >
             <X size={22} />
           </button>
         </div>
         
         {/* Menu Links */}
-        <div className="flex-1 overflow-y-auto">
-          <nav className="py-4 px-3">
-            {NAVIGATION_ITEMS.map((item) => (
-              <a
-                key={item.target}
-                href={`/#${item.target}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavClick(item.target);
-                }}
-                className="flex items-center gap-3 px-5 py-4 text-customPurple-500 font-hellix-bold text-lg rounded-xl active:bg-gray-50 transition-colors"
-              >
-                {item.label}
-              </a>
-            ))}
-            
+        <div className="flex-1 overflow-y-auto hide-scrollbar py-6 px-4">
+          <nav className="flex flex-col gap-3">
+            {/* What is Closerrr? */}
+            <a
+              href="/#about"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick("about");
+              }}
+              className="flex items-center justify-between p-4 rounded-2xl bg-white border border-customPurple-500/5 shadow-sm active:bg-customPurple-500/5 active:border-customPurple-500/10 active:scale-[0.98] transition-all duration-250 group"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-customPurple-500/5 text-customPurple-500 transition-colors duration-250">
+                  <Info size={20} />
+                </div>
+                <span className="text-base font-hellix-bold text-customPurple-500">
+                  What is Closerrr?
+                </span>
+              </div>
+              <ArrowRight size={18} className="text-customPink-500 transition-transform duration-250 group-active:translate-x-1" />
+            </a>
+
+            {/* For Creators */}
+            <a
+              href="/#create"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick("create");
+              }}
+              className="flex items-center justify-between p-4 rounded-2xl bg-white border border-customPurple-500/5 shadow-sm active:bg-customPurple-500/5 active:border-customPurple-500/10 active:scale-[0.98] transition-all duration-250 group"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-customPurple-500/5 text-customPurple-500 transition-colors duration-250">
+                  <Sparkles size={20} />
+                </div>
+                <span className="text-base font-hellix-bold text-customPurple-500">
+                  For Creators
+                </span>
+              </div>
+              <ArrowRight size={18} className="text-customPink-500 transition-transform duration-250 group-active:translate-x-1" />
+            </a>
+
+            {/* FAQs */}
             <a
               href="/#faq"
               onClick={(e) => {
                 e.preventDefault();
                 handleNavClick("faq");
               }}
-              className="flex items-center gap-3 px-5 py-4 text-customPurple-500 font-hellix-bold text-lg rounded-xl active:bg-gray-50 transition-colors"
+              className="flex items-center justify-between p-4 rounded-2xl bg-white border border-customPurple-500/5 shadow-sm active:bg-customPurple-500/5 active:border-customPurple-500/10 active:scale-[0.98] transition-all duration-250 group"
             >
-              FAQs
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-customPurple-500/5 text-customPurple-500 transition-colors duration-250">
+                  <HelpCircle size={20} />
+                </div>
+                <span className="text-base font-hellix-bold text-customPurple-500">
+                  FAQs
+                </span>
+              </div>
+              <ArrowRight size={18} className="text-customPink-500 transition-transform duration-250 group-active:translate-x-1" />
             </a>
+
+            {/* Download button as the last button on the list */}
+            <div className="mt-6 pt-6 border-t border-customPurple-500/5">
+              <a
+                href="/#download"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick("download");
+                }}
+                className="block w-full active:scale-[0.98] transition-transform"
+              >
+                <GradientButton width="w-full" height="h-14" textSize="text-lg">
+                  <span className="flex items-center justify-center gap-2">
+                    <Download size={18} />
+                    Download App
+                  </span>
+                </GradientButton>
+              </a>
+            </div>
           </nav>
         </div>
 
-        {/* Download Button - always visible at bottom */}
-        <div
-          className="px-5 pt-4 border-t border-gray-100 flex-shrink-0"
-          style={{ paddingBottom: 'calc(1.25rem + env(safe-area-inset-bottom, 0px))' }}
+        {/* Subtle Brand Tagline at the very bottom */}
+        <div 
+          className="py-4 px-6 bg-white/60 border-t border-customPurple-500/5 flex-shrink-0 flex justify-center items-center"
+          style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom, 0px))' }}
         >
-          <a
-            href="/#download"
-            onClick={(e) => {
-              e.preventDefault();
-              handleNavClick("download");
-            }}
-            className="block w-full"
-          >
-            <GradientButton width="w-full" height="h-12" textSize="text-lg">
-              Download App
-            </GradientButton>
-          </a>
+          <span className="text-[0.7rem] font-hellix-medium text-customPurple-500/40 text-center tracking-wide">
+            Some bonds deserve their own space.
+          </span>
         </div>
       </div>
     </div>
