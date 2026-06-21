@@ -39,11 +39,11 @@ function About() {
   return (
     <section 
       id="about"
-      className="w-full h-fit py-16 flex flex-col gap-12 lg:gap-20 mt-12 md:px-[4rem]"
+      className="w-full h-fit pt-6 md:pt-12 pb-16 flex flex-col gap-12 lg:gap-20 mt-12 md:px-[4rem]"
     >
       <div className="w-full flex justify-center">
         <motion.h1
-          className="text-[2.5rem] lg:text-closerrr-lg mt-20 font-hellix-bold text-customPink-500 text-center"
+          className="text-[2.5rem] lg:text-closerrr-lg mt-6 md:mt-10 font-hellix-bold text-customPink-500 text-center"
           data-aos="fade-up"
      data-aos-duration="1000"
         >
