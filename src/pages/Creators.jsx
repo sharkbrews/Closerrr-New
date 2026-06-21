@@ -52,10 +52,19 @@ function Creators() {
                 animate={{ rotate: 0, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.8, ease: "backOut" }}
               >
-                <img
+                <motion.img
                   className="w-[1.6vmax] md:w-5 object-contain"
                   src="/Vector_2.svg"
                   alt=""
+                  animate={{
+                    scale: [1, 0.8, 1.2, 0.8, 1],
+                    opacity: [1, 0.4, 1, 0.4, 1],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
                 />
               </motion.span>
             </span>
