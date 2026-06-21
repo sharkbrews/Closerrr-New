@@ -55,8 +55,8 @@ const data = [
   {
     title: "Legal",
     items: [
-      { tag: "Terms & Condition", link: "/TermsAndCondition" },
-      { tag: "Privacy Policy", link: "/PrivacyAndPolicy" },
+      { tag: "Terms & Condition", link: "/terms-and-conditions" },
+      { tag: "Privacy Policy", link: "/privacy-policy" },
     ],
   },
 ];

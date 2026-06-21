@@ -81,8 +81,10 @@ const App = () => {
             />
 
             {/* Extra accessible paths */}
-            <Route path="/TermsAndCondition" element={<TermsAndCondition />} />
-            <Route path="/PrivacyAndPolicy" element={<PrivacyAndPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+            <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
+            <Route path="/TermsAndCondition" element={<Navigate to="/terms-and-conditions" replace />} />
+            <Route path="/PrivacyAndPolicy" element={<Navigate to="/privacy-policy" replace />} />
           </Routes>
           <Footer />
           <Rights />

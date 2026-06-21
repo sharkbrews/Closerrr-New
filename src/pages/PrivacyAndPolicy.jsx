@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const htmlContent = `<ul>
@@ -208,6 +209,13 @@ const htmlContent = `<ul>
 </ul>`;
 
 function PrivacyAndPolicy() {
+  useEffect(() => {
+    document.title = "Privacy Policy | Closerrr";
+    return () => {
+      document.title = "Closerrr";
+    };
+  }, []);
+
   return (
     <div className="bg-secondary-500 min-h-screen">
       <div className="px-4 sm:px-8 lg:px-32 py-10 sm:py-20 flex items-center flex-col w-full">
