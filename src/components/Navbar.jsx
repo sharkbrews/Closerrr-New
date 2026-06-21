@@ -88,18 +88,18 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
   >
     {/* Backdrop */}
     <div 
-      className="absolute inset-0 bg-customPurple-500/20 backdrop-blur-sm transition-opacity duration-300"
+      className="absolute inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300"
       onClick={onClose}
     />
     
     {/* Slide-in Menu */}
     <div 
-      className={`relative z-10 text-customPurple-500 float-right h-full w-80 max-w-[85%] bg-gradient-to-b from-white/95 to-purple-50/95 backdrop-blur-xl border-l border-customPink-500/20 shadow-[-10px_0_30px_rgba(75,22,76,0.08)] transform transition-transform duration-300 ease-out flex flex-col ${
+      className={`relative z-10 float-right h-full w-80 max-w-[85%] bg-gradient-to-b from-[#4B164C] to-[#E43179] border-l border-white/10 shadow-[-10px_0_40px_rgba(75,22,76,0.3)] transform transition-transform duration-300 ease-out flex flex-col ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
       {/* Menu Header */}
-      <div className="flex items-center justify-between p-6 border-b border-purple-100/50 bg-transparent flex-shrink-0">
+      <div className="flex items-center justify-between p-6 border-b border-white/10 bg-black/10 flex-shrink-0">
         <div 
           onClick={() => {
             onLogoClick();
@@ -112,59 +112,67 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
             src="/Final_Closerrr_1.png"
             alt="Closerrr Logo"
           />
-          <h2 className="text-3xl font-fredoka text-customPurple-500 transition-colors group-hover:text-customPink-500">
-            Closer
+          <h2 className="text-3xl font-fredoka text-white transition-colors group-hover:text-[#fee9ff]">
+            Closerrr
           </h2>
         </div>
         <button 
           onClick={onClose}
-          className="p-2 text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/50 rounded-full transition-all duration-200"
+          className="p-2 text-white/80 hover:text-white hover:bg-white/10 rounded-full transition-all duration-200"
         >
           <X size={24} />
         </button>
       </div>
       
       {/* Scrollable Menu Content */}
-      <div className="flex-1 overflow-y-auto py-8 px-6 space-y-6 flex flex-col justify-between">
-        <div className="space-y-4">
-          {NAVIGATION_ITEMS.map((item, index) => (
-            <SmoothScrollLink
-              key={item.target}
-              to={item.target}
-              className="group flex justify-between items-center px-4 py-3.5 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-white/65 rounded-xl transition-all duration-200 font-hellix-bold shadow-sm shadow-transparent hover:shadow-purple-100/30"
-              onClick={onClose}
-              style={{ 
-                transitionDelay: `${index * 50}ms`,
-                transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
-                opacity: isOpen ? 1 : 0
-              }}
-            >
-              <span>{item.label}</span>
-              <span className="text-customPink-500 text-xl translate-x-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                →
-              </span>
-            </SmoothScrollLink>
-          ))}
-          
-          <SmoothScrollLink
-            to="faq"
-            className="group flex justify-between items-center px-4 py-3.5 text-2xl text-customPurple-500 hover:text-customPink-500 hover:bg-white/65 rounded-xl transition-all duration-200 font-hellix-bold shadow-sm shadow-transparent hover:shadow-purple-100/30"
-            onClick={onClose}
-            style={{ 
-              transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
-              transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
-              opacity: isOpen ? 1 : 0
-            }}
-          >
-            <span>FAQs</span>
-            <span className="text-customPink-500 text-xl translate-x-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
+      <div className="flex-1 overflow-y-auto py-8 px-6 flex flex-col justify-between">
+        <div className="space-y-6">
+          <div className="flex flex-col">
+            <span className="text-white/40 uppercase tracking-widest text-[0.7rem] font-hellix-bold mb-3 px-2">
+              Menu
             </span>
-          </SmoothScrollLink>
+            <div className="space-y-3">
+              {NAVIGATION_ITEMS.map((item, index) => (
+                <SmoothScrollLink
+                  key={item.target}
+                  to={item.target}
+                  className="flex justify-between items-center px-5 py-4 bg-white/5 hover:bg-white/10 border border-white/5 active:scale-[0.98] rounded-2xl text-white font-hellix-bold text-xl transition-all duration-200 shadow-sm"
+                  onClick={onClose}
+                  style={{ 
+                    transitionDelay: `${index * 50}ms`,
+                    transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
+                    opacity: isOpen ? 1 : 0
+                  }}
+                >
+                  <span>{item.label}</span>
+                  <span className="text-white/60 text-xl font-hellix-regular">
+                    →
+                  </span>
+                </SmoothScrollLink>
+              ))}
+              
+              <SmoothScrollLink
+                to="faq"
+                className="flex justify-between items-center px-5 py-4 bg-white/5 hover:bg-white/10 border border-white/5 active:scale-[0.98] rounded-2xl text-white font-hellix-bold text-xl transition-all duration-200 shadow-sm"
+                onClick={onClose}
+                style={{ 
+                  transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
+                  transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
+                  opacity: isOpen ? 1 : 0
+                }}
+              >
+                <span>FAQs</span>
+                <span className="text-white/60 text-xl font-hellix-regular">
+                  →
+                </span>
+              </SmoothScrollLink>
+            </div>
+          </div>
         </div>
 
+        {/* Download Button Section */}
         <div 
-          className="pt-6 border-t border-purple-100/50"
+          className="pt-6 border-t border-white/10"
           style={{ 
             transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
             transform: isOpen ? 'translateY(0)' : 'translateY(20px)',
