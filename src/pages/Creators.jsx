@@ -47,7 +47,7 @@ function Creators() {
             <span className="text-customPurple-500 relative flex items-center justify-center gap-1">
               Creator Family
               <motion.span
-                className="relative -top-2 md:-top-3"
+                className="relative -top-2.5 md:-top-3 -ml-1 md:ml-0"
                 initial={{ rotate: 0, scale: 0 }}
                 animate={{ rotate: 0, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.8, ease: "backOut" }}
