@@ -93,7 +93,7 @@ function Form() {
 
   return (
     <div className="w-full h-fit flex justify-center px-4">
-      <div className="w-full flex flex-col md:flex-row md:justify-center gap-16 md:gap-20 lg:gap-24 py-10">
+      <div className="w-full flex flex-col md:flex-row md:justify-center gap-20 md:gap-24 lg:gap-28 py-10">
         <div className="w-full md:w-[45vw] xl:w-[38vw] flex justify-center items-center p-4 md:p-6">
           <div className="w-[100%] lg:text-creator-subheading text-lg min-h-fit border-4 border-customPink-500 rounded-2xl p-4 md:p-6 px-6 md:px-6 flex flex-col items-center">
             <h1 className="lg:text-cv-heading text-3xl md:text-3xl font-hellix-bold text-customPurple-500 mb-2">
@@ -142,7 +142,7 @@ function Form() {
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="w-[95%] md:w-[95%]  xl:w-[85%] flex flex-col gap-7"
+              className="w-[95%] md:w-[95%]  xl:w-[85%] flex flex-col gap-8"
             >
               {[
                 {
