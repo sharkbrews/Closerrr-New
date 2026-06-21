@@ -13,7 +13,7 @@ useEffect(() => {
   return (
     <section
       id="create"
-      className="w-full h-fit mt-24 md:mt-[12vmax] flex flex-col px-[1rem] items-center gap-12 md:px-[5rem]"
+      className="w-full h-fit mt-40 md:mt-[12vmax] flex flex-col px-[1rem] items-center gap-12 md:px-[5rem]"
     >
       <div className="w-full flex justify-center text-center">
         <h1 className="text-customPink-500 text-4xl lg:text-create-heading-lg font-hellix-bold leading-tight"
