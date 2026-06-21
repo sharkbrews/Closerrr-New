@@ -105,7 +105,6 @@ function Download() {
 
   return (
     <div
-      id="download"
       className="w-full h-fit flex flex-col relative -mt-10 items-center"
     >
       {/* Top section */}
@@ -136,6 +135,7 @@ function Download() {
 
       {/* Card with glowing border */}
       <div
+        id="download"
         ref={red}
         className="relative max-w-[90%] lg:min-w-[83%] md:max-w-[80%] rounded-[40px] border-[6px] animate-glow-border"
       >
