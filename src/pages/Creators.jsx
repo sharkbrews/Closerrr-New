@@ -44,15 +44,16 @@ function Creators() {
             variants={fadeInUp}
           >
             <span>Join Our</span>
-            <span className="text-customPurple-500 flex items-start justify-center">
+            <span className="text-customPurple-500 relative flex items-start justify-center">
               Creator Family
               <motion.span
+                className="absolute top-0 md:-top-1 left-full ml-1 md:ml-2"
                 initial={{ rotate: 0, scale: 0 }}
                 animate={{ rotate: 0, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.8, ease: "backOut" }}
               >
                 <img
-                  className="md:mt-3 md:w-fit w-[1.2vmax] relative "
+                  className="w-[1.6vmax] md:w-5 object-contain"
                   src="/Vector_2.svg"
                   alt=""
                 />
