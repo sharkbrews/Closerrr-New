@@ -121,7 +121,7 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
       }`}
       style={{
         overflow: 'hidden',
-        height: '100vh',
+        height: '100dvh',
         width: '100vw',
         position: 'fixed',
         top: 0,
@@ -138,9 +138,10 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
       
       {/* Slide-in Menu */}
       <div 
-        className={`relative z-10 float-right h-full w-80 max-w-[85%] bg-white shadow-2xl transform transition-transform duration-300 ease-out flex flex-col ${
+        className={`relative z-10 float-right w-80 max-w-[85%] bg-white shadow-2xl transform transition-transform duration-300 ease-out flex flex-col ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
+        style={{ height: '100dvh' }}
       >
         {/* Menu Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 flex-shrink-0">
@@ -196,7 +197,10 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
         </div>
 
         {/* Download Button - always visible at bottom */}
-        <div className="px-5 py-5 border-t border-gray-100 flex-shrink-0">
+        <div
+          className="px-5 pt-4 border-t border-gray-100 flex-shrink-0"
+          style={{ paddingBottom: 'calc(1.25rem + env(safe-area-inset-bottom, 0px))' }}
+        >
           <a
             href="/#download"
             onClick={(e) => {
