@@ -70,129 +70,150 @@ const BrandLogo = ({ onClick }) => (
 );
 
 // Mobile menu component - Full screen slide-in panel
-const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
-  <div 
-    className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ease-in-out ${
-      isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-    }`}
-    style={{
-      overflow: 'hidden',
-      height: '100vh',
-      width: '100vw',
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0
-    }}
-  >
-    {/* Backdrop */}
+const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleLogoTap = () => {
+    // Close menu first
+    onClose();
+    // Then navigate after a tiny delay so scroll-lock clears
+    setTimeout(() => {
+      if (location.pathname !== "/") {
+        navigate("/");
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 300);
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 50);
+  };
+
+  const handleNavClick = (target) => {
+    // Close menu first
+    onClose();
+    // Then scroll after scroll-lock clears
+    setTimeout(() => {
+      if (location.pathname !== "/") {
+        navigate("/");
+        setTimeout(() => {
+          scroller.scrollTo(target, {
+            smooth: true,
+            duration: 500,
+            offset: -50,
+          });
+        }, 350);
+      } else {
+        scroller.scrollTo(target, {
+          smooth: true,
+          duration: 500,
+          offset: -50,
+        });
+      }
+    }, 50);
+  };
+
+  return (
     <div 
-      className="absolute inset-0 bg-customPurple-500/5 backdrop-blur-[2px] transition-opacity duration-300"
-      onClick={onClose}
-    />
-    
-    {/* Slide-in Menu */}
-    <div 
-      className={`relative z-10 float-right h-full w-80 max-w-[85%] bg-white/95 backdrop-blur-xl border-l border-purple-100/50 shadow-[-10px_0_30px_rgba(75,22,76,0.04)] transform transition-transform duration-300 ease-out flex flex-col ${
-        isOpen ? 'translate-x-0' : 'translate-x-full'
+      className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ease-in-out ${
+        isOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
       }`}
+      style={{
+        overflow: 'hidden',
+        height: '100vh',
+        width: '100vw',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0
+      }}
     >
-      {/* Menu Header */}
-      <div className="flex items-center justify-between p-6 border-b border-purple-50 bg-white/50 backdrop-blur-sm flex-shrink-0">
-        <div 
-          onClick={() => {
-            onLogoClick();
-            onClose();
-          }}
-          className="flex gap-3 items-center cursor-pointer group"
-        >
-          <img
-            className="h-10 transition-transform duration-300 group-hover:scale-105"
-            src="/Final_Closerrr_1.png"
-            alt="Closerrr Logo"
-          />
-          <h2 className="text-3xl font-fredoka text-customPurple-500 transition-colors group-hover:text-customPink-500">
-            Closerrr
-          </h2>
-        </div>
-        <button 
-          onClick={onClose}
-          className="p-2 text-customPurple-500 hover:text-customPink-500 hover:bg-purple-50/50 rounded-full transition-all duration-200"
-        >
-          <X size={24} />
-        </button>
-      </div>
+      {/* Backdrop */}
+      <div 
+        className="absolute inset-0 bg-black/30"
+        onClick={onClose}
+      />
       
-      {/* Scrollable Menu Content */}
-      <div className="flex-1 overflow-y-auto py-8 px-6 flex flex-col justify-between">
-        <div className="space-y-6">
-          <div className="flex flex-col">
-            <span className="text-customPurple-500/40 uppercase tracking-widest text-[0.7rem] font-hellix-bold mb-3 px-2">
-              Menu
-            </span>
-            <div className="space-y-1">
-              {NAVIGATION_ITEMS.map((item, index) => (
-                <SmoothScrollLink
-                  key={item.target}
-                  to={item.target}
-                  className="flex justify-between items-center px-4 py-4 border-b border-purple-50/60 active:bg-purple-50/30 rounded-xl text-customPurple-500 hover:text-customPink-500 font-hellix-bold text-xl transition-all duration-200"
-                  onClick={onClose}
-                  style={{ 
-                    transitionDelay: `${index * 50}ms`,
-                    transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
-                    opacity: isOpen ? 1 : 0
-                  }}
-                >
-                  <span>{item.label}</span>
-                  <span className="text-customPink-500 text-xl font-hellix-bold">
-                    →
-                  </span>
-                </SmoothScrollLink>
-              ))}
-              
-              <SmoothScrollLink
-                to="faq"
-                className="flex justify-between items-center px-4 py-4 border-b border-purple-50/60 active:bg-purple-50/30 rounded-xl text-customPurple-500 hover:text-customPink-500 font-hellix-bold text-xl transition-all duration-200"
-                onClick={onClose}
-                style={{ 
-                  transitionDelay: `${NAVIGATION_ITEMS.length * 50}ms`,
-                  transform: isOpen ? 'translateX(0)' : 'translateX(20px)',
-                  opacity: isOpen ? 1 : 0
-                }}
-              >
-                <span>FAQs</span>
-                <span className="text-customPink-500 text-xl font-hellix-bold">
-                  →
-                </span>
-              </SmoothScrollLink>
-            </div>
+      {/* Slide-in Menu */}
+      <div 
+        className={`relative z-10 float-right h-full w-80 max-w-[85%] bg-white shadow-2xl transform transition-transform duration-300 ease-out flex flex-col ${
+          isOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        {/* Menu Header */}
+        <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 flex-shrink-0">
+          <div 
+            onClick={handleLogoTap}
+            className="flex gap-2 items-center cursor-pointer"
+          >
+            <img
+              className="h-9"
+              src="/Final_Closerrr_1.png"
+              alt="Closerrr Logo"
+            />
+            <h2 className="text-2xl font-fredoka text-customPurple-500">
+              Closerrr
+            </h2>
           </div>
+          <button 
+            onClick={onClose}
+            className="p-2 text-gray-400 hover:text-customPurple-500 rounded-full transition-colors"
+          >
+            <X size={22} />
+          </button>
+        </div>
+        
+        {/* Menu Links */}
+        <div className="flex-1 overflow-y-auto">
+          <nav className="py-4 px-3">
+            {NAVIGATION_ITEMS.map((item) => (
+              <a
+                key={item.target}
+                href={`/#${item.target}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick(item.target);
+                }}
+                className="flex items-center gap-3 px-5 py-4 text-customPurple-500 font-hellix-bold text-lg rounded-xl active:bg-gray-50 transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
+            
+            <a
+              href="/#faq"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick("faq");
+              }}
+              className="flex items-center gap-3 px-5 py-4 text-customPurple-500 font-hellix-bold text-lg rounded-xl active:bg-gray-50 transition-colors"
+            >
+              FAQs
+            </a>
+          </nav>
         </div>
 
-        {/* Download Button Section */}
-        <div 
-          className="pt-6 border-t border-purple-50"
-          style={{ 
-            transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
-            transform: isOpen ? 'translateY(0)' : 'translateY(20px)',
-            opacity: isOpen ? 1 : 0
-          }}
-        >
-          <SmoothScrollLink
-            to="download"
-            onClick={onClose}
-            className="w-full flex justify-center"
+        {/* Download Button - always visible at bottom */}
+        <div className="px-5 py-5 border-t border-gray-100 flex-shrink-0">
+          <a
+            href="/#download"
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick("download");
+            }}
+            className="block w-full"
           >
-            <GradientButton width="w-full" height="h-14" textSize="text-xl">
+            <GradientButton width="w-full" height="h-12" textSize="text-lg">
               Download App
             </GradientButton>
-          </SmoothScrollLink>
+          </a>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 // Desktop action links component
 const DesktopActions = ({ isCreatorsRoute }) => (
