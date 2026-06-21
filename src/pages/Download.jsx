@@ -137,10 +137,16 @@ function Download() {
       <div
         id="download"
         ref={red}
-        className="relative max-w-[90%] lg:min-w-[83%] md:max-w-[80%] rounded-[40px] border-[6px] animate-glow-border"
+        className="relative max-w-[90%] lg:min-w-[83%] md:max-w-[80%] rounded-[40px] p-[6px] overflow-hidden"
       >
+        {/* Moving gradient border */}
+        <div 
+          className="absolute top-1/2 left-1/2 w-[150vmax] h-[150vmax] bg-[conic-gradient(from_0deg,#E43179,#f472b6,#8b5cf6,#E43179)] animate-moving-border"
+          style={{ transformOrigin: 'center center' }}
+        />
+
         {/* Inner content */}
-        <div className="relative rounded-[36px] overflow-hidden z-10">
+        <div className="relative rounded-[34px] overflow-hidden z-10">
           <div className="absolute inset-0 bg-gradient-to-t from-[#fee9ff] to-white" />
 
           <div className="relative w-fit lg:w-full flex flex-col lg:items-end items-center lg:flex-row">
@@ -190,13 +196,12 @@ function Download() {
       {/* Local glowing border animation */}
       <style>
         {`
-          @keyframes glow-border {
-            0% { border-color: #f472b6; }   /* pink-400 */
-            50% { border-color: #E43179; }  /* purple-500 */
-            100% { border-color: #f472b6; }
+          @keyframes spin-gradient {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
           }
-          .animate-glow-border {
-            animation: glow-border 3s ease-in-out infinite;
+          .animate-moving-border {
+            animation: spin-gradient 4s linear infinite;
           }
         `}
       </style>
