@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Form from "../components/Form";
 
 function Creators() {
+  useEffect(() => {
+    document.title = "Join Closerrr";
+    return () => {
+      document.title = "Closerrr";
+    };
+  }, []);
+
   const fadeInUp = {
     initial: { y: 30, opacity: 0 },
     animate: { y: 0, opacity: 1 },

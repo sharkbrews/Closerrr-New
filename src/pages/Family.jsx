@@ -69,7 +69,7 @@ function Family() {
           className="mt-5 md:mt-0"
         >
           <a
-            href="/creator"
+            href="/join-closerrr"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full h-full text-white font-hellix-bold no-underline transition-all duration-150 hover:-translate-y-1 "
           >

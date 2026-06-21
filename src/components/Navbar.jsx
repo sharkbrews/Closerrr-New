@@ -202,7 +202,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const isCreatorsRoute = location.pathname === "/creator";
+  const isCreatorsRoute = location.pathname === "/join-closerrr";
 
   // Platform detection for download links
   const getDownloadLink = () => {

@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -44,6 +44,8 @@ const App = () => {
   const isStandalonePage = [
     "/creator/termsandconditions",
     "/creator/privacyandpolicy",
+    "/join-closerrr/termsandconditions",
+    "/join-closerrr/privacyandpolicy",
   ].includes(location.pathname);
 
   return (
@@ -52,9 +54,11 @@ const App = () => {
 
       {isStandalonePage ? (
         <Routes>
-          <Route path="/creator/termsandconditions" element={<CreatorTAndC />} />
+          <Route path="/creator/termsandconditions" element={<Navigate to="/join-closerrr/termsandconditions" replace />} />
+          <Route path="/join-closerrr/termsandconditions" element={<CreatorTAndC />} />
+          <Route path="/creator/privacyandpolicy" element={<Navigate to="/join-closerrr/privacyandpolicy" replace />} />
           <Route
-            path="/creator/privacyandpolicy"
+            path="/join-closerrr/privacyandpolicy"
             element={<CreatorPrivacyAndPolicy />}
           />
         </Routes>
@@ -63,7 +67,8 @@ const App = () => {
           <Navbar />
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Layout />} />
-            <Route path="/creator" element={<Creators />} />
+            <Route path="/join-closerrr" element={<Creators />} />
+            <Route path="/creator" element={<Navigate to="/join-closerrr" replace />} />
 
             {/* Normal legal pages */}
             <Route
