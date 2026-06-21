@@ -35,7 +35,7 @@ useEffect(() => {
         </h1>
       </div>
 
-      <div className="text-center text-lg text-customBrown-500 font-hellix-medium lg:text-subheading-md px-4 lg:px-0 leading-[1.6rem] mt-16  lg:leading-[2.625rem]">
+      <div className="text-center text-lg text-customBrown-500 font-hellix-medium lg:text-subheading-md px-4 lg:px-0 leading-[1.6rem] mt-6 md:mt-16  lg:leading-[2.625rem]">
         <p>
           If you've ever craved a deeper way to connect... one that feels personal,
           intentional, and free from algorithms? <br />
