@@ -135,7 +135,7 @@ function Download() {
     </span>
     {/* Mobile View */}
     <span className="inline md:hidden">
-      Build with love <br /> for you and <br /> your loved one.
+      Built with love <br /> for you and <br /> your loved ones.
     </span>
   </h1>
 </div>
