@@ -34,17 +34,17 @@ function Creators() {
     <div className="flex-1 min-h-screen scroll-smooth hide-scrollbar">
       <div className="w-full min-h-screen flex flex-col ">
         <motion.div
-          className="w-full min-h-fit md:min-h-screen flex flex-col items-center justify-center pt-24 md:pt-0 pb-10 md:pb-0 mt-6 gap-[3.3vmax]"
+          className="w-full min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 gap-[3.3vmax]"
           initial="initial"
           animate="animate"
           variants={staggerContainer}
         >
           <motion.h1
-            className="flex flex-wrap justify-center text-center text-customPink-500 lg:text-creator-heading-lg text-4xl font-hellix-bold mb-0 leading-tight"
+            className="flex flex-col items-center justify-center text-center text-customPink-500 lg:text-creator-heading-lg text-4xl font-hellix-bold mb-0 leading-tight"
             variants={fadeInUp}
           >
-            Join Our&nbsp;
-            <span className="text-customPurple-500 flex items-start">
+            <span>Join Our</span>
+            <span className="text-customPurple-500 flex items-start justify-center">
               Creator Family
               <motion.span
                 initial={{ rotate: 0, scale: 0 }}
