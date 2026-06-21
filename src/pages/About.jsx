@@ -45,10 +45,18 @@ function About() {
         <motion.h1
           className="text-[2.5rem] lg:text-closerrr-lg mt-6 md:mt-10 font-hellix-bold text-customPink-500 text-center"
           data-aos="fade-up"
-     data-aos-duration="1000"
+          data-aos-duration="1000"
         >
-          So, What is{" "}
-          <span className="font-fredoka text-customPurple-500">Closerrr</span>?
+          {/* Desktop View */}
+          <span className="hidden md:inline">
+            So, What is{" "}
+            <span className="font-fredoka text-customPurple-500">Closerrr</span>?
+          </span>
+          {/* Mobile View */}
+          <span className="inline md:hidden">
+            So, What is <br />
+            <span className="font-fredoka text-customPurple-500">Closerrr</span>?
+          </span>
         </motion.h1>
       </div>
 

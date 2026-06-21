@@ -18,10 +18,20 @@ useEffect(() => {
       <div className="w-full flex justify-center text-center">
         <h1 className="text-customPink-500 text-4xl lg:text-create-heading-lg font-hellix-bold leading-tight"
        data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
-          <span className="text-customPurple-500">For Creators</span> Ready to Start <br />
-          Something Real on{" "}
-          <span className="text-customPurple-500 font-fredoka">Closerrr</span>...
+       data-aos-anchor-placement="top-bottom">
+          {/* Desktop View */}
+          <span className="hidden md:inline">
+            <span className="text-customPurple-500">For Creators</span> Ready to Start <br />
+            Something Real on{" "}
+            <span className="text-customPurple-500 font-fredoka">Closerrr</span>...
+          </span>
+          {/* Mobile View */}
+          <span className="inline md:hidden">
+            <span className="text-customPurple-500">For Creators</span> <br />
+            Ready to Start <br />
+            Something Real <br />
+            on <span className="text-customPurple-500 font-fredoka">Closerrr</span>...
+          </span>
         </h1>
       </div>
 

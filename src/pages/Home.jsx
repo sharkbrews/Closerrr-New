@@ -82,8 +82,16 @@ function Home() {
             variants={fadeUp}
             className="text-[1.75rem] sm:text-[2rem] lg:text-heading text-center md:text-left leading-tight text-customPink-500 font-hellix-bold"
           >
-            Be <span className="text-customPurple-500 font-fredoka">Closerrr</span> To <br className="hidden md:block" />
-            The Ones You <span className="text-customPurple-500">Love</span>.
+            {/* Desktop View */}
+            <span className="hidden md:inline">
+              Be <span className="text-customPurple-500 font-fredoka">Closerrr</span> To <br className="hidden md:block" />
+              The Ones You <span className="text-customPurple-500">Love</span>.
+            </span>
+            {/* Mobile View */}
+            <span className="inline md:hidden">
+              Be <span className="text-customPurple-500 font-fredoka">Closerrr</span> To The Ones <br />
+              You <span className="text-customPurple-500">Love</span>.
+            </span>
           </motion.h1>
 
           <motion.p

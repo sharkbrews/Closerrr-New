@@ -129,7 +129,14 @@ function Download() {
 
   {/* Heading centered over the canvas */}
   <h1 className="absolute inset-0 flex justify-center items-center text-center lg:text-pinText text-5xl leading-tight font-hellix-bold text-customPurple-500 px-4">
-    Built with love for you and <br /> your loved ones.
+    {/* Desktop View */}
+    <span className="hidden md:inline">
+      Built with love for you and <br /> your loved ones.
+    </span>
+    {/* Mobile View */}
+    <span className="inline md:hidden">
+      Build with love <br /> for you and <br /> your loved one.
+    </span>
   </h1>
 </div>
 
