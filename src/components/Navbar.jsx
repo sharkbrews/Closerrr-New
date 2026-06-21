@@ -113,7 +113,7 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => (
             alt="Closerrr Logo"
           />
           <h2 className="text-3xl font-fredoka text-customPurple-500 transition-colors group-hover:text-customPink-500">
-            Closerrr
+            Closer
           </h2>
         </div>
         <button 
