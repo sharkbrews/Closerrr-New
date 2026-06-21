@@ -34,13 +34,13 @@ function Creators() {
     <div className="flex-1 min-h-screen scroll-smooth hide-scrollbar">
       <div className="w-full min-h-screen flex flex-col ">
         <motion.div
-          className="w-full min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 gap-[3.3vmax]"
+          className="w-full min-h-screen flex flex-col items-center justify-center pt-16 md:pt-24 pb-24 md:pb-0 gap-[3.3vmax]"
           initial="initial"
           animate="animate"
           variants={staggerContainer}
         >
           <motion.h1
-            className="flex flex-col items-center justify-center text-center text-customPink-500 lg:text-creator-heading-lg text-4xl font-hellix-bold mb-0 leading-tight"
+            className="flex flex-col items-center justify-center text-center text-customPink-500 lg:text-create-heading-lg text-5xl font-hellix-bold mb-0 leading-tight"
             variants={fadeInUp}
           >
             <span>Join Our</span>
