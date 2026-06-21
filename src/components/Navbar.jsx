@@ -11,15 +11,10 @@ const NAVIGATION_ITEMS = [
   { label: "What is Closerrr?", target: "about" },
   { label: "For Creators", target: "create" },
 ];
-// Platform-specific download links
-const DOWNLOAD_LINKS = {
-  ios: "https://apps.apple.com/app/id6744296620",
-  android: "https://play.google.com/store/apps/details?id=your.android.package",
-  default: "https://play.google.com/store/apps/details?id=your.android.package",
-};
+
 
 // Smooth scroll navigation component
-const SmoothScrollLink = ({ to, children, className, onClick }) => {
+const SmoothScrollLink = ({ to, children, className, onClick, style }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -47,7 +42,7 @@ const SmoothScrollLink = ({ to, children, className, onClick }) => {
   };
 
   return (
-    <a href={`/#${to}`} onClick={handleClick} className={className}>
+    <a href={`/#${to}`} onClick={handleClick} className={className} style={style}>
       {children}
     </a>
   );
@@ -73,7 +68,7 @@ const BrandLogo = ({ onClick }) => (
 );
 
 // Mobile menu component - Full screen slide-in panel
-const MobileMenu = ({ isOpen, onClose, isCreatorsRoute, downloadLink }) => (
+const MobileMenu = ({ isOpen, onClose, isCreatorsRoute }) => (
   <div 
     className={`fixed  inset-0 z-50 lg:hidden transition-opacity duration-300 ease-in-out ${
       isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
@@ -152,10 +147,9 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute, downloadLink }) => (
       {/* Fixed Download Button at Bottom */}
       {!isCreatorsRoute && (
         <div className="p-2 border-t border-gray-200 bg-white flex-shrink-0">
-          <a
-            href={downloadLink}
-            target="_blank"
-            rel="noopener noreferrer"
+          <SmoothScrollLink
+            to="download"
+            onClick={onClose}
             className="block w-full py-3 px-6 hover:bg-customPurple-600 text-white text-center rounded-xl font-hellix-bold text-2xl transition-all duration-200 transform hover:scale-105"
             style={{ 
               transitionDelay: `${(NAVIGATION_ITEMS.length + 1) * 50}ms`,
@@ -166,7 +160,7 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute, downloadLink }) => (
           <GradientButton>
             Download App
             </GradientButton>
-          </a>
+          </SmoothScrollLink>
         </div>
       )}
     </div>
@@ -174,7 +168,7 @@ const MobileMenu = ({ isOpen, onClose, isCreatorsRoute, downloadLink }) => (
 );
 
 // Desktop action links component
-const DesktopActions = ({ isCreatorsRoute, downloadLink }) => (
+const DesktopActions = ({ isCreatorsRoute }) => (
   <div className="ml-auto hidden lg:flex items-center gap-4 ">
     <>
       <SmoothScrollLink
@@ -184,12 +178,12 @@ const DesktopActions = ({ isCreatorsRoute, downloadLink }) => (
         FAQs
       </SmoothScrollLink>
 <GradientButton>
-      <a
-        href={downloadLink}
+      <SmoothScrollLink
+        to="download"
         className="text-white px-4 py-2 hover:text-customPurple-600 transition-colors duration-200 font-hellix-bold text-xl"
       >
         Download App
-      </a>
+      </SmoothScrollLink>
   </GradientButton>
     </>
   </div>
@@ -204,24 +198,7 @@ const Navbar = () => {
 
   const isCreatorsRoute = location.pathname === "/join-closerrr";
 
-  // Platform detection for download links
-  const getDownloadLink = () => {
-    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      return DOWNLOAD_LINKS.ios;
-    } else if (/android/i.test(userAgent)) {
-      return DOWNLOAD_LINKS.android;
-    } else if (/Win/.test(userAgent)) {
-      return DOWNLOAD_LINKS.default;
-    } else if (/Macintosh|MacIntel|MacPPC|Mac68K/.test(userAgent)) {
-      return DOWNLOAD_LINKS.ios;
-    }
-    
-    return DOWNLOAD_LINKS.default;
-  };
 
-  const downloadLink = getDownloadLink();
 
   // Scroll position handler
   useEffect(() => {
@@ -312,7 +289,6 @@ const Navbar = () => {
         <div className="flex items-center mr-14 justify-end flex-1">
           <DesktopActions 
             isCreatorsRoute={isCreatorsRoute}
-            downloadLink={downloadLink}
           />
         </div>
       </div>
@@ -322,7 +298,6 @@ const Navbar = () => {
         isOpen={isMobileMenuOpen}
         onClose={handleMobileMenuClose}
         isCreatorsRoute={isCreatorsRoute}
-        downloadLink={downloadLink}
       />
     </div>
   );
