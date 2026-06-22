@@ -132,7 +132,7 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
     >
       {/* Backdrop with soft purple tint and premium glassmorphism */}
       <div 
-        className="absolute inset-0 bg-customPurple-500/10 backdrop-blur-md transition-opacity duration-300"
+        className="absolute inset-0 bg-customPurple-500/10 backdrop-blur-sm transition-opacity duration-300"
         onClick={onClose}
       />
       
