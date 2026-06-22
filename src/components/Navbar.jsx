@@ -132,7 +132,7 @@ const MobileMenu = ({ isOpen, onClose, onLogoClick }) => {
     >
       {/* Backdrop with soft purple tint and premium glassmorphism */}
       <div 
-        className="absolute inset-0 bg-customPurple-500/10 backdrop-blur-sm transition-opacity duration-300"
+        className="absolute inset-0 bg-customPurple-500/10 backdrop-blur-md transition-opacity duration-300"
         onClick={onClose}
       />
       
@@ -351,44 +351,46 @@ const Navbar = () => {
   ].filter(Boolean).join(" ");
 
   return (
-    <div className={navbarClasses}>
-      {/* Mobile Layout */}
-      <div className="flex lg:hidden items-center justify-between w-full px-4">
-        <BrandLogo onClick={handleLogoClick} />
-        <button
-          onClick={handleMobileMenuToggle}
-          className="text-customPurple-500 hover:text-customPurple-500 transition-colors duration-200"
-          aria-label="Toggle mobile menu"
-        >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-
-      {/* Desktop Layout */}
-      <div className="hidden lg:flex relative items-center justify-between w-full min-w-6xl mx-auto px-20 gap-10">
-        {/* Left Navigation Items - Desktop */}
-        <div className="flex items-center ml-5 gap-5 flex-1">
-          {NAVIGATION_ITEMS.map((item) => (
-            <SmoothScrollLink
-              key={item.target}
-              to={item.target}
-              className="text-customPink-500 transition-colors duration-200 font-hellix-bold text-sm md:text-2xl whitespace-nowrap"
-            >
-              {item.label}
-            </SmoothScrollLink>
-          ))}
-        </div>
-
-        {/* Brand Logo - Centered on desktop */}
-        <div className="absolute left-1/2 transform -translate-x-1/2">
+    <>
+      <div className={navbarClasses}>
+        {/* Mobile Layout */}
+        <div className="flex lg:hidden items-center justify-between w-full px-4">
           <BrandLogo onClick={handleLogoClick} />
+          <button
+            onClick={handleMobileMenuToggle}
+            className="text-customPurple-500 hover:text-customPurple-500 transition-colors duration-200"
+            aria-label="Toggle mobile menu"
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
 
-        {/* Right Side - Desktop Actions */}
-        <div className="flex items-center mr-14 justify-end flex-1">
-          <DesktopActions 
-            isCreatorsRoute={isCreatorsRoute}
-          />
+        {/* Desktop Layout */}
+        <div className="hidden lg:flex relative items-center justify-between w-full min-w-6xl mx-auto px-20 gap-10">
+          {/* Left Navigation Items - Desktop */}
+          <div className="flex items-center ml-5 gap-5 flex-1">
+            {NAVIGATION_ITEMS.map((item) => (
+              <SmoothScrollLink
+                key={item.target}
+                to={item.target}
+                className="text-customPink-500 transition-colors duration-200 font-hellix-bold text-sm md:text-2xl whitespace-nowrap"
+              >
+                {item.label}
+              </SmoothScrollLink>
+            ))}
+          </div>
+
+          {/* Brand Logo - Centered on desktop */}
+          <div className="absolute left-1/2 transform -translate-x-1/2">
+            <BrandLogo onClick={handleLogoClick} />
+          </div>
+
+          {/* Right Side - Desktop Actions */}
+          <div className="flex items-center mr-14 justify-end flex-1">
+            <DesktopActions 
+              isCreatorsRoute={isCreatorsRoute}
+            />
+          </div>
         </div>
       </div>
 
@@ -398,7 +400,7 @@ const Navbar = () => {
         onClose={handleMobileMenuClose}
         onLogoClick={handleLogoClick}
       />
-    </div>
+    </>
   );
 };
 
