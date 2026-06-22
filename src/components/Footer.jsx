@@ -43,7 +43,7 @@ function SmoothScrollLink({ to, children, className }) {
 
 const data = [
   {
-    title: "Company",
+    title: "Explore",
     items: [
       { tag: "Home", link: "home" },
       { tag: "What is Closerrr?", link: "about" },
@@ -141,7 +141,7 @@ function Footer() {
               </h3>
               <ul className="flex flex-col gap-2 text-xl sm:text-subheading-sm text-left md:text-left">
                 {items.map(({ tag, link }, i) =>
-                  title === "Company" ? (
+                  title === "Explore" ? (
                     <SmoothScrollLink
                       key={i}
                       to={link}
