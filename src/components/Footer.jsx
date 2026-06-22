@@ -77,7 +77,7 @@ function Footer() {
     <footer className="w-full bg-customPurple-500 text-white py-10 md:py-10 md:mt-0">
       <div className="flex flex-col lg:flex-row lg:justify-center md:items-center lg:items-center gap-5 lg:gap-30 lg:px-[4em] px-4">
         {/* Logo + App buttons + Social */}
-        <div className="flex flex-col items-center md:justify-center lg:items-start gap-8 lg:gap-4 w-full lg:w-fit">
+        <div className="flex flex-col items-start md:items-center lg:items-start gap-8 lg:gap-4 w-full lg:w-fit px-4 md:px-0">
           <Link to="/">
           <div className="flex items-center gap-2">
             <img
@@ -89,7 +89,7 @@ function Footer() {
           </div>
             </Link>
 
-          <div className="flex flex-wrap gap-4 sm:gap-6 justify-center lg:justify-start">
+          <div className="flex flex-wrap gap-4 sm:gap-6 justify-start md:justify-center lg:justify-start">
             <a href={iphoneLink} target="_blank" rel="noopener noreferrer">
               <img
                 src="/light_ios.svg"
@@ -106,9 +106,9 @@ function Footer() {
             </a>
           </div>
 
-          <div className="flex flex-col items-start relative right-11 md:right-0 lg:items-start gap-4 ">
+          <div className="flex flex-col items-start lg:items-start gap-4">
             <h2 className="font-hellix-bold text-2xl sm:text-xl">Follow Us:</h2>
-            <div className="flex gap-7 sm:gap-6 flex-wrap justify-center">
+            <div className="flex gap-7 sm:gap-6 flex-wrap justify-start md:justify-center">
               {sociallink.map((social) => (
                 <a
                   key={social.tag}
@@ -130,7 +130,7 @@ function Footer() {
         </div>
 
         {/* Links Section */}
-        <div className="w-full md:w-auto flex flex-col gap-8 md:gap-8 mt-4 sm:mt-0 lg:gap-0 md:grid md:grid-cols-3 xl:gap-10 font-hellix-medium px-4 md:px-0 i">
+        <div className="w-full md:w-auto flex flex-col gap-8 md:gap-8 mt-4 sm:mt-0 lg:gap-0 md:grid md:grid-cols-3 xl:gap-10 font-hellix-medium px-4 md:px-0">
           {data.map(({ title, items }) => (
             <div
               key={title}
