@@ -220,26 +220,26 @@ function CreatorPrivacyAndPolicy() {
   }, []);
 
   return (
-    <div className="bg-secondary-500">
-      <div className="px-8 lg:px-32 bg-secondary-500 pt-40 flex items-center flex-col w-full">
-        <h1 className="text-[2.5rem] text-center lg:text-creator-heading-lg text-customPink-500 font-hellix-bold">
+    <div className="bg-secondary-500 min-h-screen">
+      <div className="px-4 sm:px-8 lg:px-32 py-10 sm:py-20 flex items-center flex-col w-full">
+        <h1 className="text-3xl sm:text-4xl lg:text-[2.5rem] xl:text-creator-heading-lg text-center text-customPink-500 mt-10 sm:mt-20 font-hellix-bold">
           <span className="font-fredoka text-customPurple-500">Closerrr</span>{" "}
           Creator Privacy And Policy
         </h1>
         <div
-          className="font-hellix-medium terms-content text-[1.5rem] leading-[2.5rem] text-customGray-500 mt-10"
+          className="font-hellix-medium terms-content text-sm sm:text-base lg:text-[1.5rem] leading-relaxed sm:leading-[2rem] lg:leading-[2.5rem] text-customBrown-500 mt-6 sm:mt-10 w-full max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </div>
       <motion.div
-        className="w-full min-h-[18vw] flex justify-center pb-16"
+        className="w-full min-h-[16vw] flex justify-center pb-8 sm:pb-16"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
         <motion.img
-          className="md:w-fit md:h-fit w-[30vw] mt-28"
+          className="w-[40vw] sm:w-[30vw] md:w-fit md:h-fit mt-16"
           src="/Group-end.svg"
           alt=""
           initial={{ scale: 0.8 }}

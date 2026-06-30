@@ -219,12 +219,12 @@ function PrivacyAndPolicy() {
   return (
     <div className="bg-secondary-500 min-h-screen">
       <div className="px-4 sm:px-8 lg:px-32 py-10 sm:py-20 flex items-center flex-col w-full">
-        <h1 className="text-2xl sm:text-3xl lg:text-[2.5rem] xl:text-creator-heading-lg text-center text-customPink-500 mt-10 sm:mt-20 font-hellix-bold">
+        <h1 className="text-3xl sm:text-4xl lg:text-[2.5rem] xl:text-creator-heading-lg text-center text-customPink-500 mt-10 sm:mt-20 font-hellix-bold">
           <span className="font-fredoka text-customPurple-500">Closerrr</span>{" "}
           Privacy Policy
         </h1>
         <div
-          className="font-hellix-medium terms-content text-sm sm:text-base lg:text-[1.5rem] leading-relaxed sm:leading-[2rem] lg:leading-[2.5rem] text-customGray-500 mt-6 sm:mt-10 w-full max-w-none"
+          className="font-hellix-medium terms-content text-sm sm:text-base lg:text-[1.5rem] leading-relaxed sm:leading-[2rem] lg:leading-[2.5rem] text-customBrown-500 mt-6 sm:mt-10 w-full max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </div>
