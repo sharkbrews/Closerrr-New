@@ -2,51 +2,51 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const htmlContent = `
-<p>1. <strong>Introduction & Applicability:</strong><br />
-These Terms and Conditions for Creators (“Terms”) constitute a legally binding agreement between you (“Creator,”, “Friend”, “you,” or “your”) and Closerrr Interactive Private Limited (“Closerrr,” “we,” “our,” or “us”), governing your access to and use of the Closerrr mobile application, web platform, backend dashboard, support systems, and any associated features, tools, or services (collectively, the “Platform”).<br />
+<p><strong>1. Introduction & Applicability:</strong></p>
+<p>These Terms and Conditions for Creators (“Terms”) constitute a legally binding agreement between you (“Creator,”, “Friend”, “you,” or “your”) and Closerrr Interactive Private Limited (“Closerrr,” “we,” “our,” or “us”), governing your access to and use of the Closerrr mobile application, web platform, backend dashboard, support systems, and any associated features, tools, or services (collectively, the “Platform”).<br />
 These Terms apply exclusively to individuals or entities who have been formally invited, approved, or otherwise authorized by Closerrr to operate as verified content creators, artists, or public figures on the Platform (“Creators”). These Terms do not apply to general users, fans, or subscribers, who are governed by a separate Terms and Conditions agreement.<br />
 By registering a Creator account, accessing Creator-specific features, uploading content, initiating Closerrr Live sessions, receiving subscriber messages, or accepting any form of revenue share via the Platform, you agree to be bound by these Terms and all associated documents and policies referenced herein — including, but not limited to, the Closerrr Creator Privacy Policy, Community Guidelines, Revenue Sharing Policy, and any operational directives communicated via dashboard, email, or in-app notification.<br />
 Closerrr reserves the right to amend, modify, or replace these Terms at any time, at its sole discretion. Where material modifications are introduced that substantially affect your rights or obligations, Closerrr will provide notice via reasonable means, such as in-app banners, dashboard alerts, or email communication. Your continued use of the Platform after the effective date of any such modifications shall constitute your binding acceptance of the updated Terms.<br />
-By registering as a Creator, you further affirm that you have read, understood, and accepted both the Closerrr Creator Terms & Conditions and Privacy Policy, including any linked or incorporated rules, standards, and platform protocols. In the event of any conflict between these Terms and those applicable to general users of the Platform, these Creator Terms shall control with respect to all Creator-specific tools, rights, responsibilities, and monetization mechanisms.<br />
-<strong>2. Definitions:</strong><br />
-For the purposes of these Terms, the following definitions shall apply unless otherwise expressly stated:<br />
-(A) General Terms<br />
+By registering as a Creator, you further affirm that you have read, understood, and accepted both the Closerrr Creator Terms & Conditions and Privacy Policy, including any linked or incorporated rules, standards, and platform protocols. In the event of any conflict between these Terms and those applicable to general users of the Platform, these Creator Terms shall control with respect to all Creator-specific tools, rights, responsibilities, and monetization mechanisms.</p>
+<p><strong>2. Definitions:</strong></p>
+<p>For the purposes of these Terms, the following definitions shall apply unless otherwise expressly stated:</p>
+<p>(A) General Terms<br />
 (a) “Platform” means the Closerrr mobile application, web portal, backend dashboard, associated APIs, support modules, livestream infrastructure, and all associated digital tools, services, or systems owned and operated by Closerrr Interactive Private Limited.<br />
 (b) “Closerrr”, “we”, “our”, or “us” refers to Closerrr Interactive Private Limited, a company incorporated under the laws of India, which owns and operates the Platform.<br />
 (c) “Terms” refers to this Creator Terms & Conditions document in its entirety, including all linked policies and future amendments.<br />
-(d) “Policies” includes any support article, FAQ, privacy policy, revenue sharing policy, operational directive, or community rule published or issued by Closerrr, whether publicly visible or communicated through dashboard, email, or in-app interface. Such policies shall be deemed incorporated herein by reference.<br />
-(B) User & Creator Roles<br />
+(d) “Policies” includes any support article, FAQ, privacy policy, revenue sharing policy, operational directive, or community rule published or issued by Closerrr, whether publicly visible or communicated through dashboard, email, or in-app interface. Such policies shall be deemed incorporated herein by reference.</p>
+<p>(B) User & Creator Roles<br />
 (a) “Creator”, “Friend”, “you”, or “your” refers to an individual, public figure, artist, or approved profile that has been invited or onboarded by Closerrr to publish content, interact with subscribers, and receive revenue-based compensation through the Platform. The term “Friend” is the subscriber-facing label used throughout the Platform to refer to a Creator.<br />
 (b) “Creator Account” or “Account” means the registered Creator profile that is verified, activated, and granted access to creator-facing tools and monetization features of the Platform.<br />
-(c) “User”, “Fan”, or “Subscriber” refers to a general Platform user who subscribes to a Creator’s profile, gains access to gated content, and is governed by Closerrr’s User Terms & Conditions.<br />
-(C) Content and Functionality<br />
+(c) “User”, “Fan”, or “Subscriber” refers to a general Platform user who subscribes to a Creator’s profile, gains access to gated content, and is governed by Closerrr’s User Terms & Conditions.</p>
+<p>(C) Content and Functionality<br />
 (a) “Content” includes all forms of data, information, media, or expression created, uploaded, or shared by a Creator, including text, messages, whispers, livestreams, videos, thumbnails, profile descriptions, event listings, and interactive content, whether pre-recorded or real-time.<br />
 (b) “Closerrr Live” refers to Closerrr’s proprietary real-time broadcasting feature through which Creators can host livestream sessions for their subscribers.<br />
-(c) “Dashboard” refers to the limited set of in-app screens and controls made available to Creators within the Closerrr mobile application, enabling them to access basic payout information, manage profile visibility, and adjust select settings. It does not constitute a comprehensive or standalone dashboard in the traditional sense, and its scope may evolve as the platform develops.<br />
-(D) Monetization Terms<br />
+(c) “Dashboard” refers to the limited set of in-app screens and controls made available to Creators within the Closerrr mobile application, enabling them to access basic payout information, manage profile visibility, and adjust select settings. It does not constitute a comprehensive or standalone dashboard in the traditional sense, and its scope may evolve as the platform develops.</p>
+<p>(D) Monetization Terms<br />
 (a) “Subscription Price” means the gross monthly fee payable by a Subscriber to access a Creator’s exclusive content or features on the Platform.<br />
 (b) “Platform Fees” refers to mandatory processing fees deducted by mobile app stores such as Apple App Store (30% in Year 1; 15% from Year 2 onward) or Google Play Store (flat 15%), before Closerrr receives net revenue.<br />
 (c) “Net Revenue” means the amount remaining from the Subscription Price after deduction of applicable taxes (e.g., GST) and Platform Fees. This is the base figure used for calculating the Creator’s revenue share.<br />
 (d) “Payout Percentage” refers to the tiered percentage of Net Revenue a Creator is entitled to receive, based on the number of active Subscribers. Current tiers range from 70% to 75%.<br />
 (e) “Commission” means the inverse of the Payout Percentage, i.e., the portion of Net Revenue retained by Closerrr for Platform services.<br />
 (f) “Payout” refers to the final amount payable to the Creator after applying their Payout Percentage to Net Revenue.<br />
-(g) “Payout Schedule” refers to the timeline for disbursing Creator Payouts. Unless otherwise stated, payouts are processed on the 25th of the second calendar month following the revenue month (e.g., January earnings → paid on March 25th).<br />
-(E) Enforcement and Account Status<br />
+(g) “Payout Schedule” refers to the timeline for disbursing Creator Payouts. Unless otherwise stated, payouts are processed on the 25th of the second calendar month following the revenue month (e.g., January earnings → paid on March 25th).</p>
+<p>(E) Enforcement and Account Status<br />
 (a) “Suspension” refers to a temporary disabling of a Creator’s account or privileges due to a suspected violation of these Terms or for compliance verification.<br />
 (b) “Termination” means the permanent revocation of a Creator’s access and monetization rights due to breach, inactivity, legal order, or administrative discretion.<br />
-(c) “Verified Creator Account” refers to a Creator account that has successfully passed Closerrr’s onboarding checks, eligibility requirements, and verification processes.<br />
-(F) Legal & Interpretive Definitions<br />
+(c) “Verified Creator Account” refers to a Creator account that has successfully passed Closerrr’s onboarding checks, eligibility requirements, and verification processes.</p>
+<p>(F) Legal & Interpretive Definitions<br />
 (a) “Applicable Law” means all laws, statutes, rules, regulations, directives, or other legal mandates issued by any governmental authority having jurisdiction over the Parties, the Platform, or any activities governed by these Terms — including without limitation, data protection laws, intellectual property regulations, and consumer protection frameworks.<br />
 (b) “Dispute” refers to any disagreement, claim, controversy, or cause of action arising out of or related to these Terms, the use of the Platform, revenue-sharing arrangements, or any conduct or communication between the Parties.<br />
 (c) “Effective Date” refers to the date these Terms were last updated, as specified in the concluding section of this document.<br />
 (d) “Intellectual Property Rights” means all forms of legally recognized proprietary rights under applicable law, including but not limited to copyrights, trademarks, patents, trade secrets, database rights, publicity rights, and moral rights, whether registered or unregistered.<br />
 (e) “Personal Data” means any information relating to an identified or identifiable individual, including without limitation name, email, phone number, IP address, device ID, geolocation, billing details, or other identifiers, as governed by applicable data privacy laws and the Closerrr Privacy Policy.<br />
 (f) “Services” means the full suite of features, functionalities, communications infrastructure, Creator tools, analytics dashboards, and monetization pathways made available by Closerrr through the Platform.<br />
-(g) “App” means the Closerrr mobile application, including any downloadable software, updates, user interface, backend integrations, and supporting documentation made available via digital storefronts such as the Apple App Store and Google Play Store.<br />
-3. <strong>Eligibility & Onboarding:</strong><br />
-(A) Platform Alignment & Selection Rights<br />
-Closerrr is a platform dedicated to fostering authentic and meaningful interactions between Creators and Fans. To preserve this ethos, Closerrr retains full and final discretion to invite, approve, or decline Creator participation. Selection is based on alignment with our brand values, content standards, and overall community expectations. No applicant is entitled, as a matter of right, to registration or continued access as a Creator on the Platform.<br />
-(B) Eligibility Criteria<br />
+(g) “App” means the Closerrr mobile application, including any downloadable software, updates, user interface, backend integrations, and supporting documentation made available via digital storefronts such as the Apple App Store and Google Play Store.</p>
+<p><strong>3. Eligibility & Onboarding:</strong></p>
+<p>(A) Platform Alignment & Selection Rights<br />
+Closerrr is a platform dedicated to fostering authentic and meaningful interactions between Creators and Fans. To preserve this ethos, Closerrr retains full and final discretion to invite, approve, or decline Creator participation. Selection is based on alignment with our brand values, content standards, and overall community expectations. No applicant is entitled, as a matter of right, to registration or continued access as a Creator on the Platform.</p>
+<p>(B) Eligibility Criteria<br />
 To be considered for onboarding and to maintain active Creator status, you must meet the following minimum requirements at all times:<br />
 (a) Geographic Scope<br />
 (i) At this time, Closerrr only accepts Creator applications from individuals based in India.<br />
@@ -56,8 +56,8 @@ To be considered for onboarding and to maintain active Creator status, you must 
 (ii) Applications submitted by, or on behalf of, individuals under the age of 18 — including via guardians or representatives — are not permitted and may result in blacklisting.<br />
 (c) Content Suitability<br />
 (i) Closerrr does not permit Creators who produce or promote adult/NSFW content, hate speech, discriminatory messages, harassment, or content that violates applicable law.<br />
-(ii) You must demonstrate consistent alignment with Closerrr’s content integrity standards, and any deviation therefrom shall constitute grounds for Suspension or Termination under Section 15.<br />
-(C) Application Process<br />
+(ii) You must demonstrate consistent alignment with Closerrr’s content integrity standards, and any deviation therefrom shall constitute grounds for Suspension or Termination under Section 15.</p>
+<p>(C) Application Process<br />
 (a) Application Submission<br />
 (i) Applications must be submitted through Closerrr’s official website, Creator interest form, or any authorized intake pathway.<br />
 (ii) Submission does not guarantee approval and creates no binding obligations on Closerrr.<br />
@@ -67,9 +67,7 @@ To be considered for onboarding and to maintain active Creator status, you must 
 (c) Invitation-Only Protocol<br />
 (i) In some cases, Closerrr may onboard Creators by direct invitation without requiring a formal application.<br />
 (ii) Such invitations remain non-transferable and revocable at our discretion.</p>
-<br/>
 <p><strong>4. Account Creation, Verification & Management:</strong></p>
-<br/>
 <p>(A) Invitation-Based Access and Platform Control<br />
 (a) Closerrr does not permit open registration for Creator Accounts. All Creator access is extended exclusively on an invitation or approval basis following internal evaluation.<br />
 (b) Submission of an application via the Closerrr website or interest form does not entitle the applicant to Platform access and creates no contractual obligations on Closerrr until onboarding is complete.<br />
@@ -97,17 +95,17 @@ To be considered for onboarding and to maintain active Creator status, you must 
 <p>(F) Right to Suspend or Restrict Access<br />
 (a) Closerrr reserves the right to suspend, restrict, or revoke any Creator Account that fails to meet its verification standards, violates any Platform policy, or is inactive for a prolonged period, in accordance with Section 15 (Account Suspension, Termination & Withdrawal).<br />
 (b) Any such action may be taken without prior notice and without liability, except as required under applicable law.</p>
-<p>5. <strong>Content Publishing & Platform Usage:</strong><br />
-(A) Scope of Permitted Use<br />
+<p><strong>5. Content Publishing & Platform Usage:</strong></p>
+<p>(A) Scope of Permitted Use<br />
 (a) Subject to your continued compliance with these Terms and all applicable Closerrr Policies, you are granted a limited, non-exclusive, revocable right to access and use the Platform solely to publish original content, interact with Subscribers, and engage with official creator features such as stories, Closerrr Live, events, and one-on-one chats.<br />
 (b) All usage must be in good faith and for genuine Creator-to-Fan interaction.<br />
 (c) You may promote products or services through your content, provided such endorsements do not involve illegal, harmful, or prohibited industries (e.g., gambling, tobacco, alcohol, adult content, or financial schemes).<br />
-(d) You may not use the Platform for unauthorized commercial exploitation, including diverting Subscribers to off-platform paid channels unless expressly approved by Closerrr.<br />
-(B) Content Responsibility and Ownership<br />
+(d) You may not use the Platform for unauthorized commercial exploitation, including diverting Subscribers to off-platform paid channels unless expressly approved by Closerrr.</p>
+<p>(B) Content Responsibility and Ownership<br />
 (a) You retain ownership of all intellectual property rights in the original content you create and upload, subject to the license granted to Closerrr under Section 8 (Content Ownership & Licensing to Closerrr).<br />
 (b) You are solely responsible for the legality, accuracy, and appropriateness of your content, and you represent and warrant that you have all necessary rights and permissions to post such content.<br />
-(c) Closerrr is a technology platform provider and does not create, endorse, or take any responsibility for your Content.<br />
-(C) Prohibited Content<br />
+(c) Closerrr is a technology platform provider and does not create, endorse, or take any responsibility for your Content.</p>
+<p>(C) Prohibited Content<br />
 You shall not post, upload, stream, transmit, or otherwise distribute any Content that:<br />
 (a) Is illegal, defamatory, obscene, pornographic, sexually explicit, or NSFW in nature<br />
 (b) Contains or promotes hate speech, harassment, bullying, threats, or discrimination based on race, religion, gender, caste, sexual orientation, disability, or any protected category<br />
@@ -119,32 +117,32 @@ You shall not post, upload, stream, transmit, or otherwise distribute any Conten
 (g) Impersonates any person, brand, or legal entity or misrepresents your affiliation<br />
 (h) Violates any applicable law, regulation, or Platform policy<br />
 (i) Fails to uphold respectful and inclusive conduct, which is expected of all Creators and reflects directly on the Platform’s brand<br />
-Closerrr retains sole discretion to determine whether content violates these restrictions and may take action without prior notice.<br />
-(D) Platform Restrictions and Prohibited Usage<br />
+Closerrr retains sole discretion to determine whether content violates these restrictions and may take action without prior notice.</p>
+<p>(D) Platform Restrictions and Prohibited Usage<br />
 (a) You shall not:<br />
 (i) Exploit any bugs or reverse-engineer Platform code<br />
 (ii) Attempt to scrape, mine, or extract Subscriber information<br />
 (iii) Use unauthorized bots, automation tools, or mass messaging software<br />
 (iv) Use your Creator Account for impersonation or third-party account sharing<br />
 (v) Divert Subscribers to competing platforms or paid services outside Closerrr<br />
-(b) All interactions with Closerrr staff, including support and moderation teams, must be professional and free of hostility or abuse. Harassment or misuse of internal communication channels may result in enforcement action.<br />
-(E) Platform Ownership and License Back<br />
+(b) All interactions with Closerrr staff, including support and moderation teams, must be professional and free of hostility or abuse. Harassment or misuse of internal communication channels may result in enforcement action.</p>
+<p>(E) Platform Ownership and License Back<br />
 (a) While you retain ownership of original content you create and share, you hereby grant Closerrr a royalty-free, worldwide, sub-licensable, and irrevocable license to host, stream, display, index, promote, and archive such content for the purpose of providing Platform services, promotional campaigns, feature showcases, and compliance enforcement.<br />
 (b) This license extends to derivative promotional use cases such as profile previews, discovery carousels, platform-wide badges, and replay thumbnails.<br />
-(c) You waive any moral rights or attribution requirements to the extent permitted by law for content used in the above-listed ways.<br />
-(F) Platform Access Does Not Guarantee Visibility<br />
+(c) You waive any moral rights or attribution requirements to the extent permitted by law for content used in the above-listed ways.</p>
+<p>(F) Platform Access Does Not Guarantee Visibility<br />
 (a) Your inclusion on the Platform does not entitle you to specific placement, promotion, or algorithmic exposure. Closerrr retains sole discretion over visibility, homepage placement, search indexing, and category curation.<br />
-(b) Closerrr reserves the right to temporarily demote, de-list, or hide content based on technical performance, reported behavior, or experimental algorithmic rotation.<br />
-6. <strong>Earnings, Revenue Share & Payouts:</strong><br />
-The standard monthly subscription price for Fans to access a Creator’s (also referred to as a “Friend” on the Platform) content on Closerrr is currently set at ₹349 per Creator. Closerrr reserves the right to modify, increase, or reduce this price at any time, either generally or on a per-Creator basis, based on market, promotional, or product strategy considerations. Such changes may be applied with or without prior notice, unless explicitly required under Applicable Law.<br />
-(A) Revenue Model & Definitions<br />
+(b) Closerrr reserves the right to temporarily demote, de-list, or hide content based on technical performance, reported behavior, or experimental algorithmic rotation.</p>
+<p><strong>6. Earnings, Revenue Share & Payouts:</strong></p>
+<p>The standard monthly subscription price for Fans to access a Creator’s (also referred to as a “Friend” on the Platform) content on Closerrr is currently set at ₹349 per Creator. Closerrr reserves the right to modify, increase, or reduce this price at any time, either generally or on a per-Creator basis, based on market, promotional, or product strategy considerations. Such changes may be applied with or without prior notice, unless explicitly required under Applicable Law.</p>
+<p>(A) Revenue Model & Definitions<br />
 (a) As a Creator, you are entitled to receive a share of the Net Revenue generated from Subscriptions purchased by your Subscribers via the Closerrr Platform.<br />
 (b) “Net Revenue” is defined as the total Subscription Price received, after deduction of applicable taxes (e.g., GST) and Platform Fees (as defined under Section 2 (Definitions)).<br />
 (c) “Platform Fees” include all charges and commissions imposed by third-party digital storefronts (e.g., Apple App Store and Google Play Store). These currently include:<br />
 (i) Apple App Store: 30% of the subscription amount is deducted for the first 12 consecutive months of a Subscriber’s active subscription to your account. After 12 uninterrupted months, this rate drops to 15%. If a Subscriber cancels and later re-subscribes within 60 days, the original day count continues, and you may become eligible for the 15% rate again once the combined subscription duration reaches 12 months. However, if the re-subscription occurs after 60 days, the cycle resets and starts again at 30%.<br />
 (ii) Google Play Store: A flat 15% fee applies at all times, regardless of subscription duration or continuity.<br />
-(d) Your “Payout” is calculated based on your tiered “Payout Percentage,” applied to the Net Revenue collected on your behalf.<br />
-(B) Creator Commission Tiers<br />
+(d) Your “Payout” is calculated based on your tiered “Payout Percentage,” applied to the Net Revenue collected on your behalf.</p>
+<p>(B) Creator Commission Tiers<br />
 Your Payout Percentage is determined by the number of active paid Subscribers on your profile at the time of calculation. The more Subscribers you have, the higher your share:<br />
 (i) Tier 1: If you have less than 1,000 active Subscribers, you will receive 70% of Net Revenue (Closerrr retains 30%).<br />
 (ii) Tier 2: With 1,000–1,999 active Subscribers, you will earn 71% (Closerrr retains 29%).<br />
@@ -152,110 +150,110 @@ Your Payout Percentage is determined by the number of active paid Subscribers on
 (iv) Tier 4: With 3,000–3,999 active Subscribers, you will earn 73% (Closerrr retains 27%).<br />
 (v) Tier 5: With 4,000–4,999 active Subscribers, you will earn 74% (Closerrr retains 26%).<br />
 (vi) Tier 6: Once you have 5,000 or more active Subscribers, you will earn 75% of the Net Revenue, and Closerrr will retain 25%.<br />
-Closerrr may revise these percentages at any time with prior notice through in-app notifications, or email.<br />
-For the purpose of payout calculation, “active Subscribers” refers to the number of users with an active, paid subscription to your profile at the moment of monthly billing reconciliation. Your final Active Subscriber count is locked at 23:59 IST on the last day of each calendar month (month-end), and your payout tier for that month is determined solely based on this number. Whether you cross a new tier threshold at the start or end of a calendar month, your payout rate will be adjusted accordingly based on your final active Subscriber count for that month. Closerrr follows a standard monthly cycle and does not adopt Apple or Google’s fiscal month definitions for this calculation.<br />
-(C) Payout Schedule<br />
+Closerrr may revise these percentages at any time with prior notice through in-app notifications, or email.</p>
+<p>For the purpose of payout calculation, “active Subscribers” refers to the number of users with an active, paid subscription to your profile at the moment of monthly billing reconciliation. Your final Active Subscriber count is locked at 23:59 IST on the last day of each calendar month (month-end), and your payout tier for that month is determined solely based on this number. Whether you cross a new tier threshold at the start or end of a calendar month, your payout rate will be adjusted accordingly based on your final active Subscriber count for that month. Closerrr follows a standard monthly cycle and does not adopt Apple or Google’s fiscal month definitions for this calculation.</p>
+<p>(C) Payout Schedule<br />
 (a) Payouts are processed on a fixed, deferred cycle — typically on the 25th of the second calendar month following the revenue month. For example:<br />
 (i) January revenue → paid on March 25<br />
 (ii) November revenue → paid on January 25<br />
 (b) This delay exists because Apple and Google have long financial reporting cycles. For instance, Apple releases earnings 45 days after the close of its fiscal month, which can push Closerrr’s receivables into the following calendar cycle. This delay is entirely outside our control.<br />
-(c) All disbursements are made in INR to the Indian bank account verified under your Creator profile.<br />
-(D) Minimum Payout Threshold & Withholding<br />
+(c) All disbursements are made in INR to the Indian bank account verified under your Creator profile.</p>
+<p>(D) Minimum Payout Threshold & Withholding<br />
 (a) No minimum payout threshold is currently imposed. All eligible earnings, regardless of amount, will be processed and disbursed in the next scheduled payout cycle, provided the Creator’s account remains in good standing and passes all required verifications.<br />
-(b) Closerrr reserves the right to withhold payouts in cases involving account verification issues, suspected fraud, content disputes, policy violations, or any ongoing regulatory or legal compliance investigations. Such withholdings shall be lifted only upon satisfactory resolution of the underlying issue.<br />
-(E) Payment Requirements & Conditions<br />
+(b) Closerrr reserves the right to withhold payouts in cases involving account verification issues, suspected fraud, content disputes, policy violations, or any ongoing regulatory or legal compliance investigations. Such withholdings shall be lifted only upon satisfactory resolution of the underlying issue.</p>
+<p>(E) Payment Requirements & Conditions<br />
 (a) You must have a fully verified Creator Account and provide valid, accurate, and up-to-date Indian bank account details.<br />
 (b) Closerrr shall not be liable for any payout delay or failure arising from your failure to update or correct personal or banking information.<br />
-(c) You are solely responsible for the payment of all taxes associated with your income, including income tax, professional tax, GST registration (if applicable), and any other financial reporting or remittance obligations as required under Indian law.<br />
-(F) Mid-Cycle Deletion, Suspension, or Ban<br />
+(c) You are solely responsible for the payment of all taxes associated with your income, including income tax, professional tax, GST registration (if applicable), and any other financial reporting or remittance obligations as required under Indian law.</p>
+<p>(F) Mid-Cycle Deletion, Suspension, or Ban<br />
 (a) If you delete your account, or are suspended or permanently banned before the end of a billing cycle, you shall forfeit all revenue earned during that month as a contractual penalty.<br />
-(b) Any pending payouts from previous, eligible cycles will remain payable as per the regular Payout Schedule.<br />
-(G) Accuracy of Reports<br />
+(b) Any pending payouts from previous, eligible cycles will remain payable as per the regular Payout Schedule.</p>
+<p>(G) Accuracy of Reports<br />
 (a) All earnings, deductions, and payout calculations shall be visible on your “My Payouts” Page.<br />
-(b) You are responsible for reviewing this information and reporting discrepancies (if any) within ten (10) days of a billing cycle close. Failing which, all calculations shall be deemed final and binding.<br />
-(H) No Third-Party Beneficiaries<br />
-You may not assign, transfer, or pledge your right to receive Payouts to any third party. Payouts shall only be disbursed to the verified Creator linked to the eligible account.<br />
-<strong>7. Subscription Mechanics & Fan Access:</strong><br />
-(A) Subscription Structure<br />
+(b) You are responsible for reviewing this information and reporting discrepancies (if any) within ten (10) days of a billing cycle close. Failing which, all calculations shall be deemed final and binding.</p>
+<p>(H) No Third-Party Beneficiaries<br />
+You may not assign, transfer, or pledge your right to receive Payouts to any third party. Payouts shall only be disbursed to the verified Creator linked to the eligible account.</p>
+<p><strong>7. Subscription Mechanics & Fan Access:</strong></p>
+<p>(A) Subscription Structure<br />
 (a) Fans (“Subscribers”) gain access to your gated content, Closerrr Live sessions, chat interface, and other exclusive features by purchasing a monthly subscription to your Creator profile through the Platform.<br />
 (b) The standard subscription term is 30 calendar days and will auto-renew unless cancelled by the Subscriber via the applicable app store settings (Apple App Store or Google Play).<br />
-(c) All subscriptions are handled through the respective mobile platforms’ billing systems and Closerrr has no authority to override, refund, or retroactively modify subscription transactions.<br />
-(B) Fan Access Features<br />
+(c) All subscriptions are handled through the respective mobile platforms’ billing systems and Closerrr has no authority to override, refund, or retroactively modify subscription transactions.</p>
+<p>(B) Fan Access Features<br />
 (a) An active subscription grants each Subscriber:<br />
 (i) One-on-one chat access (subject to message limits)<br />
 (ii) Visibility into your Stories and profile posts<br />
 (iii) Access to Closerrr Live streams hosted by you<br />
 (iv) Eligibility to receive replies from you (at your discretion)<br />
-(b) Fan access will terminate upon cancellation, expiry, or termination of either party’s account, subject to Section 8 (Content Ownership & Licensing to Closerrr).<br />
-(C) Message Limitations<br />
+(b) Fan access will terminate upon cancellation, expiry, or termination of either party’s account, subject to Section 8 (Content Ownership & Licensing to Closerrr).</p>
+<p>(C) Message Limitations<br />
 (a) To preserve meaningful engagement and platform quality, each Subscriber may send up to three (3) messages per 24-hour rolling window, per Creator.<br />
 (b) Each message is capped at 100 characters.<br />
 (c) Replies to Stories also count as messages toward this daily quota.<br />
-(d) These limits are enforced uniformly across the Platform and cannot be modified by individual Creators.<br />
-(D) Closerrr Streak<br />
+(d) These limits are enforced uniformly across the Platform and cannot be modified by individual Creators.</p>
+<p>(D) Closerrr Streak<br />
 (a) Closerrr maintains a visible subscription continuity metric (“Closerrr Streak”) for each active Subscriber.<br />
 (b) The Streak reflects the number of consecutive days a Subscriber has maintained an uninterrupted subscription to your profile.<br />
 (c) If a Subscriber cancels their subscription, they retain access and streak continuity through the end of the billing cycle, plus a 7-day non-renewable grace period (“Continuation Period”).<br />
-(d) If the Subscriber fails to resubscribe within this period, their Closerrr Streak will be permanently deleted and cannot be restored.<br />
-(E) No Refunds or Rollbacks<br />
+(d) If the Subscriber fails to resubscribe within this period, their Closerrr Streak will be permanently deleted and cannot be restored.</p>
+<p>(E) No Refunds or Rollbacks<br />
 (a) You acknowledge that Closerrr does not provide prorated refunds for partial billing periods, mid-cycle Creator withdrawals, or platform outages.<br />
-(b) All revenue you earn is based on actual active subscription counts, irrespective of Fan satisfaction or activity levels.<br />
-(F) Interaction Boundaries<br />
+(b) All revenue you earn is based on actual active subscription counts, irrespective of Fan satisfaction or activity levels.</p>
+<p>(F) Interaction Boundaries<br />
 (a) You may not require or solicit Subscribers to contact you outside the Closerrr Platform (e.g., DMs, paid video calls, third-party apps).<br />
 (b) You may not offer external subscriptions, digital products, or gated services that compete with Closerrr offerings.<br />
-(c) You may not use Closerrr chat or posts to divert Fans to other monetized platforms or offerings.<br />
-(G) Subscription Name & Billing Transparency<br />
+(c) You may not use Closerrr chat or posts to divert Fans to other monetized platforms or offerings.</p>
+<p>(G) Subscription Name & Billing Transparency<br />
 (a) The Creator’s name as provided during onboarding will appear on the Fan’s invoice/receipt for subscription charges, as processed by Apple or Google.<br />
-(b) This name cannot be altered post-activation. It is your responsibility to confirm its accuracy during onboarding.<br />
-8. <strong>Content Ownership & Licensing to Closerrr:</strong><br />
-(A) Retention of Intellectual Property Rights<br />
+(b) This name cannot be altered post-activation. It is your responsibility to confirm its accuracy during onboarding.</p>
+<p><strong>8. Content Ownership & Licensing to Closerrr:</strong></p>
+<p>(A) Retention of Intellectual Property Rights<br />
 (a) You retain full ownership of all intellectual property rights in the original content you create and publish on the Platform, including but not limited to messages, livestreams, profile media, videos, event descriptions, and Stories, provided such content does not include any proprietary assets of Closerrr or third-party content without appropriate authorization.<br />
-(b) Nothing in these Terms shall be construed to transfer ownership of your original works to Closerrr.<br />
-(B) Limited License to Closerrr<br />
+(b) Nothing in these Terms shall be construed to transfer ownership of your original works to Closerrr.</p>
+<p>(B) Limited License to Closerrr<br />
 (a) By publishing or uploading any content to the Platform, you hereby grant Closerrr a worldwide, non-exclusive, royalty-free, sub-licensable, transferable, and irrevocable license to host, cache, distribute, publicly display, reproduce, promote, and archive such content for the purposes of:<br />
 (i) operating and improving the Platform;<br />
 (ii) promoting your content within Closerrr (including explore carousels, badge showcases, and replay features);<br />
 (iii) ensuring legal, safety, and compliance reviews as required under Applicable Law.<br />
-(b) This license shall survive suspension or termination of your Creator Account for the period reasonably necessary to fulfill these purposes, subject to applicable retention laws and internal takedown protocols.<br />
-(C) Waiver of Attribution and Moral Rights<br />
-To the extent permitted by Applicable Law, you waive any moral rights, attribution claims, or objections to modifications, formatting, or promotional usage of content granted under this license.<br />
-(D) Third-Party Content and Responsibility<br />
+(b) This license shall survive suspension or termination of your Creator Account for the period reasonably necessary to fulfill these purposes, subject to applicable retention laws and internal takedown protocols.</p>
+<p>(C) Waiver of Attribution and Moral Rights<br />
+To the extent permitted by Applicable Law, you waive any moral rights, attribution claims, or objections to modifications, formatting, or promotional usage of content granted under this license.</p>
+<p>(D) Third-Party Content and Responsibility<br />
 (a) You represent and warrant that any content incorporating third-party music, clips, likenesses, or intellectual property is either your original creation or properly licensed by you with all necessary rights to distribute it via the Platform.<br />
-(b) Closerrr shall not be responsible for any claim arising from unauthorized or infringing content uploaded by Creators, and you shall indemnify Closerrr for any loss, liability, or claim arising from such violation in accordance with Section 20 (Indemnification).<br />
-(E) No Platform-Endorsed Partnership<br />
-Uploading content to Closerrr shall not be interpreted as entering into any joint venture, brand endorsement, agency, or promotional contract unless explicitly stated in a separate agreement signed by Closerrr.<br />
-9. <strong>Platform Rights & Moderation Authority:</strong><br />
-Closerrr is a privately managed, invite-only platform committed to preserving the integrity, quality, and safety of its community. The Creator acknowledges and agrees that Closerrr retains absolute authority and discretion over the operation, management, moderation, and enforcement of all rules governing the Platform and its Services.<br />
-(A) Platform Oversight & Operational Control<br />
+(b) Closerrr shall not be responsible for any claim arising from unauthorized or infringing content uploaded by Creators, and you shall indemnify Closerrr for any loss, liability, or claim arising from such violation in accordance with Section 20 (Indemnification).</p>
+<p>(E) No Platform-Endorsed Partnership<br />
+Uploading content to Closerrr shall not be interpreted as entering into any joint venture, brand endorsement, agency, or promotional contract unless explicitly stated in a separate agreement signed by Closerrr.</p>
+<p><strong>9. Platform Rights & Moderation Authority:</strong></p>
+<p>Closerrr is a privately managed, invite-only platform committed to preserving the integrity, quality, and safety of its community. The Creator acknowledges and agrees that Closerrr retains absolute authority and discretion over the operation, management, moderation, and enforcement of all rules governing the Platform and its Services.</p>
+<p>(A) Platform Oversight & Operational Control<br />
 (a) Closerrr reserves all rights not expressly granted to the Creator under these Terms. No action or inaction shall be deemed a waiver of any legal or contractual right.<br />
 (b) We maintain sole discretion to administer the Platform’s core logic, including visibility algorithms, promotional placements, and eligibility criteria.<br />
 (c) This includes but is not limited to the ability to audit content, flag violations, suspend features, or pause distribution for performance, safety, or legal reasons.<br />
-(d) Closerrr may modify, enhance, suspend, or discontinue any part of the Platform or feature at any time, with or without prior notice. This includes but is not limited to changes in layout, file size limits, message limits, content formats, or streaming durations.<br />
-(B) Content Review & Enforcement Authority<br />
+(d) Closerrr may modify, enhance, suspend, or discontinue any part of the Platform or feature at any time, with or without prior notice. This includes but is not limited to changes in layout, file size limits, message limits, content formats, or streaming durations.</p>
+<p>(B) Content Review & Enforcement Authority<br />
 (a) Closerrr may, at its discretion, review, monitor, screen, or edit any Creator content to ensure compliance with Platform Policies and Applicable Law.<br />
 (b) We reserve the right to remove, restrict, hide, or disable access to content we find objectionable, misleading, inaccurate, harmful, non-compliant, or otherwise inconsistent with Platform standards — with or without notice, and for any reason or no reason.<br />
 (c) Creators have no expectation of guaranteed visibility, exposure, or promotional treatment on the Platform. All visibility mechanics are subject to algorithmic, manual, and editorial curation, which may change over time.<br />
 (d) Closerrr is a technology platform provider and does not create, endorse, or assume responsibility for Creator-generated content.<br />
 (e) You agree that Closerrr shall not be liable for any reputational damage, loss of revenue, goodwill, or other consequences arising from the good-faith enforcement of these moderation rights.<br />
-(f) All usage must be in good faith and for genuine Creator-to-Fan interaction. You agree to uphold respectful and inclusive conduct at all times and acknowledge that your behavior reflects directly on the Platform’s brand.<br />
-(C) Investigation & Legal Cooperation<br />
+(f) All usage must be in good faith and for genuine Creator-to-Fan interaction. You agree to uphold respectful and inclusive conduct at all times and acknowledge that your behavior reflects directly on the Platform’s brand.</p>
+<p>(C) Investigation & Legal Cooperation<br />
 (a) Closerrr reserves the right to investigate any suspected violation of these Terms, including by accessing your Account or reviewing historical data, content, and activity logs.<br />
 (b) We may cooperate fully with law enforcement authorities, regulatory bodies, or court orders, including disclosure of identity or other personal data, where lawfully required.<br />
-(c) Closerrr has no obligation to mediate disputes between you and any Subscriber, Creator, or third party. Any such involvement is purely at our discretion.<br />
-(D) Finality of Decisions & Appeals<br />
+(c) Closerrr has no obligation to mediate disputes between you and any Subscriber, Creator, or third party. Any such involvement is purely at our discretion.</p>
+<p>(D) Finality of Decisions & Appeals<br />
 (a) You may submit a moderation-related appeal via the in-app support system or email at \\[creatorcare@closerrr.com\\].<br />
 (b) However, Closerrr retains the right to reject appeals in its sole discretion — particularly in repeat, serious, or unresolved cases.<br />
-(c) All decisions made by Closerrr under this section regarding content moderation, platform management, and rule enforcement are final, binding, and not subject to appeal, except as may be explicitly required by Applicable Law.<br />
-10. <strong>Software License & Restrictions (EULA):</strong><br />
-(A) Grant of Limited License<br />
-Subject to compliance with these Terms, Closerrr grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Closerrr mobile application, web dashboard, and associated tools solely for purposes related to your Creator activity on the Platform. This license is granted solely for personal and professional use in connection with your Closerrr Creator Account and shall not be interpreted as a transfer of any proprietary right or title.<br />
-(B) Scope of Permitted Use<br />
+(c) All decisions made by Closerrr under this section regarding content moderation, platform management, and rule enforcement are final, binding, and not subject to appeal, except as may be explicitly required by Applicable Law.</p>
+<p><strong>10. Software License & Restrictions (EULA):</strong></p>
+<p>(A) Grant of Limited License<br />
+Subject to compliance with these Terms, Closerrr grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Closerrr mobile application, web dashboard, and associated tools solely for purposes related to your Creator activity on the Platform. This license is granted solely for personal and professional use in connection with your Closerrr Creator Account and shall not be interpreted as a transfer of any proprietary right or title.</p>
+<p>(B) Scope of Permitted Use<br />
 (a) The Platform and associated software may only be used:<br />
 (i) On devices owned or controlled by you;<br />
 (ii) In accordance with applicable laws and the functional constraints defined by Closerrr;<br />
 (iii) For the purpose of uploading, publishing, and managing Creator Content, interacting with Subscribers, and reviewing analytics or revenue performance.<br />
-(b) You may not use the Platform for any purpose outside of the functionalities and permissions expressly granted herein.<br />
-(C) Prohibited Actions and Restrictions<br />
+(b) You may not use the Platform for any purpose outside of the functionalities and permissions expressly granted herein.</p>
+<p>(C) Prohibited Actions and Restrictions<br />
 You shall not, directly or indirectly:<br />
 (a) Modify, copy, translate, adapt, reverse-engineer, decompile, disassemble, or create derivative works based on the Platform or any part thereof;<br />
 (b) Rent, lease, sublicense, sell, distribute, or otherwise transfer the Platform, or any component thereof, to any third party;<br />
@@ -263,19 +261,17 @@ You shall not, directly or indirectly:<br />
 (d) Attempt to gain unauthorized access to any portion of the Platform, including Creator tools, subscriber data, backend services, or restricted APIs;<br />
 (e) Use automated scripts, bots, scrapers, or similar technologies to access, collect data from, or otherwise interact with the Platform;<br />
 (f) Introduce any virus, trojan horse, malware, or harmful code into the Platform environment;<br />
-(g) Use the Platform in a manner that violates the intellectual property or proprietary rights of Closerrr or any third party.<br />
-(D) Intellectual Property of the Platform<br />
+(g) Use the Platform in a manner that violates the intellectual property or proprietary rights of Closerrr or any third party.</p>
+<p>(D) Intellectual Property of the Platform<br />
 (a) All software code, UI/UX elements, server architecture, algorithms, branding, and documentation associated with the Closerrr Platform are the sole property of Closerrr and its licensors.<br />
-(b) No rights are granted to you other than those expressly outlined in these Terms. Closerrr reserves all rights, title, and interest not explicitly granted.<br />
-(E) Open Source & Third-Party Dependencies<br />
-The Platform may include components subject to third-party open-source licenses or dependencies governed by separate license terms. By using the Platform, you agree to comply with such third-party license obligations where applicable.<br />
-(F) Termination of License<br />
-This license shall automatically terminate without notice if you breach any provision of these Terms, engage in misconduct, or if your Creator Account is suspended or terminated under Section 15 (Account Suspension, Termination & Withdrawal). Upon termination, you must cease all access to and use of the Platform and delete all copies, credentials, or cached data in your possession.<br />
-(G) Updates and Modifications<br />
+(b) No rights are granted to you other than those expressly outlined in these Terms. Closerrr reserves all rights, title, and interest not explicitly granted.</p>
+<p>(E) Open Source & Third-Party Dependencies<br />
+The Platform may include components subject to third-party open-source licenses or dependencies governed by separate license terms. By using the Platform, you agree to comply with such third-party license obligations where applicable.</p>
+<p>(F) Termination of License<br />
+This license shall automatically terminate without notice if you breach any provision of these Terms, engage in misconduct, or if your Creator Account is suspended or terminated under Section 15 (Account Suspension, Termination & Withdrawal). Upon termination, you must cease all access to and use of the Platform and delete all copies, credentials, or cached data in your possession.</p>
+<p>(G) Updates and Modifications<br />
 Closerrr may release updates, patches, enhancements, or new versions of the Platform from time to time. These may be installed automatically or require manual action. Continued access to certain features or services may be dependent on the successful application of such updates. Closerrr is under no obligation to maintain backward compatibility or to provide support for outdated versions.</p>
-<br/>
 <p><strong>11. Tax Compliance & Creator Obligations:</strong></p>
-<br/>
 <p>(A) Independent Contractor Status & Tax Responsibility<br />
 (a) You are solely responsible for complying with all applicable tax laws in India, including but not limited to income tax, professional tax, and GST (where applicable).<br />
 (b) All earnings received from Closerrr shall be treated as personal or business income, and must be accurately disclosed in your tax filings with the relevant authorities.<br />
@@ -296,9 +292,7 @@ Closerrr may release updates, patches, enhancements, or new versions of the Plat
 <p>(E) Audit and Reporting Cooperation<br />
 (a) You agree to cooperate with any audit, inquiry, or statutory reporting requirement initiated by Indian tax authorities or Closerrr’s compliance team in relation to your earnings.<br />
 (b) This may include the submission of supporting documents, declarations, or confirmation of prior tax filings relevant to your income from Closerrr.</p>
-<br/>
 <p><strong>12. Confidentiality:</strong></p>
-<br/>
 <p>(A) Confidential Information Defined<br />
 For the purposes of these Terms, “Confidential Information” includes, but is not limited to:<br />
 (a) Any non-public information disclosed by Closerrr to you in written, oral, electronic, or other form that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure;<br />
@@ -320,26 +314,26 @@ The obligations in this Section shall not apply to information that:<br />
 If you are required by law, regulation, or court order to disclose Confidential Information, you agree to provide Closerrr with prompt written notice (to the extent legally permitted) and to reasonably cooperate with Closerrr in seeking a protective order or other appropriate remedy.</p>
 <p>(E) Survival<br />
 Your confidentiality obligations under this Section shall survive the termination, suspension, expiration, or deletion of your Creator Account and shall remain in effect indefinitely, unless expressly waived in writing by Closerrr.</p>
-<p>13.  <strong>Prohibited Conduct:</strong><br />
-(A) Overview of Restrictions<br />
-As a Creator, you agree to use the Platform responsibly and in a manner that upholds the integrity, safety, and experience of all users. The following actions are strictly prohibited, and any violation may result in Suspension, Termination, or legal action under Section 15 (Account Suspension, Termination & Withdrawal).<br />
-(B) System Abuse & Technical Violations<br />
+<p><strong>13. Prohibited Conduct:</strong></p>
+<p>(A) Overview of Restrictions<br />
+As a Creator, you agree to use the Platform responsibly and in a manner that upholds the integrity, safety, and experience of all users. The following actions are strictly prohibited, and any violation may result in Suspension, Termination, or legal action under Section 15 (Account Suspension, Termination & Withdrawal).</p>
+<p>(B) System Abuse & Technical Violations<br />
 (a) You shall not engage in any activity that interferes with or disrupts the functionality, security, or integrity of the Platform.<br />
 (b) This includes but is not limited to:<br />
 (i) Exploiting bugs, automation flaws, or undocumented Platform behavior for personal advantage;<br />
 (ii) Reverse-engineering, scraping, crawling, tampering with, or bypassing security layers or API access points;<br />
 (iii) Introducing malware, viruses, trojans, or other harmful code into the Platform;<br />
 (iv) Attempting to gain unauthorized access to any user account, server, database, or administrative dashboard;<br />
-(v) Taking any action that imposes an unreasonable or disproportionately large load on Closerrr’s infrastructure or violates Platform rate limits.<br />
-(C) Content-Related Violations<br />
+(v) Taking any action that imposes an unreasonable or disproportionately large load on Closerrr’s infrastructure or violates Platform rate limits.</p>
+<p>(C) Content-Related Violations<br />
 You shall not upload, publish, transmit, or otherwise distribute any Content that:<br />
 (a) Is unlawful, obscene, defamatory, libelous, threatening, harassing, vulgar, hateful, racially or ethnically offensive, or otherwise objectionable;<br />
 (b) Contains sexually explicit material, nudity, pornography, or adult/NSFW content of any kind;<br />
 (c) Promotes violence, discrimination, hate speech, or incites harm or intimidation against any individual or group;<br />
 (d) Infringes upon the Intellectual Property Rights, privacy rights, or publicity rights of any third party without proper authorization;<br />
 (e) Includes false, misleading, or fraudulent claims, including impersonation of another person or public figure;<br />
-(f) Making any false, misleading, or deceptive promises to Subscribers in relation to your Content, your availability, or the nature of the interactions they will receive.<br />
-(D) Misuse of Platform Tools & Financial Misconduct<br />
+(f) Making any false, misleading, or deceptive promises to Subscribers in relation to your Content, your availability, or the nature of the interactions they will receive.</p>
+<p>(D) Misuse of Platform Tools & Financial Misconduct<br />
 You agree not to:<br />
 (a) Use bots, automated scripts, or unauthorized tools (such as fake traffic, duplicate accounts, or cross-subscription circles) to manipulate or artificially inflate follower counts, Closerrr Streaks, message delivery, or engagement metrics;<br />
 (b) Exploit bugs, attempt to bypass Platform security, reverse-engineer code, or interfere with operational performance;<br />
@@ -349,30 +343,28 @@ You agree not to:<br />
 (f) Engage in or facilitate any form of financial misconduct, including but not limited to subscription fraud (e.g., using stolen or unauthorized payment methods), money laundering, diversion of funds, or any activity intended to mislead financial reporting or payment eligibility within the Platform;<br />
 (g) Directly request or collect any Subscriber’s personal information, credentials, contact details, or financial information;<br />
 (h) Accept money, gifts, paid promotions, or monetary transfers outside of Closerrr’s authorized payout systems. All financial transactions must be routed exclusively through Closerrr; off-platform monetization from Fans is strictly prohibited;<br />
-(i) Create, coordinate, or participate in schemes to manipulate payout tiers or exploit incentive thresholds.<br />
-(E) Conduct Toward Subscribers & Staff<br />
+(i) Create, coordinate, or participate in schemes to manipulate payout tiers or exploit incentive thresholds.</p>
+<p>(E) Conduct Toward Subscribers & Staff<br />
 (a) You must treat all Subscribers with respect, and refrain from engaging in discriminatory, abusive, or exploitative behavior;<br />
 (b) You shall not solicit personal, financial, or sensitive information from any Subscriber, nor attempt to establish off-platform communication under false pretenses;<br />
 (c) All interactions with Closerrr employees, moderators, and support staff must remain professional, respectful, and free from harassment or abuse.<br />
 (d) You shall not harass, threaten, stalk, abuse, or intimidate any Subscriber, Creator, or Closerrr staff.<br />
-(e) You shall not make false promises about exclusivity, interactions, or content delivery that are materially misleading or intended to manipulate Subscribers.<br />
-(F) Account Misrepresentation<br />
+(e) You shall not make false promises about exclusivity, interactions, or content delivery that are materially misleading or intended to manipulate Subscribers.</p>
+<p>(F) Account Misrepresentation<br />
 You may not:<br />
 (a) Share, lease, sell, or transfer access to your Creator Account to any third party;<br />
 (b) Operate multiple Creator Accounts without Closerrr’s express written permission;<br />
 (c) Use a proxy or representative to interact with Subscribers or post content on your behalf in a deceptive or undisclosed manner.<br />
 (d) You may not impersonate any person or public figure, fabricate qualifications, or mislead Subscribers regarding your identity, affiliations, or Creator status.<br />
-(e) Use of deceptive profile names, bios, or third-party-managed personas without disclosure, or it may constitute grounds for Termination.<br />
-(G) Compliance with Law & Platform Policies<br />
+(e) Use of deceptive profile names, bios, or third-party-managed personas without disclosure, or it may constitute grounds for Termination.</p>
+<p>(G) Compliance with Law & Platform Policies<br />
 You are required to:<br />
 (a) Comply with all Applicable Laws of India, including but not limited to the Information Technology Act, 2000, and its amendments;<br />
 (b) Adhere to all Closerrr policies referenced herein, including the Community Guidelines, Revenue Sharing Policy, and Privacy Policy;<br />
-(c) Promptly report any known or suspected policy violations to Closerrr.<br />
-(H) Enforcement & Penalties<br />
+(c) Promptly report any known or suspected policy violations to Closerrr.</p>
+<p>(H) Enforcement & Penalties<br />
 Violations of this Section may lead to temporary Suspension, permanent Termination, withholding of Payouts, or other remedial measures as detailed under Section 15 (Account Suspension, Termination & Withdrawal). Closerrr’s decision in such matters shall be final.</p>
-<br/>
 <p><strong>14. Reporting & Enforcement:</strong></p>
-<br/>
 <p>(A) Reporting Mechanisms<br />
 (a) Closerrr provides multiple channels for reporting violations, misconduct, or suspicious activity. These include:<br />
 (i) In-app reporting tools available within chat or Creator profiles;<br />
@@ -403,9 +395,7 @@ Closerrr is not obligated to disclose the internal rationale, findings, or exact
 Closerrr does not serve as an arbiter between Creators and their Subscribers. While we may intervene in severe or high-risk cases, we are under no obligation to mediate disputes arising from personal interactions, content expectations, or communication breakdowns between parties.</p>
 <p>(G) Finality of Enforcement<br />
 All enforcement actions taken by Closerrr under this Section shall be deemed final and binding, except where otherwise required under Applicable Law. Creators may submit a written appeal to creatorcare@closerrr.com, which may be reviewed at Closerrr’s discretion — however, submission does not guarantee reversal or reconsideration.</p>
-<br/>
 <p><strong>15. Account Suspension, Termination & Withdrawal:</strong></p>
-<br/>
 <p>(A) Grounds for Suspension or Termination<br />
 Closerrr reserves the right to suspend, restrict, or permanently terminate your Creator Account at any time, with or without notice, if:</p>
 <p>(a) You violate any provision of these Terms, the Community Guidelines, or any referenced Platform policy.<br />
@@ -436,9 +426,7 @@ Closerrr reserves the right to suspend, restrict, or permanently terminate your 
 <p>(G) Finality of Enforcement Decisions<br />
 (a) All decisions regarding account status, including Suspension, Termination, and blacklisting, shall be final and binding.<br />
 (b) Closerrr is not obligated to entertain appeals unless required by Applicable Law.</p>
-<br/>
 <p><strong>16. Refunds, Disputes & Chargebacks:</strong></p>
-<br/>
 <p>(A) No Refund Policy</p>
 <p>(a) Creators acknowledge and agree that Closerrr operates on a no-refund basis for all Subscriptions purchased by Subscribers, except where required under Applicable Law or platform-level policies of the Apple App Store or Google Play Store.</p>
 <p>(b) You shall not promise, imply, or offer refunds to Subscribers directly. All refund decisions shall be made exclusively by Closerrr or the relevant app store provider, subject to their applicable policies.</p>
@@ -454,9 +442,7 @@ Closerrr reserves the right to suspend, restrict, or permanently terminate your 
 <p>Platform Fees, as defined in Section 6 (Earnings, Revenue Share & Payouts), are levied by external service providers (Apple, Google) and are non-refundable under all circumstances. Closerrr shall not reimburse or absorb these fees in the event of chargebacks, cancellations, or account Terminations.</p>
 <p>(E) Creator's Obligation to Minimize Disputes</p>
 <p>The Creator agrees to act in a professional manner that minimizes the likelihood of disputes. This includes providing high-quality Content as described, adhering to all Community Guidelines, and engaging respectfully with all Subscribers.</p>
-<br/>
 <p><strong>17. Data Privacy & Security Commitments:</strong></p>
-<br/>
 <p>(A) General Commitment to Data Protection<br />
 (a) Closerrr is committed to protecting the confidentiality, integrity, and lawful processing of all personal data collected from or associated with your Creator Account.<br />
 (b) Your use of the Platform is subject to the Closerrr Creator Privacy Policy, which forms an integral part of these Terms and governs how we collect, store, use, and share your personal data. You represent and warrant that you have read, understood, and accepted the Closerrr Creator Privacy Policy in full.</p>
@@ -477,9 +463,7 @@ You acknowledge and consent that your data may be processed, stored, or transfer
 <p>(F) Retention of Creator Data<br />
 (a) Your account and associated content data may be retained by Closerrr for a reasonable period after account Suspension or Termination for purposes of legal compliance, fraud prevention, audit, or dispute resolution.<br />
 (b) Such retention shall be carried out in accordance with Closerrr’s data retention protocols and Applicable Law.</p>
-<br/>
 <p><strong>18. Third-Party Integrations & Dependencies:</strong></p>
-<br/>
 <p>(A) Use of Third-Party Services<br />
 (a) The Closerrr Platform may integrate or depend on services, software, APIs, or infrastructure provided by third parties, including but not limited to cloud storage, payment gateways, identity verification systems, email services, analytics SDKs, and mobile app distribution platforms (e.g., Apple App Store, Google Play Store).<br />
 (b) By using the Platform, you acknowledge and agree that certain Creator-facing features, functionalities, and data processing activities may rely on these external providers, and your use of such features is subject to their respective terms and policies.</p>
@@ -492,9 +476,7 @@ You acknowledge and consent that your data may be processed, stored, or transfer
 (b) Closerrr disclaims all liability for unauthorized access or breaches arising from weak credentials, misuse, or compromise of your third-party accounts.</p>
 <p>(D) No Endorsement of Third Parties<br />
 Mention of any third-party services or tools on the Platform does not constitute endorsement, sponsorship, or partnership unless explicitly stated by Closerrr. Your use of such third-party services is entirely at your own risk and subject to their individual terms and conditions.</p>
-<br/>
 <p><strong>19. Intellectual Property & Trademark Usage:</strong></p>
-<br/>
 <p>(A) Platform Ownership and Rights<br />
 (a) The Platform, including but not limited to its design, interface, software, logos, trademarks, service marks, documentation, proprietary scripts, and any other content created or commissioned by Closerrr, is and shall remain the exclusive property of Closerrr Interactive Private Limited.<br />
 (b) Nothing in these Terms shall be construed to grant you any rights, license, or ownership interest in or to the intellectual property of Closerrr, except for the limited license explicitly outlined in Section 10 (Software License & Restrictions).<br />
@@ -519,9 +501,7 @@ Except as expressly provided in these Terms, no license, right, or interest is g
 <p>All use of the Closerrr Marks must comply with any brand usage guidelines that we may publish or provide from time to time. We reserve the right to review your use of our Marks and to require any modifications necessary to ensure compliance and quality control.</p>
 <p>(G) Termination of License</p>
 <p>This limited license will automatically terminate immediately upon the suspension or termination of your Creator Account. Upon termination, you must immediately cease all use of the Closerrr Marks in any and all media. Closerrr also reserves the right to terminate this license at any time, for any reason, in its sole discretion.</p>
-<br/>
 <p><strong>20. Indemnification:</strong></p>
-<br/>
 <p>(A) Creator’s Indemnity Obligations<br />
 You agree to indemnify, defend, and hold harmless Closerrr Interactive Private Limited, its affiliates, directors, officers, employees, agents, licensors, and service providers (collectively, “Indemnified Parties”) from and against any and all third-party claims, liabilities, losses, damages, costs, and expenses (including reasonable legal and attorney’s fees) arising out of or related to:</p>
 <p>(a) Your use or misuse of the Platform or any of its creator-facing tools, features, or services;<br />
@@ -535,9 +515,7 @@ In the event of a claim for which Closerrr seeks indemnification under this sect
 The indemnification rights under this section are in addition to, and not in lieu of, any other remedies available to Closerrr under these Terms, at law, or in equity.</p>
 <p>(D) Survival<br />
 These indemnification obligations shall survive the termination, suspension, or expiration of your Creator Account and these Terms.</p>
-<br/>
 <p><strong>21. Limitation of Liability:</strong></p>
-<br/>
 <p>(A) Exclusion of Certain Damages<br />
 To the fullest extent permitted by Applicable Law, Closerrr and its affiliates, officers, directors, employees, agents, or licensors shall not be liable to you for any indirect, incidental, special, consequential, punitive, or exemplary damages of any kind. This includes, without limitation, damages for lost profits, lost revenue, goodwill, loss of data, service interruption, computer damage, or system failure arising out of or in connection with:<br />
 (a) your use of or inability to use the Platform;<br />
@@ -557,9 +535,7 @@ Closerrr makes no guarantee regarding the level of visibility, revenue, engageme
 Some jurisdictions may not allow the exclusion of certain warranties or limitations on liability. In such cases, the exclusions and limitations in this Section shall apply to the fullest extent permitted by law.</p>
 <p>(F) Platform Provided “As Is”<br />
 You acknowledge that the Platform and all related services are provided on an “as is” and “as available” basis. Closerrr disclaims all express or implied warranties, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. We do not guarantee uninterrupted access, error-free functionality, or the absence of harmful components. Your use of the Platform is solely at your own risk.</p>
-<br/>
 <p><strong>22. Force Majeure:</strong></p>
-<br/>
 <p>(A) Events Beyond Reasonable Control<br />
 Closerrr shall not be held liable for any failure or delay in performing its obligations under these Terms to the extent such failure or delay is caused by circumstances beyond its reasonable control, including but not limited to: acts of God, natural disasters, earthquakes, floods, fires, epidemics or pandemics, war, terrorism, civil unrest, government actions, labor strikes or lockouts, infrastructure failures, power outages, internet or telecommunications disruptions, denial-of-service attacks, or failures of hosting providers, payment processors, or app store operators (“Force Majeure Events”).</p>
 <p>(B) Notice Requirement<br />
@@ -570,9 +546,7 @@ During the continuation of any Force Majeure Event, Closerrr’s obligations und
 Creators acknowledge that they shall not be entitled to compensation, refunds, additional payouts, or extensions of service due to any suspension, limitation, or modification of Platform access resulting from a Force Majeure Event.</p>
 <p>(E) Termination for Extended Events<br />
 If a Force Majeure Event continues for a period exceeding thirty (30) consecutive days and materially impairs Closerrr’s ability to operate the Platform or provide core services, Closerrr reserves the right to terminate or modify certain features or functionalities, without liability, by providing notice via available communication channels.</p>
-<br/>
 <p><strong>23. Assignment & Transferability:</strong></p>
-<br/>
 <p>These Terms, and the rights and licenses granted hereunder, are personal to you, the Creator.</p>
 <p>(A) No Assignment by Creator<br />
 (a) You may not assign, delegate, transfer, sublicense, or otherwise dispose of your rights or obligations under these Terms — whether voluntarily, by operation of law, or otherwise — without Closerrr’s prior written consent.<br />
@@ -581,9 +555,7 @@ If a Force Majeure Event continues for a period exceeding thirty (30) consecutiv
 Closerrr may assign or transfer these Terms, or any of its rights or obligations hereunder, in whole or in part, without restriction or obligation to notify you — including but not limited to in the event of a merger, acquisition, corporate restructuring, or sale of assets.</p>
 <p>(C) Binding Effect<br />
 These Terms shall be binding upon and inure to the benefit of the Parties and their respective permitted successors and assigns.</p>
-<br/>
 <p><strong>24. Notices & Communication:</strong></p>
-<br/>
 <p>(A) Official Communication Channels<br />
 (a) All legal notices, formal correspondence, and required communications from Closerrr to you shall be sent via email to the most recent email address associated with your Creator Account.<br />
 (b) It is your responsibility to maintain an accurate, active, and regularly monitored email address on file with Closerrr at all times.<br />
@@ -601,9 +573,7 @@ These Terms shall be binding upon and inure to the benefit of the Parties and th
 <p>(D) Language & Format<br />
 (a) All official communication between the Parties shall be conducted in English unless Closerrr specifies an alternate format or language in writing.<br />
 (b) Closerrr reserves the right to require that legal notices be physically signed, notarized, or submitted in a format compliant with applicable legal or regulatory frameworks, particularly in case of disputes, audits, or compliance-related matters.</p>
-<br/>
 <p><strong>25. Modifications to Terms & Platform Features:</strong></p>
-<br/>
 <p>(A) Right to Modify Terms<br />
 (a) Closerrr reserves the right, at its sole discretion, to update, modify, or revise these Terms (in whole or in part) at any time and for any reason, including to reflect changes in Applicable Law, business practices, feature offerings, or service models.<br />
 (b) Any such modifications shall become effective upon:<br />
@@ -620,9 +590,7 @@ These Terms shall be binding upon and inure to the benefit of the Parties and th
 Closerrr makes no representations or warranties that future updates will remain compatible with any earlier versions of the app, tools, or integrations. Creators are solely responsible for keeping their devices, app versions, and usage practices aligned with the latest supported configurations.</p>
 <p>Effective Date: 20/07/2025<br />
 Last Updated: 20/07/2025</p>
-<br/>
 <p><strong>26. Audit Rights & Compliance Reviews:</strong></p>
-<br/>
 <p>(A) Right to Audit and Review<br />
 (a) To ensure the integrity of the Platform and compliance with these Terms, you acknowledge and agree that Closerrr reserves the right, at its sole discretion, to conduct periodic audits and compliance reviews of your Creator Account and Content to verify compliance with these Terms, Platform policies, and applicable legal or tax obligations.<br />
 (b) Such reviews may be initiated at any time, with or without prior notice, and may be triggered by:<br />
@@ -659,9 +627,7 @@ Last Updated: 20/07/2025</p>
 <p>(E) Audit Records and Retention<br />
 (a) Closerrr may retain audit-related records and logs for evidentiary and compliance purposes, subject to its Privacy Policy and data retention protocols.<br />
 (b) Creators shall not attempt to erase, hide, tamper with, or misrepresent any account activity or data relevant to an audit.</p>
-<br/>
 <p><strong>27. Publicity Rights & Promotional Usage:</strong></p>
-<br/>
 <p>(A) Grant of Rights to Closerrr<br />
 (a) By joining the Platform as a Creator, you grant Closerrr a worldwide, royalty-free, non-exclusive, and revocable license to use your name, public profile photo, likeness, biographical references, Creator username, voice, and other identifying elements (“Public Persona”) for the sole purpose of promoting your Creator Account and the Closerrr Platform.<br />
 (b) This may include screenshots or short clips of publicly accessible Content you’ve posted, provided such use is limited to promotional materials and does not materially misrepresent you or your association with Closerrr.<br />
@@ -679,9 +645,7 @@ Last Updated: 20/07/2025</p>
 (b) Any external promotion must reflect the actual functionality and monetization policies of the Platform.</p>
 <p>(E) Survival of Rights<br />
 Even if your Account is later withdrawn, suspended, or Terminated, Closerrr may retain and continue to use previously created marketing material (such as banners, social posts, or campaign assets) that were created during the period your account was active, so long as no new assets are created using your Public Persona thereafter.</p>
-<br/>
 <p><strong>28. Entire Agreement & Severability:</strong></p>
-<br/>
 <p>(A) Entire Agreement<br />
 (a) These Terms, along with the Closerrr Creator Privacy Policy and any additional guidelines, rules, or notices explicitly incorporated herein by reference (collectively, the “Agreement”), constitute the complete and exclusive understanding and agreement between you and Closerrr with respect to your access to and use of the Platform as a Creator.<br />
 (b) This Agreement supersedes any prior or contemporaneous understandings, communications, proposals, or agreements, whether oral or written, relating to the subject matter herein.</p>
@@ -691,9 +655,7 @@ No oral or informal statements, guidance, or correspondence — including those 
 If any provision of this Agreement is found to be invalid, unlawful, or unenforceable by a court or regulatory authority of competent jurisdiction, that provision shall be severed from the remainder of the Agreement. The remaining provisions shall remain in full force and effect and shall be interpreted so as to best give effect to the original intent of the Parties.</p>
 <p>(D) No Waiver of Rights<br />
 Any failure by Closerrr to enforce any right or provision under these Terms shall not constitute a waiver of such right or provision. No waiver shall be effective unless in writing and signed by an authorized representative of Closerrr.</p>
-<br/>
 <p><strong>29. Governing Law & Jurisdiction:</strong></p>
-<br/>
 <p>(A) Governing Law<br />
 These Terms shall be governed by and construed in accordance with the laws of the Republic of India, without regard to its conflict of law principles. All legal rights, remedies, and interpretations shall be subject to Indian statutory and judicial frameworks.</p>
 <p>(B) Jurisdiction & Venue<br />
@@ -702,9 +664,7 @@ All disputes, claims, or proceedings arising out of or relating to these Terms, 
 Nothing in this section shall restrict Closerrr’s right to seek urgent injunctive or equitable relief in any jurisdiction, where necessary, to prevent actual or threatened misuse of its intellectual property, confidential information, or user safety systems.</p>
 <p>(D) Survival<br />
 This Section shall survive the suspension, withdrawal, or termination of your Creator Account and continue to remain binding thereafter.</p>
-<br/>
 <p><strong>30. Governing Language:</strong></p>
-<br/>
 <p>(A) Authoritative Version<br />
 (a) These Terms and all related documents, notices, and communications are originally drafted and published in the English language, which shall be the sole authoritative language governing interpretation, enforcement, and dispute resolution.<br />
 (b) Any translated versions of these Terms or associated materials are provided for informational purposes only and shall not be deemed legally binding or controlling.</p>

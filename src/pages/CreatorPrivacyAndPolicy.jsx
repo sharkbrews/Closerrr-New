@@ -2,78 +2,78 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const htmlContent = `
-<p>1. <strong>Introduction & Scope of Policy:</strong><br />
-This Privacy Policy (“Policy”) is issued by Closerrr Interactive Private Limited (hereinafter referred to as “Closerrr,” the “Company,” “we,” “us,” or “our”) and governs the manner in which Closerrr collects, accesses, stores, processes, uses, shares, transfers, discloses, or otherwise handles personal data and other creator-related information in connection with your use of the Closerrr platform as a verified content creator, influencer, or public personality (collectively referred to as “Creator,” “you,” or “your”).<br />
+<p><strong>1. Introduction & Scope of Policy:</strong></p>
+<p>This Privacy Policy (“Policy”) is issued by Closerrr Interactive Private Limited (hereinafter referred to as “Closerrr,” the “Company,” “we,” “us,” or “our”) and governs the manner in which Closerrr collects, accesses, stores, processes, uses, shares, transfers, discloses, or otherwise handles personal data and other creator-related information in connection with your use of the Closerrr platform as a verified content creator, influencer, or public personality (collectively referred to as “Creator,” “you,” or “your”).<br />
 This Policy is applicable exclusively to individuals who have been approved by Closerrr to operate a Creator account on the Platform, including those who have undergone the onboarding process as outlined in the Closerrr Creator Terms and Conditions. This Policy applies to your use of Closerrr’s mobile application, website, back-office dashboard, and any affiliated tools, communication systems, or monetization features made available to you as part of the Creator experience (collectively, the “Platform” or “Services”).<br />
 By activating or using your Creator account or any feature of the Platform as a Creator, you expressly acknowledge that you have read, understood, and agreed to be bound by the terms of this Policy and that you consent to the collection and processing of your personal information in accordance with the practices described herein. If you do not agree with any part of this Policy, you must refrain from using the Platform in a creator or public figure capacity.<br />
 This Policy is designed to comply with applicable data protection regulations, including but not limited to the Information Technology Act, 2000 (as amended), the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011, and the Digital Personal Data Protection Act, 2023 (“DPDPA”), as well as other relevant rules, governmental guidelines, and judicial interpretations under Indian law. To the extent applicable, Closerrr also aligns its practices with internationally recognized privacy principles such as purpose limitation, data minimization, accountability, fairness, and transparency.<br />
 This Policy shall be read in conjunction with the Closerrr Creator Terms and Conditions, which govern your broader relationship with the Platform, including your eligibility, monetization, obligations, and rights. In the event of any inconsistency between this Policy and the Terms and Conditions with respect to data handling or privacy-related provisions, this Policy shall prevail solely with respect to the processing, disclosure, and protection of personal information.<br />
 For clarity, the term 'message' or 'messaging' as used in this Policy refers to what is displayed to Users on the Platform as 'sending a Whisper.<br />
-Please note that this Policy is distinct from the general user-facing Privacy Policy applicable to subscribers and followers on the Platform. If you use the Services in a dual capacity (e.g., as both a Creator and a subscriber), you may be subject to both privacy frameworks to the extent applicable to each role.<br />
-2. <strong>Legal Basis for Data Processing:</strong><br />
-(A) Consent<br />
+Please note that this Policy is distinct from the general user-facing Privacy Policy applicable to subscribers and followers on the Platform. If you use the Services in a dual capacity (e.g., as both a Creator and a subscriber), you may be subject to both privacy frameworks to the extent applicable to each role.</p>
+<p><strong>2. Legal Basis for Data Processing:</strong></p>
+<p>(A) Consent<br />
 (a) In circumstances where the processing of personal data is not strictly necessary for contractual, operational, or legal compliance purposes, Closerrr relies on your explicit, informed, and voluntary consent.<br />
 (b) This includes, for example, your consent to use optional verification fields, enable certain analytics or performance-tracking tools, or participate in platform initiatives beyond baseline content publishing.<br />
-(c) You may withdraw your consent at any time, subject to the limitations set out in this Policy and the Creator Terms and Conditions. Withdrawal of consent shall not affect the lawfulness of processing conducted prior to such withdrawal and may result in limited or discontinued access to certain Services.<br />
-(B) Performance of a Contract<br />
+(c) You may withdraw your consent at any time, subject to the limitations set out in this Policy and the Creator Terms and Conditions. Withdrawal of consent shall not affect the lawfulness of processing conducted prior to such withdrawal and may result in limited or discontinued access to certain Services.</p>
+<p>(B) Performance of a Contract<br />
 (a) The processing of your personal data may be necessary for the execution and fulfilment of contractual obligations between you and Closerrr, including those outlined in the Creator Terms and Conditions.<br />
 (b) This includes:<br />
 (i) Evaluating and onboarding Creator applications;<br />
 (ii) Managing access to the Creator dashboard and platform tools;<br />
 (iii) Processing personal and financial information for calculating and disbursing Payouts;<br />
-(iv) Delivering metrics, insights, and tools required for content performance and fan engagement.<br />
-(C) Compliance with Legal Obligations<br />
+(iv) Delivering metrics, insights, and tools required for content performance and fan engagement.</p>
+<p>(C) Compliance with Legal Obligations<br />
 (a) Closerrr may process and retain certain categories of personal data in order to comply with applicable statutory, regulatory, or judicial requirements under Indian law.<br />
 (b) This may include:<br />
 (i) Basic identity and contact information as required for financial reporting, compliance audits, or recordkeeping obligations;<br />
 (ii) Compliance with tax and financial reporting mandates;<br />
 (iii) Anti-money laundering (AML) checks and fraud monitoring;<br />
-(iv) Responding to requests from competent authorities or enforcement agencies.<br />
-(D) Legitimate Interests<br />
+(iv) Responding to requests from competent authorities or enforcement agencies.</p>
+<p>(D) Legitimate Interests<br />
 (a) Closerrr may process personal data in furtherance of its legitimate business interests, provided that such processing does not override your fundamental rights and freedoms.<br />
 (b) Legitimate interest scenarios may include:<br />
 (i) Ensuring platform integrity and operational continuity;<br />
 (ii) Detecting fraudulent or abusive activity;<br />
 (iii) Conducting internal analytics to enhance creator tools, dashboards, and monetization features;<br />
-(iv) Performing audits, moderation reviews, or data quality checks.<br />
-(E) Protection of Vital Interests<br />
-(a) In limited and exceptional cases, Closerrr may process your personal data where it is reasonably necessary to protect your life, health, or safety, or that of another individual.<br />
-(F) Public Interest or Legal Authority<br />
-(a) Closerrr may also process your personal data pursuant to a lawful direction from governmental or regulatory authorities, or in the performance of tasks deemed to be in the public interest, where applicable.<br />
-3. <strong>Categories of Data Collected:</strong><br />
-(A) Information Provided by the Creator<br />
+(iv) Performing audits, moderation reviews, or data quality checks.</p>
+<p>(E) Protection of Vital Interests<br />
+(a) In limited and exceptional cases, Closerrr may process your personal data where it is reasonably necessary to protect your life, health, or safety, or that of another individual.</p>
+<p>(F) Public Interest or Legal Authority<br />
+(a) Closerrr may also process your personal data pursuant to a lawful direction from governmental or regulatory authorities, or in the performance of tasks deemed to be in the public interest, where applicable.</p>
+<p><strong>3. Categories of Data Collected:</strong></p>
+<p>(A) Information Provided by the Creator<br />
 (a) In the course of onboarding, operating a Creator account, and interacting with the Platform, you may be required or permitted to provide various categories of personal data.<br />
 (b) These may include, but are not limited to:<br />
 (i) Full legal name, contact email address, and optional phone number for account verification and communications;<br />
 (ii) Creator display name, biography, profile picture, and other public-facing attributes used to populate your explore/profile page;<br />
 (iii) Information submitted during the onboarding process, including social media links, sample messages, and verification responses sent from your public account;<br />
 (iv) Banking and payout-related details such as account holder name, bank name, account number, IFSC code (or equivalent), and payout preferences as provided to Closerrr for commission disbursement;<br />
-(v) Any additional information voluntarily submitted via email or during support interactions, such as clarifications, media, or feedback.<br />
-(B) Information Generated Through Use of the Platform<br />
+(v) Any additional information voluntarily submitted via email or during support interactions, such as clarifications, media, or feedback.</p>
+<p>(B) Information Generated Through Use of the Platform<br />
 (a) Closerrr may collect and process data that arises from your activity as a Creator on the Platform.<br />
 (b) This may include:<br />
 (i) Uploaded content metadata, including story timestamps, file sizes, media formats, and feature usage patterns;<br />
 (ii) Subscription performance metrics such as active subscriber count, follower growth trends, churn patterns, and revenue dashboards;<br />
 (iii) Chat metadata including total message count, message delivery status, story reply volume, Closerrr Streak activity, and fan interaction summaries (but excluding message content unless required for moderation or abuse investigation);<br />
-(iv) Session logs, authentication tokens, account status flags, and operational events related to your access and use of Creator tools.<br />
-(C) Information Collected Automatically<br />
+(iv) Session logs, authentication tokens, account status flags, and operational events related to your access and use of Creator tools.</p>
+<p>(C) Information Collected Automatically<br />
 (a) Closerrr passively collects technical and behavioral data through its systems and integrated software tools.<br />
 (b) This may include:<br />
 (i) Device and environment data, such as mobile operating system version, device model, language preferences, time zone, and screen resolution;<br />
 (ii) Network and access logs, including IP addresses, timestamps, geolocation (approximate), server latency, and crash diagnostics;<br />
-(iii) Engagement tracking data, such as dashboard usage frequency, interaction with analytics modules, and participation in Closerrr platform features.<br />
-(D) Data Received from Third Parties<br />
+(iii) Engagement tracking data, such as dashboard usage frequency, interaction with analytics modules, and participation in Closerrr platform features.</p>
+<p>(D) Data Received from Third Parties<br />
 (a) Closerrr may obtain supplemental personal or operational data from verified third-party sources and infrastructure providers in connection with your Creator account.<br />
 (b) This may include:<br />
 (i) Metadata from payment processors (e.g., transaction success status, payout confirmations, refund flags);<br />
 (ii) Diagnostic or operational data from hosting platforms, livestream modules, or storage/CDN vendors;<br />
 (iii) Analytics data from integrated SDKs used for performance measurement or crash reporting (e.g., Firebase, Sentry);<br />
-(iv) Verification context, including metadata or screenshots of messages sent from your public social media account during onboarding, and any verification status or result received from third-party identity validation tools (where applicable).<br />
-(E) Sensitive Personal Information<br />
+(iv) Verification context, including metadata or screenshots of messages sent from your public social media account during onboarding, and any verification status or result received from third-party identity validation tools (where applicable).</p>
+<p>(E) Sensitive Personal Information<br />
 (a) Closerrr does not intentionally collect or require sensitive personal data from Creators, such as biometric identifiers, health records, religious beliefs, or similar special categories under Applicable Law.<br />
-(b) You are advised not to upload, transmit, or disclose such information through the Platform unless expressly requested for a lawful and limited purpose with prior consent.<br />
-4. <strong>Methods of Data Collection:</strong><br />
-(A) Direct Collection from Creator Inputs<br />
+(b) You are advised not to upload, transmit, or disclose such information through the Platform unless expressly requested for a lawful and limited purpose with prior consent.</p>
+<p><strong>4. Methods of Data Collection:</strong></p>
+<p>(A) Direct Collection from Creator Inputs<br />
 (a) Closerrr collects personal data directly from you through deliberate, voluntary submissions made during onboarding, profile configuration, and your use of creator-specific tools and workflows made available on the Platform.<br />
 (b) This may include:<br />
 (i) Information submitted via the official Creator application form hosted on the Closerrr website, such as your full legal name, contact email address, publicly available social media profile links, and any biographical or professional materials provided during application.<br />
@@ -81,31 +81,31 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (iii) Financial and payout-related information submitted by you either during onboarding or in connection with subsequent updates, including but not limited to your account holder name, bank name, account number, and IFSC code (or equivalent).<br />
 (iv) Profile elements manually updated by you post-activation, including display name, profile image, biography text, and other publicly shown attributes editable through creator support channels.<br />
 (v) Content voluntarily uploaded to the Platform by you as part of your Creator activity, such as Stories, photographs, or direct messages, along with embedded metadata such as upload timestamp, media type, format, and filename.<br />
-(vi) Communications submitted by you to Closerrr via email or through official creator support workflows, including support tickets, issue escalations, documentation attachments, clarification emails, or any text, screenshots, or media voluntarily shared in connection with account servicing or policy queries.<br />
-(B) Automated Collection via Technical Monitoring<br />
+(vi) Communications submitted by you to Closerrr via email or through official creator support workflows, including support tickets, issue escalations, documentation attachments, clarification emails, or any text, screenshots, or media voluntarily shared in connection with account servicing or policy queries.</p>
+<p>(B) Automated Collection via Technical Monitoring<br />
 (a) Closerrr passively collects certain categories of Creator-related data through embedded telemetry systems, internal SDKs, and diagnostic modules integrated into the Creator-facing tools of the Platform. Such collection is continuous and occurs during routine interactions with the system.<br />
 (b) This may include:<br />
 (i) Session-related activity logs, such as login time, logout time, dashboard access history, analytic panel visits, and engagement with performance modules.<br />
 (ii) Behavioral data on content publishing and interaction workflows, including upload frequency, publishing timestamps, event scheduling patterns, and deletion or modification activities conducted on your content.<br />
 (iii) Network and platform logs generated through your interaction with the Platform, including IP address, access timestamps, connection status, server response times, HTTP request logs, and general diagnostic indicators.<br />
 (iv) Device and environment data such as your mobile or desktop operating system version, device model, default screen resolution, preferred interface language, and time zone setting.<br />
-(v) Performance logs, error codes, and system-generated crash reports arising from technical failures, API misfires, SDK incompatibilities, or anomalies encountered during Creator tool usage.<br />
-(C) Data Received via Third-Party Integrations<br />
+(v) Performance logs, error codes, and system-generated crash reports arising from technical failures, API misfires, SDK incompatibilities, or anomalies encountered during Creator tool usage.</p>
+<p>(C) Data Received via Third-Party Integrations<br />
 (a) Closerrr may obtain Creator-related data from verified third-party partners, vendors, or embedded infrastructure systems, including external platforms or sub-processors engaged to provide specific backend services.<br />
 (b) This may include:<br />
 (i) Payout-related metadata transmitted by Closerrr’s third-party payment gateway partners or platform-integrated stores, such as transaction confirmation tags, settlement logs, or reconciliation outputs associated with monthly disbursements.<br />
 (ii) Verification result indicators or metadata shared by automated or manual identity confirmation tools, where such tools are used during onboarding or compliance review processes.<br />
 (iii) Usage analytics, content engagement metrics, and dashboard interaction insights derived from integrated SDKs, A/B testing platforms, or cohort tracking tools embedded within the Creator interface.<br />
-(iv) Infrastructure-generated operational logs and metadata from backend components supporting livestream services, media storage pipelines, content delivery modules, or session rendering systems used to optimize feature delivery.<br />
-(D) Data from Social Platforms or Public Profiles<br />
+(iv) Infrastructure-generated operational logs and metadata from backend components supporting livestream services, media storage pipelines, content delivery modules, or session rendering systems used to optimize feature delivery.</p>
+<p>(D) Data from Social Platforms or Public Profiles<br />
 (a) As part of the onboarding and verification process, Closerrr may collect publicly available Creator-related information from the social media accounts or online profiles you submit during application or profile review.<br />
 (b) This may include:<br />
 (i) Metadata obtained from your public social media profiles, such as platform username, profile image, follower count, engagement level, and other publicly visible attributes retrievable via URL submission.<br />
 (ii) Screenshots, outbound links, or message context verifying that you have submitted the required identity confirmation from your most-followed public account to establish authenticity and platform eligibility.<br />
 (iii) Other publicly visible or voluntarily submitted content that may be used solely for verification, safety review, support investigation, or internal moderation assessment in accordance with the Creator Terms and applicable platform policy.</p>
-<p>5. <strong>Purpose of Processing Personal Data:</strong><br />
-(A) Closerrr processes Creator personal data for purposes that are reasonably necessary, proportionate, and directly connected to the operation, administration, optimization, and legal functioning of the Platform. Such processing is carried out in accordance with Applicable Law, and is grounded in legitimate business objectives, contractual obligations, user consent (where applicable), and regulatory compliance mandates. Closerrr does not engage in processing activities that are excessive, unrelated to the stated purpose, or conducted without a valid legal basis.<br />
-(B) The specific purposes for which Creator personal data may be collected, used, stored, disclosed, or otherwise processed include, but are not limited to, the following:<br />
+<p><strong>5. Purpose of Processing Personal Data:</strong></p>
+<p>(A) Closerrr processes Creator personal data for purposes that are reasonably necessary, proportionate, and directly connected to the operation, administration, optimization, and legal functioning of the Platform. Such processing is carried out in accordance with Applicable Law, and is grounded in legitimate business objectives, contractual obligations, user consent (where applicable), and regulatory compliance mandates. Closerrr does not engage in processing activities that are excessive, unrelated to the stated purpose, or conducted without a valid legal basis.</p>
+<p>(B) The specific purposes for which Creator personal data may be collected, used, stored, disclosed, or otherwise processed include, but are not limited to, the following:<br />
 (a) Onboarding, Eligibility Review, and Account Provisioning<br />
 (i) To evaluate your application and determine your eligibility to participate as a Creator on the Platform, including assessment of your public profile, audience metrics, and content suitability;<br />
 (ii) To conduct identity validation and verification checks, including manual review of submitted information, verification messages, and metadata;<br />
@@ -137,11 +137,11 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (h) Public Display, Discovery, and Profile Exposure<br />
 (i) To publicly display your Creator profile, including profile image, display name, and selected metadata, as part of the Closerrr explore section or publicly accessible subscription links;<br />
 (ii) To allow fans to discover, view, and interact with your profile based on their location, interest, or usage behavior;<br />
-(iii) To enhance visibility, personalization, and fan engagement using lawful optimization techniques that do not compromise privacy or exceed consented use.<br />
-(C) Closerrr shall not use Creator personal data for purposes that are incompatible with the above without establishing a new legal basis or obtaining express consent where required. Any secondary or derivative use of personal data, including for internal reporting, anonymized analytics, or aggregate modelling, shall be subject to data minimization, purpose limitation, and proportionality principles as mandated under Applicable Law.<br />
-6. <strong>Lawful Bases for Data Processing:</strong><br />
-(A) All processing of Creator personal data conducted by Closerrr is anchored in at least one lawful basis as recognized under the Information Technology Act, 2000 (as amended), the Digital Personal Data Protection Act, 2023 (“DPDPA”), and other Applicable Law. No data shall be processed unless it is necessary, proportionate, and directly connected to a legitimate, pre-defined purpose, and Closerrr shall not rely on implied or assumed justification in the absence of a valid legal ground.<br />
-(B) The specific legal bases applicable to the processing of Creator personal data, as outlined in Section 5 (Purpose of Data Processing) of this Policy, shall include the following, individually or in combination:<br />
+(iii) To enhance visibility, personalization, and fan engagement using lawful optimization techniques that do not compromise privacy or exceed consented use.</p>
+<p>(C) Closerrr shall not use Creator personal data for purposes that are incompatible with the above without establishing a new legal basis or obtaining express consent where required. Any secondary or derivative use of personal data, including for internal reporting, anonymized analytics, or aggregate modelling, shall be subject to data minimization, purpose limitation, and proportionality principles as mandated under Applicable Law.</p>
+<p><strong>6. Lawful Bases for Data Processing:</strong></p>
+<p>(A) All processing of Creator personal data conducted by Closerrr is anchored in at least one lawful basis as recognized under the Information Technology Act, 2000 (as amended), the Digital Personal Data Protection Act, 2023 (“DPDPA”), and other Applicable Law. No data shall be processed unless it is necessary, proportionate, and directly connected to a legitimate, pre-defined purpose, and Closerrr shall not rely on implied or assumed justification in the absence of a valid legal ground.</p>
+<p>(B) The specific legal bases applicable to the processing of Creator personal data, as outlined in Section 5 (Purpose of Data Processing) of this Policy, shall include the following, individually or in combination:<br />
 (a) Consent<br />
 (i) Certain processing operations—such as participation in optional creator programs, use of advanced analytics tools, or communications for promotional purposes—are carried out based on your explicit, informed, and freely given consent.<br />
 (ii) You retain the right to withdraw such consent at any time, without affecting the lawfulness of processing performed prior to such withdrawal.<br />
@@ -153,11 +153,11 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (d) Legitimate Interests<br />
 (i) Processing that supports platform integrity, content moderation, technical performance analysis, feature development, or internal reporting may be conducted pursuant to Closerrr’s legitimate business interests, provided such processing does not override your fundamental rights and freedoms as a data principal.<br />
 (e) Vital Interests and Public Interest<br />
-(i) In rare and exceptional circumstances, Closerrr may process Creator data to protect the life, health, or safety of any individual, or to respond to tasks carried out in the public interest or pursuant to lawful directions from competent authorities.<br />
-(C) Closerrr undertakes to conduct periodic reviews of all processing operations to ensure continued adherence to the applicable lawful basis, and may revise the declared basis for a given activity where required under a change in law, platform functionality, or regulatory interpretation. Any material change in legal basis will be reflected through appropriate updates to this Policy, subject to the change notification procedures set forth in Section 17 (Changes to This Policy).<br />
-7. <strong>Data Sharing & Disclosure:</strong><br />
-(A) Closerrr does not sell Creator personal data to third parties in the conventional sense. However, in the course of operating, administering, and improving the Platform, Closerrr may disclose certain categories of Creator personal data to authorized third parties under strict legal, contractual, and technical safeguards. All such disclosures shall be made on a need-to-know basis and only to the extent reasonably necessary to fulfill the purposes outlined in this Policy.<br />
-(B) The categories of recipients to whom Closerrr may disclose Creator personal data include the following:<br />
+(i) In rare and exceptional circumstances, Closerrr may process Creator data to protect the life, health, or safety of any individual, or to respond to tasks carried out in the public interest or pursuant to lawful directions from competent authorities.</p>
+<p>(C) Closerrr undertakes to conduct periodic reviews of all processing operations to ensure continued adherence to the applicable lawful basis, and may revise the declared basis for a given activity where required under a change in law, platform functionality, or regulatory interpretation. Any material change in legal basis will be reflected through appropriate updates to this Policy, subject to the change notification procedures set forth in Section 17 (Changes to This Policy).</p>
+<p><strong>7. Data Sharing & Disclosure:</strong></p>
+<p>(A) Closerrr does not sell Creator personal data to third parties in the conventional sense. However, in the course of operating, administering, and improving the Platform, Closerrr may disclose certain categories of Creator personal data to authorized third parties under strict legal, contractual, and technical safeguards. All such disclosures shall be made on a need-to-know basis and only to the extent reasonably necessary to fulfill the purposes outlined in this Policy.</p>
+<p>(B) The categories of recipients to whom Closerrr may disclose Creator personal data include the following:<br />
 (a) Service Providers and Sub-Processors<br />
 (i) Closerrr engages verified third-party service providers (“Processors”) to support the technical, financial, operational, and security infrastructure of the Platform.<br />
 (ii) These may include payment gateways, payout processors, cloud storage platforms, infrastructure vendors, livestream modules, content delivery networks (CDNs), real-time analytics SDKs, and diagnostic service providers.<br />
@@ -183,11 +183,11 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (g) Disclosures to Other Users<br />
 (i) Certain elements of your Creator profile—such as your display name, profile image, biography, and explore link—may be made publicly visible on the Platform for the purposes of fan discovery and subscription access.<br />
 (ii) This includes the display of your name on subscriber invoices and receipts, in accordance with subscription delivery rules and the Creator Terms and Conditions.<br />
-(iii) You acknowledge that such limited disclosures are intrinsic to the structure of the Platform and are necessary for your visibility, earnings, and subscriber interactions.<br />
-(C) All third-party disclosures made by Closerrr are subject to written agreements, audit protocols, and privacy compliance requirements. Closerrr exercises due diligence in selecting partners and regularly evaluates their data handling practices. No third party shall be granted access to Creator data for independent use unless explicitly authorized by Closerrr or required under law.<br />
-8. <strong>Data Retention & Deletion:</strong><br />
-(A) Closerrr retains Creator personal data for only as long as is reasonably necessary to fulfill the purposes for which it was collected, including the provision of Services, the fulfillment of contractual and legal obligations, platform security, audit readiness, moderation review, and dispute resolution. The duration of retention shall vary depending on the nature of the data, the operational context, and the existence of any pending legal, financial, or regulatory requirements.<br />
-(B) The following principles govern Closerrr’s data retention practices with respect to Creator information:<br />
+(iii) You acknowledge that such limited disclosures are intrinsic to the structure of the Platform and are necessary for your visibility, earnings, and subscriber interactions.</p>
+<p>(C) All third-party disclosures made by Closerrr are subject to written agreements, audit protocols, and privacy compliance requirements. Closerrr exercises due diligence in selecting partners and regularly evaluates their data handling practices. No third party shall be granted access to Creator data for independent use unless explicitly authorized by Closerrr or required under law.</p>
+<p><strong>8. Data Retention & Deletion:</strong></p>
+<p>(A) Closerrr retains Creator personal data for only as long as is reasonably necessary to fulfill the purposes for which it was collected, including the provision of Services, the fulfillment of contractual and legal obligations, platform security, audit readiness, moderation review, and dispute resolution. The duration of retention shall vary depending on the nature of the data, the operational context, and the existence of any pending legal, financial, or regulatory requirements.</p>
+<p>(B) The following principles govern Closerrr’s data retention practices with respect to Creator information:<br />
 (a) Operational Necessity and Service Continuity<br />
 (i) Core Creator account data, such as profile details, payout settings, and uploaded content metadata, shall be retained for the duration of your active use of the Platform.<br />
 (ii) Engagement records, subscription analytics, message delivery logs, and feature usage histories may be retained to support performance benchmarking, feature development, and Creator tool enhancement.<br />
@@ -197,23 +197,23 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (ii) Closerrr shall maintain compliance logs, internal decision records, and regulatory correspondence for timeframes mandated by applicable legislation, enforcement proceedings, or litigation contexts.<br />
 (c) Dispute Resolution and Enforcement Defense<br />
 (i) Where a dispute, investigation, or complaint is pending or reasonably anticipated, Closerrr may retain all relevant Creator data—including chat metadata, payout trails, and moderation history—until the matter is conclusively resolved.<br />
-(ii) Retention may also be extended where reasonably necessary to enforce the Creator Terms and Conditions, investigate policy violations, or respond to governmental requests or legal claims.<br />
-(C) Creator-initiated deletion of an account does not result in immediate or automatic erasure of all personal data. The following provisions apply:<br />
+(ii) Retention may also be extended where reasonably necessary to enforce the Creator Terms and Conditions, investigate policy violations, or respond to governmental requests or legal claims.</p>
+<p>(C) Creator-initiated deletion of an account does not result in immediate or automatic erasure of all personal data. The following provisions apply:<br />
 (a) Account Deletion Requests<br />
 (i) Creators may request permanent deletion of their account by submitting a formal request through Closerrr’s support email.<br />
 (ii) Deletion requests are subject to administrative review, and Closerrr reserves the right to deny or defer deletion in cases where payouts are pending, unresolved violations exist, or legal retention requirements remain applicable.<br />
 (iii) If approved, Closerrr shall take commercially reasonable measures to decommission the Creator account and permanently erase associated personal data from active systems, subject to the exceptions in this Section.<br />
 (b) Payout-Linked Retention Periods<br />
 (i) In accordance with Closerrr’s payout rules, if a Creator deletion request is submitted mid-payout cycle or while commissions are still being finalized, Closerrr may delay deletion until all earnings are processed, reconciled, and lawfully disbursed.<br />
-(ii) During this interim period, data related to Creator earnings, content history, and subscriber subscriptions shall remain available to Closerrr’s internal teams for accounting, audit, and resolution purposes.<br />
-(D) Notwithstanding the above, Closerrr may retain residual data in a limited, non-personally identifiable format where:<br />
+(ii) During this interim period, data related to Creator earnings, content history, and subscriber subscriptions shall remain available to Closerrr’s internal teams for accounting, audit, and resolution purposes.</p>
+<p>(D) Notwithstanding the above, Closerrr may retain residual data in a limited, non-personally identifiable format where:<br />
 (a) Such data exists within system backups, replication archives, or disaster recovery snapshots maintained for continuity purposes;<br />
 (b) The data has been subject to anonymization, aggregation, or irreversible pseudonymization that prevents re-identification;<br />
-(c) Legal obligations require continued archival, including for the preservation of evidence or historical audit trail purposes.<br />
-(E) You acknowledge that data deletion may be irreversible and that Closerrr is not obligated to recover deleted data once purging has occurred. You further agree that certain data categories may be retained beyond account termination solely for lawful and limited purposes as expressly defined under this Section and Applicable Law.<br />
-9. <strong>Creator Rights & Data Controls:</strong><br />
-(A) Closerrr recognizes and respects the data protection rights granted to you as a data principal under the Digital Personal Data Protection Act, 2023 (“DPDPA”) and other Applicable Law. As a Creator, you retain control over certain aspects of your personal data processed by Closerrr, subject to the limitations set forth in this Policy and the Creator Terms and Conditions.<br />
-(B) You are entitled to exercise the following rights in relation to your personal data:<br />
+(c) Legal obligations require continued archival, including for the preservation of evidence or historical audit trail purposes.</p>
+<p>(E) You acknowledge that data deletion may be irreversible and that Closerrr is not obligated to recover deleted data once purging has occurred. You further agree that certain data categories may be retained beyond account termination solely for lawful and limited purposes as expressly defined under this Section and Applicable Law.</p>
+<p><strong>9. Creator Rights & Data Controls:</strong></p>
+<p>(A) Closerrr recognizes and respects the data protection rights granted to you as a data principal under the Digital Personal Data Protection Act, 2023 (“DPDPA”) and other Applicable Law. As a Creator, you retain control over certain aspects of your personal data processed by Closerrr, subject to the limitations set forth in this Policy and the Creator Terms and Conditions.</p>
+<p>(B) You are entitled to exercise the following rights in relation to your personal data:<br />
 (a) Right to Access<br />
 (i) You have the right to request and receive a summary of the personal data that Closerrr processes about you, including the categories of data collected, the purposes for which it is used, and any third parties with whom it has been shared.<br />
 (b) Right to Correction (Rectification)<br />
@@ -226,22 +226,22 @@ Please note that this Policy is distinct from the general user-facing Privacy Po
 (i) Where data processing is based solely on your consent, you may withdraw such consent at any time by submitting a request to Closerrr’s support team.<br />
 (ii) Withdrawal of consent shall not affect the lawfulness of any processing carried out prior to such withdrawal and may impact your ability to access certain optional features of the Platform.<br />
 (e) Right to Grievance Redressal<br />
-(i) You have the right to raise a privacy-related concern or objection and to receive a timely and transparent response. Closerrr’s grievance resolution procedures and contact protocols are set forth in Section 16 (Grievance Redressal & Contact Information) of this Policy.<br />
-(C) You may exercise your rights using the following mechanisms:<br />
+(i) You have the right to raise a privacy-related concern or objection and to receive a timely and transparent response. Closerrr’s grievance resolution procedures and contact protocols are set forth in Section 16 (Grievance Redressal & Contact Information) of this Policy.</p>
+<p>(C) You may exercise your rights using the following mechanisms:<br />
 (a) Manual Submission via Email<br />
 (i) To submit a data access, correction, deletion, or withdrawal of consent request, you may contact Closerrr at:<br />
 Email: creatorcare@closerrr.com<br />
 Subject Line: Creator Data Rights Request<br />
-(ii) Please submit requests using the same email ID linked to your Creator account to help us verify your identity and process your request securely.<br />
-(D) Closerrr will take reasonable steps to verify the identity of the requesting party before processing any data rights request. Verified requests shall be responded to within thirty (30) days of receipt, unless extended due to legal complexity or operational constraints. In such cases, Closerrr will provide a written explanation of the delay and the anticipated resolution timeline.<br />
-(E) The rights described above are subject to the following limitations:<br />
+(ii) Please submit requests using the same email ID linked to your Creator account to help us verify your identity and process your request securely.</p>
+<p>(D) Closerrr will take reasonable steps to verify the identity of the requesting party before processing any data rights request. Verified requests shall be responded to within thirty (30) days of receipt, unless extended due to legal complexity or operational constraints. In such cases, Closerrr will provide a written explanation of the delay and the anticipated resolution timeline.</p>
+<p>(E) The rights described above are subject to the following limitations:<br />
 (a) Closerrr may reject or defer requests that are manifestly unfounded, excessive, abusive, duplicative, or legally unjustified.<br />
 (b) Closerrr may retain or restrict deletion of certain data where required by law, for platform integrity, or to fulfill contractual or financial obligations.<br />
 (c) Data correction may be denied where the change requested is unverifiable, misleading, or incompatible with Closerrr’s internal records or compliance systems.<br />
 (d) Closerrr is not responsible for any consequences that may arise from a user’s decision to delete data essential for platform access, monetization, or support.</p>
-<p>10. <strong>Security Measures & Incident Response:</strong><br />
-(A) Closerrr is committed to safeguarding the confidentiality, integrity, and availability of Creator personal data and adopts a layered approach to security. We implement a combination of technical, organizational, and administrative safeguards designed to protect Creator data from unauthorized access, accidental loss, unlawful disclosure, alteration, or destruction. These measures are calibrated based on the nature of the data, the risks associated with its processing, and Closerrr’s obligations under Applicable Law, including the Digital Personal Data Protection Act, 2023 (“DPDPA”).<br />
-(B) The following categories of safeguards are applied across Closerrr’s Creator infrastructure:<br />
+<p><strong>10. Security Measures & Incident Response:</strong></p>
+<p>(A) Closerrr is committed to safeguarding the confidentiality, integrity, and availability of Creator personal data and adopts a layered approach to security. We implement a combination of technical, organizational, and administrative safeguards designed to protect Creator data from unauthorized access, accidental loss, unlawful disclosure, alteration, or destruction. These measures are calibrated based on the nature of the data, the risks associated with its processing, and Closerrr’s obligations under Applicable Law, including the Digital Personal Data Protection Act, 2023 (“DPDPA”).</p>
+<p>(B) The following categories of safeguards are applied across Closerrr’s Creator infrastructure:<br />
 (a) Technical Safeguards<br />
 (i) Closerrr’s backend systems are hosted on secure, cloud-based infrastructure platforms such as Amazon Web Services (AWS), which maintain state-of-the-art physical and network security protocols, including access logging, encryption-at-rest, geo-redundancy, and fault isolation.<br />
 (ii) All data transmitted between Closerrr and your device is encrypted in transit using secure communication protocols (e.g., TLS).<br />
@@ -255,16 +255,16 @@ Subject Line: Creator Data Rights Request<br />
 (c) Creator-Side Security Responsibilities<br />
 (i) As a Creator, you are responsible for maintaining the confidentiality of your login credentials and ensuring that access to your dashboard and payout information is restricted to you alone.<br />
 (ii) You must use strong, unique passwords, avoid sharing account credentials, and log out of Closerrr systems when using shared devices.<br />
-(iii) Closerrr shall not be liable for unauthorized access resulting from credential sharing, device-level compromises, or negligence on your part, subject to Applicable Law.<br />
-(C) Closerrr maintains a documented incident response plan to identify, assess, and remediate actual or suspected security incidents. In the event of a confirmed data breach involving Creator personal data:<br />
+(iii) Closerrr shall not be liable for unauthorized access resulting from credential sharing, device-level compromises, or negligence on your part, subject to Applicable Law.</p>
+<p>(C) Closerrr maintains a documented incident response plan to identify, assess, and remediate actual or suspected security incidents. In the event of a confirmed data breach involving Creator personal data:<br />
 (a) Closerrr shall initiate its internal breach response protocol, including immediate containment, investigation, and root cause analysis.<br />
 (b) If the breach is likely to result in significant harm to you or materially impact your rights under the DPDPA, Closerrr will notify you of the incident at the earliest reasonable opportunity using the contact information on file.<br />
 (c) Where required by Applicable Law, Closerrr will report the breach to the Data Protection Board of India or other competent authority within the prescribed timelines and in the prescribed format.<br />
-(d) Closerrr may temporarily restrict platform access, suspend payout operations, or initiate credential resets to mitigate harm arising from the breach.<br />
-(D) While Closerrr undertakes commercially reasonable efforts to secure Creator data, no platform or online system can guarantee absolute security. You acknowledge that residual risk exists and agree that Closerrr shall not be held liable for security events or data compromises arising from causes beyond its reasonable control, including but not limited to third-party service failures, zero-day exploits, or force majeure incidents.<br />
-11. <strong>Data Storage, Hosting & Cross-Border Transfers:</strong><br />
-(A) Closerrr stores and processes Creator personal data using verified, industry-standard infrastructure providers to ensure service reliability, performance, and scalability. The Company maintains technical and contractual safeguards to protect Creator information throughout its lifecycle, including during storage, transit, access, and archival. The choice of storage architecture and processing location is governed by operational need, availability, and compliance with Applicable Law.<br />
-(B) The following practices apply to Closerrr’s data hosting and infrastructure architecture:<br />
+(d) Closerrr may temporarily restrict platform access, suspend payout operations, or initiate credential resets to mitigate harm arising from the breach.</p>
+<p>(D) While Closerrr undertakes commercially reasonable efforts to secure Creator data, no platform or online system can guarantee absolute security. You acknowledge that residual risk exists and agree that Closerrr shall not be held liable for security events or data compromises arising from causes beyond its reasonable control, including but not limited to third-party service failures, zero-day exploits, or force majeure incidents.</p>
+<p><strong>11. Data Storage, Hosting & Cross-Border Transfers:</strong></p>
+<p>(A) Closerrr stores and processes Creator personal data using verified, industry-standard infrastructure providers to ensure service reliability, performance, and scalability. The Company maintains technical and contractual safeguards to protect Creator information throughout its lifecycle, including during storage, transit, access, and archival. The choice of storage architecture and processing location is governed by operational need, availability, and compliance with Applicable Law.</p>
+<p>(B) The following practices apply to Closerrr’s data hosting and infrastructure architecture:<br />
 (a) Cloud Hosting and Infrastructure Providers<br />
 (i) Closerrr’s Creator data is hosted primarily on secure cloud platforms, including Amazon Web Services (AWS), which maintain globally distributed data centers equipped with advanced physical and environmental controls, including biometric access, video surveillance, disaster recovery systems, and redundancy protocols.<br />
 (ii) These infrastructure providers are subject to contractual data protection obligations and are required to maintain service availability, data durability, and security standards consistent with Closerrr’s compliance framework.<br />
@@ -272,16 +272,16 @@ Subject Line: Creator Data Rights Request<br />
 (b) Ancillary Services and Storage Layers<br />
 (i) Closerrr engages auxiliary hosting and infrastructure vendors to enable livestream processing, media caching, analytics logging, and message rendering across the Platform.<br />
 (ii) These third-party systems may temporarily store Creator content or metadata, including story uploads, thumbnail images, diagnostic logs, or payout-related artifacts, as required to fulfill Platform features or transactional processing.<br />
-(iii) All such vendors operate under Closerrr’s documented instructions and are contractually bound to apply security and retention safeguards aligned with the sensitivity and purpose of the data involved.<br />
-(C) Closerrr does not currently implement region-specific data localization or geographic siloing protocols. Accordingly, personal data, including Creator profile data, analytics, chat metadata, and payout records, may be stored or processed in one or more jurisdictions outside your country of residence.<br />
-(D) Closerrr may transfer Creator data cross-border under the following lawful conditions:<br />
+(iii) All such vendors operate under Closerrr’s documented instructions and are contractually bound to apply security and retention safeguards aligned with the sensitivity and purpose of the data involved.</p>
+<p>(C) Closerrr does not currently implement region-specific data localization or geographic siloing protocols. Accordingly, personal data, including Creator profile data, analytics, chat metadata, and payout records, may be stored or processed in one or more jurisdictions outside your country of residence.</p>
+<p>(D) Closerrr may transfer Creator data cross-border under the following lawful conditions:<br />
 (a) The destination country is recognized by the Government of India as providing an adequate level of data protection; or<br />
 (b) Closerrr has entered into valid contractual safeguards with the receiving entity, such as Standard Contractual Clauses (SCCs) or equivalent international data transfer mechanisms; or<br />
-(c) The transfer is required to perform a contractual obligation to the Creator, or is otherwise permitted by Applicable Law.<br />
-(E) You expressly acknowledge and consent that, in order to provide you with Creator services and fulfill Closerrr’s operational and legal obligations, your data may be transferred to and processed in jurisdictions that may not offer the same level of protection as your home country. Closerrr undertakes to ensure that such transfers are subject to adequate oversight, legal protections, and security controls.</p>
-<p>12. <strong>Tracking Technologies, Analytics & Monitoring:</strong><br />
-(A) Closerrr employs a range of tracking technologies, software development kits (SDKs), diagnostic tools, and behavioral monitoring systems to ensure the secure, efficient, and data-informed operation of the Platform. These mechanisms are used in a proportionate and purpose-limited manner to enable technical performance, analyze usage trends, detect anomalies, support monetization tools, and enhance the overall Creator experience, in compliance with Applicable Law.<br />
-(B) The tracking technologies and analytics mechanisms used in the Creator environment fall within the following functional categories:<br />
+(c) The transfer is required to perform a contractual obligation to the Creator, or is otherwise permitted by Applicable Law.</p>
+<p>(E) You expressly acknowledge and consent that, in order to provide you with Creator services and fulfill Closerrr’s operational and legal obligations, your data may be transferred to and processed in jurisdictions that may not offer the same level of protection as your home country. Closerrr undertakes to ensure that such transfers are subject to adequate oversight, legal protections, and security controls.</p>
+<p><strong>12. Tracking Technologies, Analytics & Monitoring:</strong></p>
+<p>(A) Closerrr employs a range of tracking technologies, software development kits (SDKs), diagnostic tools, and behavioral monitoring systems to ensure the secure, efficient, and data-informed operation of the Platform. These mechanisms are used in a proportionate and purpose-limited manner to enable technical performance, analyze usage trends, detect anomalies, support monetization tools, and enhance the overall Creator experience, in compliance with Applicable Law.</p>
+<p>(B) The tracking technologies and analytics mechanisms used in the Creator environment fall within the following functional categories:<br />
 (a) Essential Tracking Technologies<br />
 (i) These include identifiers and telemetry tools that are strictly necessary to operate the Platform’s creator-specific functionality.<br />
 (ii) Examples include authentication tokens, session IDs, navigation state handlers, and dashboard activity logs that support login continuity, dashboard load state, and payout eligibility calculations.<br />
@@ -296,13 +296,13 @@ Subject Line: Creator Data Rights Request<br />
 (iii) Tracking data may trigger automated flags for potential violations and may be escalated to Closerrr’s moderation or compliance teams for further analysis, subject to confidentiality and internal review policies.<br />
 (d) Performance Optimization and Feature Tuning<br />
 (i) Closerrr uses cohort segmentation tools, A/B testing frameworks, and feedback loop models to assess feature usability, retention patterns, and interaction velocity across different Creator types.<br />
-(ii) These systems support experimentation with dashboard changes, payout visibility logic, or creator analytics visualizations, while adhering to privacy-preserving methodologies and lawful processing grounds.<br />
-(C) Closerrr does not deploy cross-platform or third-party advertising trackers within the Creator interface. All tracking is restricted to internal operational purposes and remains confined to Closerrr-controlled domains and mobile environments. Tracking is not used to build behavioral profiles for third-party commercial purposes.<br />
-(D) Where Applicable Law requires, Closerrr may seek explicit consent for the activation of non-essential tracking technologies in the Creator interface. In such cases, you will be provided with appropriate disclosures and mechanisms to opt in or out, subject to the impact on feature availability and data accuracy.<br />
-(E) You acknowledge that tracking mechanisms are integral to the secure and reliable operation of the Creator Platform. By continuing to use your Creator account, you consent to the use of the above-listed technologies for the lawful purposes described herein, in accordance with this Policy and Closerrr’s obligations under the Digital Personal Data Protection Act, 2023.<br />
-13. <strong>Third-Party Services & Integrations:</strong><br />
-(A) Closerrr engages a controlled set of third-party platforms, infrastructure providers, and embedded service components (“Third-Party Services”) to deliver, monitor, and optimize the Creator-facing tools and functionalities available on the Platform. While these integrations support core Platform operations, Closerrr remains contractually and operationally responsible for ensuring that such services uphold data protection obligations equivalent to those required under Applicable Law.<br />
-(B) The categories of Third-Party Services integrated into the Creator Platform include, but are not limited to, the following:<br />
+(ii) These systems support experimentation with dashboard changes, payout visibility logic, or creator analytics visualizations, while adhering to privacy-preserving methodologies and lawful processing grounds.</p>
+<p>(C) Closerrr does not deploy cross-platform or third-party advertising trackers within the Creator interface. All tracking is restricted to internal operational purposes and remains confined to Closerrr-controlled domains and mobile environments. Tracking is not used to build behavioral profiles for third-party commercial purposes.</p>
+<p>(D) Where Applicable Law requires, Closerrr may seek explicit consent for the activation of non-essential tracking technologies in the Creator interface. In such cases, you will be provided with appropriate disclosures and mechanisms to opt in or out, subject to the impact on feature availability and data accuracy.</p>
+<p>(E) You acknowledge that tracking mechanisms are integral to the secure and reliable operation of the Creator Platform. By continuing to use your Creator account, you consent to the use of the above-listed technologies for the lawful purposes described herein, in accordance with this Policy and Closerrr’s obligations under the Digital Personal Data Protection Act, 2023.</p>
+<p><strong>13. Third-Party Services & Integrations:</strong></p>
+<p>(A) Closerrr engages a controlled set of third-party platforms, infrastructure providers, and embedded service components (“Third-Party Services”) to deliver, monitor, and optimize the Creator-facing tools and functionalities available on the Platform. While these integrations support core Platform operations, Closerrr remains contractually and operationally responsible for ensuring that such services uphold data protection obligations equivalent to those required under Applicable Law.</p>
+<p>(B) The categories of Third-Party Services integrated into the Creator Platform include, but are not limited to, the following:<br />
 (a) Cloud Infrastructure & Hosting Services<br />
 (i) Closerrr relies on globally recognized infrastructure vendors, including cloud hosting providers, content delivery networks (CDNs), and storage systems, to power backend services such as media caching, profile rendering, real-time session processing, and dashboard responsiveness.<br />
 (ii) These vendors are granted access only to the minimum technical data required to perform the assigned function, and all processing is conducted under Closerrr’s documented instructions and audit protocols.<br />
@@ -317,33 +317,33 @@ Subject Line: Creator Data Rights Request<br />
 (ii) All data transmitted through these tools is restricted to the scope of operational servicing, escalation handling, or account verification, and is not retained for independent use by the third-party provider.<br />
 (e) Social Media & Identity Verification Links<br />
 (i) During onboarding, Closerrr may retrieve limited publicly available data from social media platforms (e.g., Instagram) in order to verify Creator identity, validate authenticity, or evaluate public engagement levels.<br />
-(ii) Such data is restricted to metadata voluntarily submitted by you, such as public usernames, follower count, or content links, and is not used for commercial profiling or outbound marketing.<br />
-(C) All Third-Party Services used by Closerrr are subject to written agreements that include confidentiality obligations, purpose limitation, audit rights, and data protection clauses consistent with Applicable Law. Closerrr does not permit such vendors to access or use Creator personal data for independent commercial purposes.<br />
-(D) You acknowledge that your interactions with certain Third-Party Services—such as linking your public social media account or uploading content through third-party hosting pipelines—may be subject to those third parties’ independent terms of service and privacy policies. Closerrr shall not be liable for any misuse, mishandling, or unauthorized disclosure of personal data by such third parties outside Closerrr’s control.<br />
-(E) Closerrr exercises reasonable due diligence when integrating or continuing engagement with any Third-Party Service and regularly reviews vendor compliance to ensure platform alignment with Closerrr’s privacy standards, Creator Terms and Conditions, and statutory obligations.<br />
-14. <strong>Data Breach Notification:</strong><br />
-(A) Closerrr maintains a structured and audited breach response framework designed to detect, contain, and remediate unauthorized access, disclosure, or compromise of Creator personal data. This framework aligns with the requirements of the Digital Personal Data Protection Act, 2023 (“DPDPA”), and applicable data protection principles, and is integrated into Closerrr’s security operations, infrastructure protocols, and incident response playbooks.<br />
-(B) A personal data breach is defined, for the purposes of this Policy, as any unauthorized or accidental access, disclosure, alteration, loss, destruction, or misuse of Creator personal data that compromises its confidentiality, integrity, or availability, whether resulting from internal action or external threat vectors.<br />
-(C) In the event of a confirmed breach involving Creator personal data:<br />
+(ii) Such data is restricted to metadata voluntarily submitted by you, such as public usernames, follower count, or content links, and is not used for commercial profiling or outbound marketing.</p>
+<p>(C) All Third-Party Services used by Closerrr are subject to written agreements that include confidentiality obligations, purpose limitation, audit rights, and data protection clauses consistent with Applicable Law. Closerrr does not permit such vendors to access or use Creator personal data for independent commercial purposes.</p>
+<p>(D) You acknowledge that your interactions with certain Third-Party Services—such as linking your public social media account or uploading content through third-party hosting pipelines—may be subject to those third parties’ independent terms of service and privacy policies. Closerrr shall not be liable for any misuse, mishandling, or unauthorized disclosure of personal data by such third parties outside Closerrr’s control.</p>
+<p>(E) Closerrr exercises reasonable due diligence when integrating or continuing engagement with any Third-Party Service and regularly reviews vendor compliance to ensure platform alignment with Closerrr’s privacy standards, Creator Terms and Conditions, and statutory obligations.</p>
+<p><strong>14. Data Breach Notification:</strong></p>
+<p>(A) Closerrr maintains a structured and audited breach response framework designed to detect, contain, and remediate unauthorized access, disclosure, or compromise of Creator personal data. This framework aligns with the requirements of the Digital Personal Data Protection Act, 2023 (“DPDPA”), and applicable data protection principles, and is integrated into Closerrr’s security operations, infrastructure protocols, and incident response playbooks.</p>
+<p>(B) A personal data breach is defined, for the purposes of this Policy, as any unauthorized or accidental access, disclosure, alteration, loss, destruction, or misuse of Creator personal data that compromises its confidentiality, integrity, or availability, whether resulting from internal action or external threat vectors.</p>
+<p>(C) In the event of a confirmed breach involving Creator personal data:<br />
 (a) Closerrr shall activate its internal breach response protocol, including containment of the affected environment, technical investigation, impact scoping, and risk classification.<br />
 (b) If Closerrr determines that the breach is likely to result in significant harm to the Creator or materially impact your rights under Applicable Law, Closerrr shall notify you at the earliest practicable opportunity using the contact information associated with your Creator account.<br />
 (c) Such notification may include, as appropriate: the nature of the breach, categories of personal data affected, potential consequences, and steps taken to mitigate risk.<br />
-(d) Where required by law, Closerrr shall notify the Data Protection Board of India or other competent authority, including any mandated breach reports, within the timelines prescribed under the DPDPA and other Applicable Law.<br />
-(D) Closerrr reserves the right to withhold public or individual notification in cases where:<br />
+(d) Where required by law, Closerrr shall notify the Data Protection Board of India or other competent authority, including any mandated breach reports, within the timelines prescribed under the DPDPA and other Applicable Law.</p>
+<p>(D) Closerrr reserves the right to withhold public or individual notification in cases where:<br />
 (a) The breach has been contained prior to disclosure, and no material impact on Creator rights or interests is reasonably expected to result;<br />
 (b) Applicable legal exemptions apply (e.g., national security, criminal investigation, or law enforcement suppression); or<br />
-(c) Providing notice would compromise ongoing investigation or mitigation efforts.<br />
-(E) Following containment of a confirmed breach, Closerrr shall:<br />
+(c) Providing notice would compromise ongoing investigation or mitigation efforts.</p>
+<p>(E) Following containment of a confirmed breach, Closerrr shall:<br />
 (a) Complete a root cause analysis and document all technical, organizational, and administrative remedial actions taken;<br />
 (b) Review and, where necessary, amend existing data security practices, access controls, or infrastructure design to prevent recurrence;<br />
-(c) Retain a record of the breach, including all forensic logs, response timelines, notifications issued, and mitigation steps, for audit and compliance review.<br />
-(F) Closerrr shall not be held liable for any harm or loss arising from a personal data breach caused by factors beyond its reasonable control, including but not limited to zero-day vulnerabilities, advanced persistent threats, or breaches caused by third-party service providers acting independently and outside Closerrr’s documented instructions. However, Closerrr undertakes to act in good faith and with commercially reasonable diligence to mitigate such incidents.<br />
-15. <strong>Automated Moderation & Profiling:</strong><br />
-(A) Closerrr utilizes limited forms of automated processing, including behavioral profiling and algorithmic flagging, in order to safeguard the integrity of the Platform, optimize feature functionality, and enhance the Creator experience. All such processing is carried out in a lawful, proportionate, and transparent manner and does not produce legal or similarly significant effects without meaningful human oversight, as required under the Digital Personal Data Protection Act, 2023 (“DPDPA”).<br />
-(B) For the purposes of this Policy:<br />
+(c) Retain a record of the breach, including all forensic logs, response timelines, notifications issued, and mitigation steps, for audit and compliance review.</p>
+<p>(F) Closerrr shall not be held liable for any harm or loss arising from a personal data breach caused by factors beyond its reasonable control, including but not limited to zero-day vulnerabilities, advanced persistent threats, or breaches caused by third-party service providers acting independently and outside Closerrr’s documented instructions. However, Closerrr undertakes to act in good faith and with commercially reasonable diligence to mitigate such incidents.</p>
+<p><strong>15. Automated Moderation & Profiling:</strong></p>
+<p>(A) Closerrr utilizes limited forms of automated processing, including behavioral profiling and algorithmic flagging, in order to safeguard the integrity of the Platform, optimize feature functionality, and enhance the Creator experience. All such processing is carried out in a lawful, proportionate, and transparent manner and does not produce legal or similarly significant effects without meaningful human oversight, as required under the Digital Personal Data Protection Act, 2023 (“DPDPA”).</p>
+<p>(B) For the purposes of this Policy:<br />
 (a) “Automated Decision-Making” refers to decisions made entirely by algorithmic systems or machine logic without direct human involvement, particularly where such decisions impact access, visibility, or enforcement.<br />
-(b) “Profiling” refers to the automated processing of personal data to evaluate, analyze, or predict aspects relating to Creator behavior, content activity, or engagement patterns on the Platform.<br />
-(C) Closerrr may engage in the following types of automated processing with respect to Creator activity:<br />
+(b) “Profiling” refers to the automated processing of personal data to evaluate, analyze, or predict aspects relating to Creator behavior, content activity, or engagement patterns on the Platform.</p>
+<p>(C) Closerrr may engage in the following types of automated processing with respect to Creator activity:<br />
 (a) Content Flagging & Moderation Signals<br />
 (i) Closerrr’s backend systems may flag Creator content (e.g., Stories, images, or descriptions) for review based on predefined technical parameters, behavioral thresholds, or user-reported inputs.<br />
 (ii) Such flags may result in temporary visibility restrictions, internal escalation to moderation teams, or enforcement actions as outlined in the Creator Terms and Conditions.<br />
@@ -354,13 +354,13 @@ Subject Line: Creator Data Rights Request<br />
 (iii) Such profiling is used to inform algorithmic ordering of profiles and does not constitute personalized advertising or monetization manipulation.<br />
 (c) Engagement Pattern Analytics<br />
 (i) Closerrr may process aggregated Creator-level data to understand interaction patterns, such as message response consistency, subscriber churn, session frequency, or dashboard utilization.<br />
-(ii) These metrics may be used to refine dashboard design, improve feature delivery, and support future Platform development initiatives.<br />
-(D) All automated outputs that materially impact Creator visibility, payout eligibility, or account standing are subject to manual review by Closerrr’s compliance or moderation teams prior to any irreversible action. Creators may contest any enforcement decision or platform action by contacting support via the channels described in Section 16 (Grievance Redressal & Contact Information).<br />
-(E) Closerrr does not engage in automated decision-making that produces legal or similarly significant effects without human review. Profiling is used solely for internal optimization and is not shared with advertisers or used for behavioral targeting outside the Closerrr ecosystem.<br />
-(F) Aggregated profiling data, if shared externally (e.g., with analytics vendors or infrastructure partners), shall be de-identified or pseudonymized in accordance with Closerrr’s contractual safeguards and Applicable Law.<br />
-16. <strong>Grievance Redressal & Contact Information:</strong><br />
-(A) Closerrr is committed to upholding the privacy rights of Creators and resolving any grievances arising from the handling of personal data, platform interactions, or automated processing. This section outlines the official grievance redressal mechanism available to you under Applicable Law, including the Digital Personal Data Protection Act, 2023 (“DPDPA”), and Closerrr’s internal policy framework.<br />
-(B) If you have a concern regarding the collection, use, storage, processing, or disclosure of your personal data, or if you wish to report an alleged violation of this Privacy Policy or any related rights, you may submit a formal grievance request to Closerrr using the contact protocol below:<br />
+(ii) These metrics may be used to refine dashboard design, improve feature delivery, and support future Platform development initiatives.</p>
+<p>(D) All automated outputs that materially impact Creator visibility, payout eligibility, or account standing are subject to manual review by Closerrr’s compliance or moderation teams prior to any irreversible action. Creators may contest any enforcement decision or platform action by contacting support via the channels described in Section 16 (Grievance Redressal & Contact Information).</p>
+<p>(E) Closerrr does not engage in automated decision-making that produces legal or similarly significant effects without human review. Profiling is used solely for internal optimization and is not shared with advertisers or used for behavioral targeting outside the Closerrr ecosystem.</p>
+<p>(F) Aggregated profiling data, if shared externally (e.g., with analytics vendors or infrastructure partners), shall be de-identified or pseudonymized in accordance with Closerrr’s contractual safeguards and Applicable Law.</p>
+<p><strong>16. Grievance Redressal & Contact Information:</strong></p>
+<p>(A) Closerrr is committed to upholding the privacy rights of Creators and resolving any grievances arising from the handling of personal data, platform interactions, or automated processing. This section outlines the official grievance redressal mechanism available to you under Applicable Law, including the Digital Personal Data Protection Act, 2023 (“DPDPA”), and Closerrr’s internal policy framework.</p>
+<p>(B) If you have a concern regarding the collection, use, storage, processing, or disclosure of your personal data, or if you wish to report an alleged violation of this Privacy Policy or any related rights, you may submit a formal grievance request to Closerrr using the contact protocol below:<br />
 (a) Designated Contact Email:<br />
 Email: creatorcare@closerrr.com<br />
 Subject Line: <em>Grievance Redressal – \\[Brief Description of Issue\\]</em><br />
@@ -368,33 +368,33 @@ Subject Line: <em>Grievance Redressal – \\[Brief Description of Issue\\]</em><
 (i) Your registered Creator account email address;<br />
 (ii) A clear and concise description of the issue or concern;<br />
 (iii) Any supporting materials, such as screenshots, documentation, or communication records;<br />
-(iv) The specific relief, clarification, or resolution you seek from Closerrr.<br />
-(C) Closerrr shall acknowledge receipt of the grievance within a reasonable period and initiate an internal evaluation of the issue. A substantive response shall be provided within seven (7) working days, unless extended due to complexity, data volume, or the need for interdepartmental coordination. In such cases, Closerrr will notify you of the revised resolution timeline.<br />
-(D) If you are dissatisfied with the resolution provided or fail to receive a response within the applicable timeframe, you may escalate the matter by replying to the same email thread with the subject line: <em>Escalation – Unresolved Creator Privacy Grievance</em>. Closerrr’s internal escalation team shall re-evaluate the matter with oversight from legal and compliance functions, where applicable.<br />
-(E) Where permitted under Applicable Law, you retain the right to lodge a formal complaint with the Data Protection Board of India or any other competent authority if your grievance remains unresolved or if you believe your rights under the DPDPA have been materially violated. However, you are encouraged to exhaust Closerrr’s internal redressal process prior to initiating regulatory escalation.<br />
-(F) For general support inquiries, payout clarifications, or non-privacy platform issues, Creators may contact Closerrr at the same email address using a subject line format such as:<br />
+(iv) The specific relief, clarification, or resolution you seek from Closerrr.</p>
+<p>(C) Closerrr shall acknowledge receipt of the grievance within a reasonable period and initiate an internal evaluation of the issue. A substantive response shall be provided within seven (7) working days, unless extended due to complexity, data volume, or the need for interdepartmental coordination. In such cases, Closerrr will notify you of the revised resolution timeline.</p>
+<p>(D) If you are dissatisfied with the resolution provided or fail to receive a response within the applicable timeframe, you may escalate the matter by replying to the same email thread with the subject line: <em>Escalation – Unresolved Creator Privacy Grievance</em>. Closerrr’s internal escalation team shall re-evaluate the matter with oversight from legal and compliance functions, where applicable.</p>
+<p>(E) Where permitted under Applicable Law, you retain the right to lodge a formal complaint with the Data Protection Board of India or any other competent authority if your grievance remains unresolved or if you believe your rights under the DPDPA have been materially violated. However, you are encouraged to exhaust Closerrr’s internal redressal process prior to initiating regulatory escalation.</p>
+<p>(F) For general support inquiries, payout clarifications, or non-privacy platform issues, Creators may contact Closerrr at the same email address using a subject line format such as:<br />
 Subject Line: <em>Creator Support – \\[Topic\\]</em><br />
-All such communication shall be handled in accordance with Closerrr’s support protocols, confidentiality obligations, and data retention standards.<br />
-17. <strong>Changes to This Policy:</strong><br />
-(A) Closerrr reserves the right to amend, modify, revise, or update this Creator Privacy Policy at any time in order to reflect changes in legal obligations, operational practices, platform features, regulatory developments, or technological advancements. Any such updates shall be governed by the terms set forth in this Section and shall take effect upon publication, unless otherwise stated.<br />
-(B) Policy modifications may include, but are not limited to:<br />
+All such communication shall be handled in accordance with Closerrr’s support protocols, confidentiality obligations, and data retention standards.</p>
+<p><strong>17. Changes to This Policy:</strong></p>
+<p>(A) Closerrr reserves the right to amend, modify, revise, or update this Creator Privacy Policy at any time in order to reflect changes in legal obligations, operational practices, platform features, regulatory developments, or technological advancements. Any such updates shall be governed by the terms set forth in this Section and shall take effect upon publication, unless otherwise stated.</p>
+<p>(B) Policy modifications may include, but are not limited to:<br />
 (a) Clarifications or enhancements to existing language or defined terms;<br />
 (b) Additions or removals of data categories, processing purposes, or lawful bases;<br />
 (c) Revisions to reflect changes in Closerrr’s infrastructure, third-party integrations, or vendor relationships;<br />
-(d) Updates required to comply with amended legislation, regulatory guidelines, or binding directives issued by competent authorities.<br />
-(C) In the event that Closerrr makes any material changes that significantly alter your rights, obligations, or the scope of processing under this Policy, Closerrr shall provide reasonable notice through one or more of the following methods:<br />
+(d) Updates required to comply with amended legislation, regulatory guidelines, or binding directives issued by competent authorities.</p>
+<p>(C) In the event that Closerrr makes any material changes that significantly alter your rights, obligations, or the scope of processing under this Policy, Closerrr shall provide reasonable notice through one or more of the following methods:<br />
 (a) Email notification sent to the contact address associated with your Creator account;<br />
 (b) Platform-based alerts delivered via Creator support channels or web dashboard interface;<br />
-(c) Updated version of the Privacy Policy made accessible through Closerrr’s official website or documentation portal.<br />
-(D) Your continued access to or use of your Creator account following the effective date of any revised version of this Privacy Policy shall constitute your binding acceptance of such changes. If you do not agree with the modified terms, you must immediately cease using the Platform and may request account termination in accordance with Section 8 (Data Retention & Deletion).<br />
-(E) For transparency and recordkeeping, Closerrr shall include a versioning clause at the end of this document that reflects the “Effective Date” and “Last Updated” date of this Policy. Historical versions may be retained by Closerrr for compliance and audit purposes and may be made available upon reasonable written request.<br />
-Effective Date: 20/07/2025<br />
-Last Updated: 20/07/2025<br />
-18. <strong>Governing Law & Jurisdiction:</strong><br />
-(A) This Privacy Policy, including all rights, obligations, and remedies arising under or in connection with the collection, use, disclosure, processing, and retention of Creator personal data, shall be governed by and construed in accordance with the laws of the Republic of India, without regard to its conflict of laws principles.<br />
-(B) All disputes, claims, or proceedings arising out of or relating to this Privacy Policy, including but not limited to matters concerning data protection, digital consent, platform usage, account deletion, or alleged breach of data rights, shall be subject to the exclusive jurisdiction of the courts located in Bhopal, Madhya Pradesh, India.<br />
-(C) You acknowledge and agree that Closerrr shall have the right, but not the obligation, to seek equitable or injunctive relief in any competent jurisdiction to prevent unauthorized use, disclosure, or access to personal data, trade secrets, or confidential business information, without waiving the jurisdiction clause above for other claims.<br />
-(D) The parties agree that all proceedings arising out of or relating to this Privacy Policy shall be conducted in the English language, and that all notices, correspondence, or documentation related to such proceedings shall also be drafted and interpreted in English.<br />
+(c) Updated version of the Privacy Policy made accessible through Closerrr’s official website or documentation portal.</p>
+<p>(D) Your continued access to or use of your Creator account following the effective date of any revised version of this Privacy Policy shall constitute your binding acceptance of such changes. If you do not agree with the modified terms, you must immediately cease using the Platform and may request account termination in accordance with Section 8 (Data Retention & Deletion).</p>
+<p>(E) For transparency and recordkeeping, Closerrr shall include a versioning clause at the end of this document that reflects the “Effective Date” and “Last Updated” date of this Policy. Historical versions may be retained by Closerrr for compliance and audit purposes and may be made available upon reasonable written request.</p>
+<p>Effective Date: 20/07/2025<br />
+Last Updated: 20/07/2025</p>
+<p><strong>18. Governing Law & Jurisdiction:</strong></p>
+<p>(A) This Privacy Policy, including all rights, obligations, and remedies arising under or in connection with the collection, use, disclosure, processing, and retention of Creator personal data, shall be governed by and construed in accordance with the laws of the Republic of India, without regard to its conflict of laws principles.</p>
+<p>(B) All disputes, claims, or proceedings arising out of or relating to this Privacy Policy, including but not limited to matters concerning data protection, digital consent, platform usage, account deletion, or alleged breach of data rights, shall be subject to the exclusive jurisdiction of the courts located in Bhopal, Madhya Pradesh, India.</p>
+<p>(C) You acknowledge and agree that Closerrr shall have the right, but not the obligation, to seek equitable or injunctive relief in any competent jurisdiction to prevent unauthorized use, disclosure, or access to personal data, trade secrets, or confidential business information, without waiving the jurisdiction clause above for other claims.</p>
+<p>(D) The parties agree that all proceedings arising out of or relating to this Privacy Policy shall be conducted in the English language, and that all notices, correspondence, or documentation related to such proceedings shall also be drafted and interpreted in English.<br />
 In the event of any inconsistency, ambiguity, or conflict between this English version and any translated version of the Privacy Policy, the English version shall prevail and control. Creators who are not proficient in English are solely responsible for obtaining appropriate translation or legal advice before relying upon or accepting this Policy.</p>
 `;
 

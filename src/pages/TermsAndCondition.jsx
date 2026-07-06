@@ -2,22 +2,22 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 const htmlContent = `
-<p>1. <strong>Introduction:</strong><br />
-Welcome to Closerrr! These Terms and Conditions (“Terms”) constitute a legally binding agreement between you (“you” or “User”) and Closerrr Interactive Private Limited, a company incorporated under the laws of India (hereinafter referred to as “Closerrr,” “we,” “us,” or “our”), a digital service platform that provides exclusive, subscription-based access to content and interactions with selected public personalities, available through its mobile application, website, and affiliated digital services (collectively, the “Services”).<br />
+<p><strong>1. Introduction:</strong></p>
+<p>Welcome to Closerrr! These Terms and Conditions (“Terms”) constitute a legally binding agreement between you (“you” or “User”) and Closerrr Interactive Private Limited, a company incorporated under the laws of India (hereinafter referred to as “Closerrr,” “we,” “us,” or “our”), a digital service platform that provides exclusive, subscription-based access to content and interactions with selected public personalities, available through its mobile application, website, and affiliated digital services (collectively, the “Services”).<br />
 By accessing, installing, registering for, or otherwise using the Services, you expressly acknowledge that you have read, understood, and agree to be bound by these Terms in their entirety, including any supplemental terms, policies, or documentation referenced herein. If you do not accept or agree to these Terms in full, you are prohibited from accessing or using any portion of the Services and must immediately discontinue all use.<br />
 You further affirm that you are entering into this agreement on your own behalf, or if acting on behalf of an entity or minor (where applicable and permitted by law), that you possess the requisite authority and consent to do so. The Services are provided solely for lawful use by individuals who satisfy the eligibility criteria outlined below. Unauthorized or unlawful use of the Services is strictly prohibited.<br />
-Your continued use of the Services constitutes your ongoing acceptance of these Terms and any modifications thereto. These Terms shall remain in full force and effect for as long as you access or use the Services, and shall survive termination of such use where applicable.<br />
-These Terms also incorporate and constitute Closerrr’s End User License Agreement (“EULA”), which governs your licensed use of the Closerrr mobile application and affiliated digital services. For more information, refer to Section 7 (Software License & Restrictions (EULA)).<br />
-<strong>Eligibility</strong><br />
-Access to and use of the Services is strictly limited to individuals who satisfy all of the following criteria at the time of registration and throughout the duration of their use:<br />
+Your continued use of the Services constitutes your ongoing acceptance of these Terms and any modifications thereto. These Terms shall remain in full force and effect for as long as you access or use the Services, and shall survive termination of such use where applicable.</p>
+<p>These Terms also incorporate and constitute Closerrr’s End User License Agreement (“EULA”), which governs your licensed use of the Closerrr mobile application and affiliated digital services. For more information, refer to Section 7 (Software License & Restrictions (EULA)).</p>
+<p class="custom-heading">Eligibility</p>
+<p>Access to and use of the Services is strictly limited to individuals who satisfy all of the following criteria at the time of registration and throughout the duration of their use:<br />
 (A) You must have attained the minimum legal age required to form a binding contract in your jurisdiction, which shall be no less than thirteen (13) years of age or the equivalent threshold established under applicable local, state, or national law, whichever is higher.<br />
 (B) You must possess the full legal capacity and authority to enter into and be bound by these Terms, and to comply with all applicable laws, rules, and regulations in the jurisdiction from which you access the Services.<br />
 (C) You must not be a person who is barred from using or accessing the Services under the laws of India, the jurisdiction in which you reside, or any other applicable jurisdiction, including (without limitation) by reason of age, criminal record, or sanctions.<br />
 (D) If you are below the age of majority in your jurisdiction of residence, you hereby represent and warrant that you have obtained the explicit, informed, and verifiable consent of a parent or legal guardian to use the Services, and that such consent shall be made available to Closerrr upon reasonable request.<br />
 (E) Closerrr reserves the right, at its sole discretion and without obligation, to request proof of eligibility, including age verification, identity verification, or documentation of parental or guardian consent. Failure to provide satisfactory evidence upon request may result in suspension, restriction, or termination of your access to the Services, without liability.<br />
-Use of the Services in violation of this section shall constitute a material breach of these Terms, and may result in the immediate revocation of your right to access or utilize any portion of the Services.<br />
-<strong>2. Definitions:</strong><br />
-(A) “Account”<br />
+Use of the Services in violation of this section shall constitute a material breach of these Terms, and may result in the immediate revocation of your right to access or utilize any portion of the Services.</p>
+<p><strong>2. Definitions:</strong></p>
+<p>(A) “Account”<br />
 Refers to a registered user profile created on the Platform by an individual, whether as a Subscriber or a Friend, that enables access to and usage of the Services offered by the Company.<br />
 (B) “Applicable Law”<br />
 Means all laws, statutes, rules, regulations, ordinances, and other pronouncements having the effect of law of any governmental authority or regulatory body having jurisdiction over the Platform, the Services, or any party to these Terms, including but not limited to data protection, intellectual property, and consumer protection laws.<br />
@@ -51,136 +51,132 @@ Means a time-bound access to a Friend’s content or features made available on 
 Means this entire legally binding agreement between the Company and the User, including all sections, updates, amendments, annexures, and references incorporated herein.<br />
 (Q) “User,” “You,” or “Your”<br />
 Means any individual accessing or using the Platform or Services, whether as a Subscriber, Friend, or visitor, regardless of whether such access is via paid or unpaid means.<br />
-(R) "Whisper" Means a message sent by a User through the messaging feature of the Services; all references in these Terms to "message," "messaging," or "communication" between Users shall be deemed to include a Whisper.<br />
-3. <strong>Account Registration & Management:</strong><br />
-(A) Account Creation and Accuracy of Information<br />
+(R) "Whisper" Means a message sent by a User through the messaging feature of the Services; all references in these Terms to "message," "messaging," or "communication" between Users shall be deemed to include a Whisper.</p>
+<p><strong>3. Account Registration & Management:</strong></p>
+<p>(A) Account Creation and Accuracy of Information<br />
 (a) In order to access and utilize the Services, Users are required to register for an account by submitting accurate, current, and complete information, including (but not limited to) a valid email address, a user-selected nickname, and a secure password.<br />
 (b) Users may be permitted to add supplementary profile details for personalization purposes.<br />
-(c) By registering, you represent and warrant that all information provided during the registration process is truthful, accurate, and not misleading.<br />
-(B) Account Credentials and Security Obligations<br />
+(c) By registering, you represent and warrant that all information provided during the registration process is truthful, accurate, and not misleading.</p>
+<p>(B) Account Credentials and Security Obligations<br />
 (a) You are solely and exclusively responsible for maintaining the confidentiality and integrity of your account credentials, including passwords, authentication methods, and recovery settings.<br />
 (b) You acknowledge that any activity conducted through your account shall be deemed to have been undertaken by you, regardless of whether such activity was authorized by you or a third party.<br />
 (c) You agree to immediately notify Closerrr at \\[hello@closerrr.com\\] of any actual or suspected unauthorized access, use, or security breach concerning your account.<br />
-(d) Closerrr shall not be liable for any losses, damages, liabilities, or claims arising from your failure to secure your account credentials.<br />
-(C) Prohibited Account Activities<br />
+(d) Closerrr shall not be liable for any losses, damages, liabilities, or claims arising from your failure to secure your account credentials.</p>
+<p>(C) Prohibited Account Activities<br />
 (a) You expressly agree not to engage in any of the following activities:<br />
 (i) Creating or maintaining more than one account per individual for the purpose of manipulation, circumvention of rules, or other deceptive or abusive purposes;<br />
 (ii) Selling, renting, transferring, sublicensing, or assigning your account or any access credentials to any third party, whether for commercial or non-commercial purposes;<br />
 (iii) Impersonating, misrepresenting, or falsely presenting yourself as another person, Friend, organization, or entity;<br />
-(iv) Registering an account using false information, or for the purpose of evading prior bans, suspensions, or violations.<br />
-(D) Rights Reserved by Closerrr<br />
+(iv) Registering an account using false information, or for the purpose of evading prior bans, suspensions, or violations.</p>
+<p>(D) Rights Reserved by Closerrr<br />
 (a) Closerrr reserves the unilateral right, without prior notice or liability, to:<br />
 (i) Suspend, restrict, or terminate your account and access to the Services for violations of these Terms, suspected fraudulent activity, or behavior detrimental to the platform's integrity;<br />
 (ii) Reclaim or deactivate usernames or nicknames deemed inappropriate, misleading, or in violation of third-party rights;<br />
 (iii) Implement account verification procedures at any time, including (but not limited to) email verification, device authentication, or identity checks.<br />
 (b) The creation and use of a Closerrr account constitutes acceptance of these Terms in full.<br />
 (c) All account-related decisions made by Closerrr shall be final, binding, and exercised in its sole discretion.</p>
-<p>4. <strong>Subscription & Payment:</strong><br />
-(A) Subscription Structure<br />
+<p><strong>4. Subscription & Payment:</strong></p>
+<p>(A) Subscription Structure<br />
 (a) Access to exclusive content, features, and communication tools on the Closerrr platform is provisioned solely through paid subscription plans associated with individual Friends (as defined elsewhere herein). The standard subscription price applicable to each Friend profile is ₹349 (INR) per calendar month, unless otherwise expressly modified through in-app promotional mechanisms or limited-term adjustments determined at the sole discretion of Closerrr.<br />
-(b) All subscriptions shall be activated immediately upon successful completion of payment processing and are structured on an automatically renewing monthly cycle, subject to applicable taxes and transaction fees, unless otherwise suspended, cancelled, or terminated in accordance with these Terms.<br />
-(B) Automatic Renewal and User-Initiated Cancellation<br />
+(b) All subscriptions shall be activated immediately upon successful completion of payment processing and are structured on an automatically renewing monthly cycle, subject to applicable taxes and transaction fees, unless otherwise suspended, cancelled, or terminated in accordance with these Terms.</p>
+<p>(B) Automatic Renewal and User-Initiated Cancellation<br />
 (a) Subscriptions shall renew automatically on a monthly basis, and the applicable subscription fee shall be charged to the payment method on file on the renewal date unless the User has cancelled the subscription prior to such renewal.<br />
 (b) Cancellation of an active subscription must be executed through the in-app interface by navigating to Settings > Friends > Selecting the relevant Friend > Clicking “Remove Friend.” Cancellations are effective at the conclusion of the current billing cycle; no pro-rata refunds will be issued.<br />
 (c) Upon cancellation, the User shall retain access to the subscribed Friend’s content and features until the conclusion of the existing billing period.<br />
 (d) After the billing period concludes, the User shall enter a grace continuation window of seven (7) calendar days during which the subscription may be reinstated without forfeiture of associated user data or Closerrr Streak (a feature defined elsewhere herein).<br />
-(e) Failure to resubscribe within said continuation period shall result in irreversible deletion of all data, subscription history, and the Closerrr Streak associated with that Friend.<br />
-(C) No Refund Policy<br />
+(e) Failure to resubscribe within said continuation period shall result in irreversible deletion of all data, subscription history, and the Closerrr Streak associated with that Friend.</p>
+<p>(C) No Refund Policy<br />
 (a) All subscription transactions, once processed, shall be deemed final and non-refundable under any circumstances, including but not limited to premature cancellation, unintentional renewal, duplicate subscription, or changes in User intent.<br />
 (b) Users are solely responsible for managing renewal settings and payment authorizations. Closerrr disclaims all liability for charges resulting from User inaction, mismanagement, or oversight.<br />
 (c) In the event of Friend account deletion, suspension, or removal of content by a Friend or by Closerrr for any reason—including but not limited to Terms violations, inactivity, or voluntary departure—no refund shall be issued to any associated subscribers.<br />
 (d) Subscription fees are strictly non-transferrable, non-deferrable, and not subject to future service credit or exchange.<br />
 (e) Closerrr reserves the unilateral right to adjust subscription fees, billing schedules, and payment mechanisms, with reasonable prior notice provided via in-app notification or other communication channels, and continued use of the Service following such changes shall constitute acceptance thereof.</p>
-<p>5. <strong>User Conduct & Restrictions:</strong><br />
-(A) As a condition precedent to continued access and usage of the Services, you expressly agree to conduct yourself in a lawful, respectful, and non-disruptive manner at all times. You further acknowledge that your interactions—whether with other Users, Friends, or the platform itself—must remain in strict compliance with these Terms and all applicable legal, regulatory, and ethical standards.<br />
-(B) You shall not, directly or indirectly, engage in or facilitate any of the following prohibited behaviors, including but not limited to:<br />
+<p><strong>5. User Conduct & Restrictions:</strong></p>
+<p>(A) As a condition precedent to continued access and usage of the Services, you expressly agree to conduct yourself in a lawful, respectful, and non-disruptive manner at all times. You further acknowledge that your interactions—whether with other Users, Friends, or the platform itself—must remain in strict compliance with these Terms and all applicable legal, regulatory, and ethical standards.</p>
+<p>(B) You shall not, directly or indirectly, engage in or facilitate any of the following prohibited behaviors, including but not limited to:<br />
 (i) Harassment, defamation, intimidation, threats, or abuse of any individual or entity, whether by message, media, or conduct.<br />
 (ii) Misrepresentation of your identity, including impersonating other Users, Friends, representatives of Closerrr, or third-party persons or organizations.<br />
 (iii) Unauthorized reproduction, public sharing, redistribution, or commercial exploitation of any content, media, or communication originating from Friends or the platform, including screenshots, recordings, or reposts.<br />
 (iv) Deployment of malicious software, bots, automation tools, or scripts with the intent to manipulate platform behavior, access unauthorized content, or interfere with service integrity.<br />
 (v) Use of the Services in connection with activities that are unlawful, exploitative, defamatory, obscene, fraudulent, or otherwise violate applicable statutes or community norms.<br />
 (vi) Engagement in spam, phishing, deceptive practices, or schemes that may mislead or exploit other Users or Friends.<br />
-(vii) Violation or attempted circumvention of any copyright, trademark, trade secret, or other intellectual property rights of Closerrr, Friends, or third parties.<br />
-(C) Closerrr reserves the unilateral right to investigate, restrict, suspend, or permanently terminate access to any account or User it reasonably believes to be engaging in or facilitating conduct inconsistent with the above restrictions, with or without prior notice, and without any obligation to disclose the basis or evidence thereof.<br />
-(D) Users acknowledge that enforcement actions taken under this section are final and binding, and that Closerrr shall not be liable for any resulting loss of access, data, or subscription value arising from disciplinary actions deemed necessary in its sole discretion to preserve platform safety, integrity, and user trust.<br />
-(E) Messaging & Interaction Limits<br />
+(vii) Violation or attempted circumvention of any copyright, trademark, trade secret, or other intellectual property rights of Closerrr, Friends, or third parties.</p>
+<p>(C) Closerrr reserves the unilateral right to investigate, restrict, suspend, or permanently terminate access to any account or User it reasonably believes to be engaging in or facilitating conduct inconsistent with the above restrictions, with or without prior notice, and without any obligation to disclose the basis or evidence thereof.</p>
+<p>(D) Users acknowledge that enforcement actions taken under this section are final and binding, and that Closerrr shall not be liable for any resulting loss of access, data, or subscription value arising from disciplinary actions deemed necessary in its sole discretion to preserve platform safety, integrity, and user trust.</p>
+<p>(E) Messaging & Interaction Limits<br />
 Your ability to interact with Friends on the Platform, including through private messages and story replies, is subject to certain limitations designed to ensure quality and fairness in engagement. For each individual Friend you are subscribed to, you may send up to three (3) messages per twenty-four (24) hour period, with each message limited to one hundred (100) characters.<br />
 This per-Friend limit applies cumulatively to all forms of communication within the Platform, including but not limited to:<br />
 (a) Direct messages initiated by you, and<br />
 (b) Replies to Friend stories posted within the Platform.<br />
 Exceeding this limit for a specific Friend will result in temporary restriction on further messaging to that Friend until the reset period elapses. These limits are enforced uniformly and are not bypassable by uninstalling, logging out, or attempting to message via story replies.</p>
-<p>6. <strong>Content Ownership & Usage:</strong><br />
-(A) User-Generated Content<br />
+<p><strong>6. Content Ownership & Usage:</strong></p>
+<p>(A) User-Generated Content<br />
 (a) You acknowledge and agree that any material, communication, data, text, images, audio, video, feedback, or other content ("User Content") voluntarily submitted, transmitted, or posted by you on or through the Services shall remain your sole responsibility. You shall bear full legal and reputational accountability for all such content, regardless of its visibility, duration, or intended audience.<br />
 (b) By submitting or posting User Content on Closerrr, you expressly grant the Company and its designated affiliates a non-exclusive, worldwide, royalty-free, perpetual, irrevocable, transferable, and sublicensable license to host, store, reproduce, distribute, archive, analyze, use, or otherwise process such content for the purpose of operating, maintaining, improving, securing, auditing, analyzing, or enhancing the Services, or for other internal and lawful business purposes. Such license shall survive the termination of your account or cessation of use of the Services.<br />
 (c) You further acknowledge and consent to the potential retention of your content, metadata, and associated usage patterns on the Company’s infrastructure or with authorized processors or subprocessors beyond the lifecycle of your account, including post-deletion periods, where such retention is deemed necessary for operational continuity, fraud mitigation, legal compliance, dispute resolution, investigative support, or long-term strategic analysis, in accordance with our Privacy Policy.<br />
-(d) You authorize the Company to disclose, transfer, or share User Content with carefully vetted third-party service providers, contractors, auditors, data processors, or strategic partners, provided that such entities are bound by confidentiality obligations and process data solely for purposes consistent with platform functionality, security enhancement, user protection, lawful cooperation, or service delivery optimization. In all such cases, such transfers shall comply with applicable legal, contractual, and jurisdictional requirements governing data protection and privacy.<br />
-(B) Friend Content & Restrictions<br />
+(d) You authorize the Company to disclose, transfer, or share User Content with carefully vetted third-party service providers, contractors, auditors, data processors, or strategic partners, provided that such entities are bound by confidentiality obligations and process data solely for purposes consistent with platform functionality, security enhancement, user protection, lawful cooperation, or service delivery optimization. In all such cases, such transfers shall comply with applicable legal, contractual, and jurisdictional requirements governing data protection and privacy.</p>
+<p>(B) Friend Content & Restrictions<br />
 (a) All original content, including but not limited to text, messages, audio, video, images, media, and digital communications made available on the Services by individuals designated as “Friends” shall remain the sole and exclusive intellectual property of the respective Friend, unless otherwise expressly agreed in writing. You shall obtain no ownership, license, or exploitation rights therein by virtue of subscription or platform access.<br />
 (b) As a subscriber, you are granted a limited, revocable, non-transferable, non-sublicensable license to view and interact with such content strictly within the Closerrr platform. You are expressly prohibited from engaging in the following activities without prior written authorization from the rights holder and/or the Company:<br />
 (i) Reproduction, redistribution, republication, modification, public display, broadcast, or external sharing of such content on any medium or channel, whether online or offline.<br />
 (ii) Capturing, recording, duplicating, storing, archiving, or disseminating content via screenshots, screen recordings, downloads, third-party tools, or any analogous method.<br />
-(c) Any unauthorized access to, duplication of, or distribution of Friend Content may constitute a material breach of these Terms and may subject the User to civil liability, platform expulsion, or criminal prosecution under applicable intellectual property and anti-piracy statutes. The Company reserves the right to cooperate with law enforcement or assert legal claims in furtherance of protecting its proprietary and partner content.<br />
-<strong>7. Software License & Restrictions (EULA):</strong><br />
-This section constitutes Closerrr’s End User License Agreement (EULA), governing your licensed use of the Closerrr mobile application (the “App”), website, and any other affiliated digital services provided by Closerrr (collectively, the “Services”).<br />
-(A) Limited License Grant<br />
+(c) Any unauthorized access to, duplication of, or distribution of Friend Content may constitute a material breach of these Terms and may subject the User to civil liability, platform expulsion, or criminal prosecution under applicable intellectual property and anti-piracy statutes. The Company reserves the right to cooperate with law enforcement or assert legal claims in furtherance of protecting its proprietary and partner content.</p>
+<p><strong>7. Software License & Restrictions (EULA):</strong></p>
+<p>This section constitutes Closerrr’s End User License Agreement (EULA), governing your licensed use of the Closerrr mobile application (the “App”), website, and any other affiliated digital services provided by Closerrr (collectively, the “Services”).</p>
+<p>(A) Limited License Grant<br />
 (a) Subject to your ongoing and full compliance with these Terms, Closerrr grants you a limited, non-exclusive, non-transferable, non-sublicensable, and revocable license to:<br />
 (i) Download, install, and use the App on a compatible mobile device you own or control, solely for your personal, non-commercial use.<br />
 (ii) Access and use the Closerrr website and affiliated digital Services exclusively for personal, non-commercial interaction with the platform’s features and content.<br />
-(b) This license is provided solely to enable your lawful access and use of the Services as made available by Closerrr in accordance with these Terms.<br />
-(B) Ownership and Reservation of Rights<br />
+(b) This license is provided solely to enable your lawful access and use of the Services as made available by Closerrr in accordance with these Terms.</p>
+<p>(B) Ownership and Reservation of Rights<br />
 (a) The App, the Services, and all related software, source code, content, design elements, interfaces, features, and other technology are and shall remain the exclusive intellectual property of Closerrr or its licensors, protected under applicable intellectual property laws.<br />
-(b) Except for the limited license expressly granted above, no rights, title, or interest in or to the App or Services are transferred to you. All rights not expressly granted are reserved by Closerrr.<br />
-(C) Restrictions on Use<br />
+(b) Except for the limited license expressly granted above, no rights, title, or interest in or to the App or Services are transferred to you. All rights not expressly granted are reserved by Closerrr.</p>
+<p>(C) Restrictions on Use<br />
 You agree not to, and shall not permit any third party to:<br />
 (a) Copy, modify, translate, adapt, create derivative works from, publicly display, perform, republish, or otherwise reproduce any portion of the App or Services, except as explicitly permitted by law or by these Terms.<br />
 (b) Reverse engineer, decompile, disassemble, or attempt to derive the source code of the App or Services.<br />
 (c) Rent, lease, sell, sublicense, assign, distribute, or commercially exploit the App or Services or any access credentials.<br />
 (d) Use the App or Services for any illegal, harmful, infringing, or unauthorized purpose, including any activity that violates the rights of others.<br />
-(e) Bypass, disable, or interfere with any security-related features, access controls, or usage restrictions within the App or Services.<br />
-(D) Updates and Modifications<br />
+(e) Bypass, disable, or interfere with any security-related features, access controls, or usage restrictions within the App or Services.</p>
+<p>(D) Updates and Modifications<br />
 (a) Closerrr may issue updates, upgrades, patches, bug fixes, enhancements, or new versions of the App or Services periodically, which may install automatically or require manual installation.<br />
-(b) Continued access to or functionality of the Services may require the installation of such updates, and Closerrr shall not be liable for any disruption resulting from failure to install required updates.<br />
-(E) Termination of License<br />
+(b) Continued access to or functionality of the Services may require the installation of such updates, and Closerrr shall not be liable for any disruption resulting from failure to install required updates.</p>
+<p>(E) Termination of License<br />
 (a) This license remains in effect for the duration of your active account and full compliance with these Terms, unless terminated earlier by you or Closerrr.<br />
 (b) Closerrr may terminate this license immediately, without prior notice, in the event of any breach of these Terms, prohibited conduct, or cessation of the Services.<br />
-(c) Upon termination, you must promptly cease use of the App and Services and delete all copies of the App from your devices.<br />
-8. <strong>Privacy & Security:</strong><br />
-(A) The Company places substantial emphasis on the safeguarding of user data and implements commercially reasonable technical, organizational, and administrative security measures designed to preserve the integrity, confidentiality, and availability of personal information submitted or generated by you in connection with your use of the Services. You acknowledge and expressly consent to the Company’s ongoing collection, retention, processing, storage, aggregation, analysis, and lawful disclosure of personal, transactional, behavioral, and device-level information, including but not limited to:<br />
+(c) Upon termination, you must promptly cease use of the App and Services and delete all copies of the App from your devices.</p>
+<p><strong>8. Privacy & Security:</strong></p>
+<p>(A) The Company places substantial emphasis on the safeguarding of user data and implements commercially reasonable technical, organizational, and administrative security measures designed to preserve the integrity, confidentiality, and availability of personal information submitted or generated by you in connection with your use of the Services. You acknowledge and expressly consent to the Company’s ongoing collection, retention, processing, storage, aggregation, analysis, and lawful disclosure of personal, transactional, behavioral, and device-level information, including but not limited to:<br />
 (a) Identifying account credentials, payment-related metadata, subscription preferences, login timestamps, device information, and any associated user profile data;<br />
 (b) Interaction logs, in-app activity metrics, message histories (including metadata), session durations, navigation patterns, and other behavioral telemetry or usage analytics captured via the Services;<br />
 (c) Application-layer security data including IP logs, cryptographic tokens, session identifiers, anomaly detection flags, and other telemetry collected for the purpose of authentication, fraud mitigation, abuse prevention, and threat detection.<br />
-All such data shall be handled in accordance with the Company’s prevailing \\[Privacy Policy\\], as updated from time to time, and shall be processed solely for purposes that are necessary, proportionate, and consistent with Closerrr’s operational, contractual, regulatory, analytical, or legal obligations.<br />
-(B) By accessing or utilizing the Services, you hereby acknowledge, affirm, and provide your explicit and informed consent to the Company’s data practices as articulated herein and in the Privacy Policy. You further waive any claim, assertion, or entitlement inconsistent with such practices, and agree that your continued use of the Services shall constitute conclusive evidence of your ongoing consent. The Company disclaims all liability arising from third-party interception, unauthorized access, or other incidents beyond its reasonable control, provided that commercially reasonable security practices were in place at the time of such occurrence.</p>
-<p>9. <strong>Cancellation & Data Retention:</strong><br />
-(A) You may initiate the deletion of your Closerrr account at any time through the designated in-app process. Upon confirmation of account deletion, the Company shall effectuate the removal of your personal data and account-related information from its active, production-level environments. Such deletion shall be irreversible, and restoration of the deleted account or its associated data shall not be technically or contractually feasible.<br />
-(B) Notwithstanding the foregoing, the Company reserves the right—and you expressly consent to its authority—to retain and archive certain categories of data (including, but not limited to, transactional records, metadata, logs, usage patterns, and limited user identifiers) beyond the point of account deletion or subscription cancellation. Such retention shall be strictly for legitimate purposes including but not limited to internal audits, fraud mitigation, operational integrity, dispute resolution, regulatory compliance, historical analysis, security monitoring, or other lawful and commercially necessary functions. All data retained under this clause shall be processed in accordance with applicable data protection statutes and the Privacy Policy in effect at the time of collection.<br />
-(C) Cancellation of a subscription shall not be construed as or result in deletion of the associated user account. In the event of subscription termination, the following conditions shall apply:<br />
+All such data shall be handled in accordance with the Company’s prevailing \\[Privacy Policy\\], as updated from time to time, and shall be processed solely for purposes that are necessary, proportionate, and consistent with Closerrr’s operational, contractual, regulatory, analytical, or legal obligations.</p>
+<p>(B) By accessing or utilizing the Services, you hereby acknowledge, affirm, and provide your explicit and informed consent to the Company’s data practices as articulated herein and in the Privacy Policy. You further waive any claim, assertion, or entitlement inconsistent with such practices, and agree that your continued use of the Services shall constitute conclusive evidence of your ongoing consent. The Company disclaims all liability arising from third-party interception, unauthorized access, or other incidents beyond its reasonable control, provided that commercially reasonable security practices were in place at the time of such occurrence.</p>
+<p><strong>9. Cancellation & Data Retention:</strong></p>
+<p>(A) You may initiate the deletion of your Closerrr account at any time through the designated in-app process. Upon confirmation of account deletion, the Company shall effectuate the removal of your personal data and account-related information from its active, production-level environments. Such deletion shall be irreversible, and restoration of the deleted account or its associated data shall not be technically or contractually feasible.</p>
+<p>(B) Notwithstanding the foregoing, the Company reserves the right—and you expressly consent to its authority—to retain and archive certain categories of data (including, but not limited to, transactional records, metadata, logs, usage patterns, and limited user identifiers) beyond the point of account deletion or subscription cancellation. Such retention shall be strictly for legitimate purposes including but not limited to internal audits, fraud mitigation, operational integrity, dispute resolution, regulatory compliance, historical analysis, security monitoring, or other lawful and commercially necessary functions. All data retained under this clause shall be processed in accordance with applicable data protection statutes and the Privacy Policy in effect at the time of collection.</p>
+<p>(C) Cancellation of a subscription shall not be construed as or result in deletion of the associated user account. In the event of subscription termination, the following conditions shall apply:<br />
 (a) Your access to the subscribed Friend’s content shall remain intact through the conclusion of the active billing cycle, as determined by your original subscription timestamp.<br />
 (b) Upon expiration of said billing cycle, you shall be entitled to a limited, non-renewable grace period of seven (7) calendar days (“Continuation Period”) during which you may reactivate the subscription to the same Friend without loss of access history, content continuity, or Closerrr Streak.<br />
-(c) If, upon the lapse of the Continuation Period, you have not re-subscribed, the Company shall have the right to permanently and irreversibly expunge all content access rights, subscription-related metadata, and any active elements of the Closerrr Streak from your account. You hereby acknowledge and accept that such deletion is final and non-recoverable, and that Closerrr shall not be liable for any perceived loss, inconvenience, or interruption resulting therefrom.<br />
-(D) Nothing in this Section shall be construed to override the Company’s data retention obligations under applicable law, including but not limited to lawful holds, regulatory requirements, or security audits. Retained data, if any, shall be restricted in access and used solely for compliance and operational purposes.<br />
-(E) Termination of Friend Account<br />
-In the event that a Friend you are subscribed to is suspended, removed, or voluntarily deletes their account, your subscription will not renew. However, your access to their existing content and chat history will remain active until the end of your current billing cycle. Upon conclusion of that billing cycle, all data tied to that subscription—including your Closerrr Streak and chat history with that Friend—shall be permanently deleted from the user-facing platform. Such data may continue to be retained in anonymized or archived form strictly for compliance or operational integrity. No refunds shall be issued for the remainder of the billing cycle, as outlined in Section 4(C).<br />
-(F) Account Deletion Impact on Subscriptions<br />
-Upon user-initiated account deletion, all active subscriptions shall be immediately terminated without refund, and all associated user data—including messages, chats, and any active Closerrr Streaks—shall be rendered inaccessible and permanently deleted. Users are advised to cancel any ongoing subscriptions prior to account deletion if they wish to manage their billing separately.<br />
-10. <strong>Third-Party Services & Links:</strong><br />
-(A) The Services may incorporate, integrate, or rely upon third-party platforms, vendors, APIs, systems, or providers for the purpose of enabling functionality including, but not limited to, payment processing, analytics tracking, cloud storage, media delivery, communication infrastructure, advertising services, or other technical and operational dependencies (“Third-Party Services”). You acknowledge and agree that the availability, reliability, or performance of such Third-Party Services are not within the direct control of the Company, and the Company disclaims any and all warranties, express or implied, in connection therewith.<br />
-(B) The Platform may display, embed, or make accessible hyperlinks, promotional placements, or references to third-party websites, applications, content, products, or services, whether through system integrations or through content voluntarily posted or shared by Friends or other users. Any such references or links shall not constitute or imply any form of sponsorship, recommendation, verification, or endorsement by the Company, unless explicitly stated in writing.<br />
-(C) The Company shall not be held liable for, and expressly disclaims any responsibility arising out of or relating to, any disputes, damages, losses, costs, technical failures, service defects, unauthorized disclosures, breaches, or adverse consequences incurred by you as a result of your interaction with, access to, reliance on, or use of any third-party links, services, content, or platforms, including those displayed or distributed within the Services by Friends or other users. You access such third-party content entirely at your own discretion and risk and are encouraged to independently review the applicable terms and privacy practices of such external services prior to any engagement.<br />
-(D) The Company does not and cannot exercise control over the manner in which third-party service providers collect, store, use, retain, disclose, or otherwise process personal data. Your interactions with such providers are governed solely by their respective terms of service and privacy policies. The Company disclaims any responsibility for unauthorized access, loss of data, or misuse of personal information by third parties, whether or not such providers were integrated or accessible via the Services.</p>
-<br/>
+(c) If, upon the lapse of the Continuation Period, you have not re-subscribed, the Company shall have the right to permanently and irreversibly expunge all content access rights, subscription-related metadata, and any active elements of the Closerrr Streak from your account. You hereby acknowledge and accept that such deletion is final and non-recoverable, and that Closerrr shall not be liable for any perceived loss, inconvenience, or interruption resulting therefrom.</p>
+<p>(D) Nothing in this Section shall be construed to override the Company’s data retention obligations under applicable law, including but not limited to lawful holds, regulatory requirements, or security audits. Retained data, if any, shall be restricted in access and used solely for compliance and operational purposes.</p>
+<p>(E) Termination of Friend Account<br />
+In the event that a Friend you are subscribed to is suspended, removed, or voluntarily deletes their account, your subscription will not renew. However, your access to their existing content and chat history will remain active until the end of your current billing cycle. Upon conclusion of that billing cycle, all data tied to that subscription—including your Closerrr Streak and chat history with that Friend—shall be permanently deleted from the user-facing platform. Such data may continue to be retained in anonymized or archived form strictly for compliance or operational integrity. No refunds shall be issued for the remainder of the billing cycle, as outlined in Section 4(C).</p>
+<p>(F) Account Deletion Impact on Subscriptions<br />
+Upon user-initiated account deletion, all active subscriptions shall be immediately terminated without refund, and all associated user data—including messages, chats, and any active Closerrr Streaks—shall be rendered inaccessible and permanently deleted. Users are advised to cancel any ongoing subscriptions prior to account deletion if they wish to manage their billing separately.</p>
+<p><strong>10. Third-Party Services & Links:</strong></p>
+<p>(A) The Services may incorporate, integrate, or rely upon third-party platforms, vendors, APIs, systems, or providers for the purpose of enabling functionality including, but not limited to, payment processing, analytics tracking, cloud storage, media delivery, communication infrastructure, advertising services, or other technical and operational dependencies (“Third-Party Services”). You acknowledge and agree that the availability, reliability, or performance of such Third-Party Services are not within the direct control of the Company, and the Company disclaims any and all warranties, express or implied, in connection therewith.</p>
+<p>(B) The Platform may display, embed, or make accessible hyperlinks, promotional placements, or references to third-party websites, applications, content, products, or services, whether through system integrations or through content voluntarily posted or shared by Friends or other users. Any such references or links shall not constitute or imply any form of sponsorship, recommendation, verification, or endorsement by the Company, unless explicitly stated in writing.</p>
+<p>(C) The Company shall not be held liable for, and expressly disclaims any responsibility arising out of or relating to, any disputes, damages, losses, costs, technical failures, service defects, unauthorized disclosures, breaches, or adverse consequences incurred by you as a result of your interaction with, access to, reliance on, or use of any third-party links, services, content, or platforms, including those displayed or distributed within the Services by Friends or other users. You access such third-party content entirely at your own discretion and risk and are encouraged to independently review the applicable terms and privacy practices of such external services prior to any engagement.</p>
+<p>(D) The Company does not and cannot exercise control over the manner in which third-party service providers collect, store, use, retain, disclose, or otherwise process personal data. Your interactions with such providers are governed solely by their respective terms of service and privacy policies. The Company disclaims any responsibility for unauthorized access, loss of data, or misuse of personal information by third parties, whether or not such providers were integrated or accessible via the Services.</p>
 <p><strong>11. Changes to the Services & Updates to Terms:</strong></p>
-<br/>
 <p>(A) The Company reserves the absolute and unrestricted right, at its sole discretion and without incurring any liability or obligation to any party, to revise, amend, supplement, replace, restate, suspend, modify, discontinue, withdraw, or otherwise alter any portion of the Services or these Terms & Conditions (collectively, “Modifications”) at any time and for any reason deemed necessary, including but not limited to legal compliance, operational necessity, security enhancement, business exigency, technological advancement, or user experience optimization.</p>
 <p>(B) Any such Modifications may be implemented with or without prior notice to the User. Where required by applicable law or where deemed material in nature (as determined by the Company in its sole discretion), the Company may, but is not obligated to, provide reasonable advance notice of such Modifications through in-app notifications, email, official communication channels, or by posting a revised version of the Terms on its website or within the Platform.</p>
 <p>(C) Your continued access to or use of the Services after the effective date of any Modifications shall constitute your irrevocable and binding acceptance of the revised Terms, and you hereby waive any right to contest the enforceability of such Modifications on grounds of lack of notice or explicit consent. If you do not agree to any changes, your sole and exclusive remedy is to discontinue use of the Services and terminate your account.</p>
 <p>(D) The Company assumes no responsibility for the User’s failure to review updated Terms or notices. It is your duty to periodically review the Terms & Conditions for updates or modifications. Failure to do so shall not absolve you of any obligations or restrictions under the revised Terms.</p>
 <p><strong>Effective Date:</strong> 20/07/2025<br />
 <strong>Last Updated:</strong> 20/07/2025</p>
-<br/>
 <p><strong>12. Intellectual Property:</strong></p>
-<br/>
 <p>(A) User-Generated Content License and Permissions<br />
 (a) By uploading, submitting, transmitting, displaying, or otherwise making available any data, material, communication, text, image, audio, video, media, or other content (“User Content”) through or in connection with the Services, you hereby irrevocably grant to the Company, its affiliates, licensees, successors, and assigns a perpetual, worldwide, non-exclusive, fully paid-up, royalty-free, sublicensable, and transferable license to use, reproduce, store, host, cache, index, archive, modify, adapt, translate, create derivative works from, publicly perform, publicly display, transmit, broadcast, distribute, and otherwise exploit such User Content, in whole or in part, by any means, media, or technologies now known or hereafter devised, for purposes related to the operation, maintenance, enhancement, promotion, analysis, commercialization, and lawful use of the Services.<br />
 (b) This license is granted without the requirement of attribution, compensation, or further approval, unless otherwise required by applicable law. The foregoing notwithstanding, the Company shall obtain your express written consent prior to using your User Content in any standalone commercial capacity (e.g., sublicensing to unaffiliated third parties for promotional or advertising use unrelated to Closerrr or its Services).<br />
@@ -192,67 +188,65 @@ Upon user-initiated account deletion, all active subscriptions shall be immediat
 (ii) remove, obscure, or alter any proprietary rights notices; or<br />
 (iii) use the Company Materials for any purpose outside the scope of the Services.<br />
 (c) No rights are granted to you under these Terms except those explicitly set forth herein. All rights not expressly granted are hereby reserved by the Company.</p>
-<p>13.  <strong>Liability & Disclaimers:</strong><br />
-(A) The Services are provided on an “as is,” “as available,” and “with all faults” basis, without warranties of any kind, express or implied, statutory or otherwise. The Company makes no representations or guarantees as to the continuous, uninterrupted, error-free, or secure availability or operation of the Services, and you acknowledge that access thereto may be subject to periodic disruptions, interruptions, maintenance cycles, system overload, force majeure events, third-party interference, or other technical anomalies beyond the Company’s reasonable control.<br />
-(B) To the fullest extent permissible under applicable law, the Company expressly disclaims any and all liability arising out of, relating to, or in connection with any content, conduct, behaviour, or communications originating from or attributable to other users, Friends, or third parties. You agree that the Company shall not be held responsible for any act, omission, opinion, expression, message, post, image, or other communication, whether offensive, unlawful, defamatory, misleading, or otherwise objectionable, shared or transmitted via the Services by any third party.<br />
-(C) All interactions facilitated through the Services, including communications with Friends, are exclusively digital in nature and shall not give rise to, or be interpreted as, any form of real-world personal relationship, fiduciary obligation, partnership, endorsement, or professional association. The digital simulations, conversations, and experiences enabled by the platform are intended solely for entertainment and engagement purposes and are not a substitute for real-life interaction or counsel.<br />
-(D) You acknowledge that your use of the Services, including all interactions, content generation, communications, and engagement with Friends, is undertaken voluntarily and at your own sole risk. You are solely and fully responsible for any consequences—legal, civil, reputational, or otherwise—that may result directly or indirectly from your use of the Services, and the Company disclaims all liability with respect to the same.<br />
-(E) To the maximum extent permitted by law, the Company disclaims all liability for any incidental, consequential, indirect, special, exemplary, or punitive damages, including but not limited to loss of profits, loss of goodwill, data loss, service interruptions, device malfunction, reputational harm, emotional distress, or any other intangible or economic losses, even if the Company has been advised of the possibility of such damages, and regardless of the legal theory under which such claims may arise.<br />
-<strong>14. Confidentiality:</strong><br />
-(A) Obligations of the User<br />
+<p><strong>13. Liability & Disclaimers:</strong></p>
+<p>(A) The Services are provided on an “as is,” “as available,” and “with all faults” basis, without warranties of any kind, express or implied, statutory or otherwise. The Company makes no representations or guarantees as to the continuous, uninterrupted, error-free, or secure availability or operation of the Services, and you acknowledge that access thereto may be subject to periodic disruptions, interruptions, maintenance cycles, system overload, force majeure events, third-party interference, or other technical anomalies beyond the Company’s reasonable control.</p>
+<p>(B) To the fullest extent permissible under applicable law, the Company expressly disclaims any and all liability arising out of, relating to, or in connection with any content, conduct, behaviour, or communications originating from or attributable to other users, Friends, or third parties. You agree that the Company shall not be held responsible for any act, omission, opinion, expression, message, post, image, or other communication, whether offensive, unlawful, defamatory, misleading, or otherwise objectionable, shared or transmitted via the Services by any third party.</p>
+<p>(C) All interactions facilitated through the Services, including communications with Friends, are exclusively digital in nature and shall not give rise to, or be interpreted as, any form of real-world personal relationship, fiduciary obligation, partnership, endorsement, or professional association. The digital simulations, conversations, and experiences enabled by the platform are intended solely for entertainment and engagement purposes and are not a substitute for real-life interaction or counsel.</p>
+<p>(D) You acknowledge that your use of the Services, including all interactions, content generation, communications, and engagement with Friends, is undertaken voluntarily and at your own sole risk. You are solely and fully responsible for any consequences—legal, civil, reputational, or otherwise—that may result directly or indirectly from your use of the Services, and the Company disclaims all liability with respect to the same.</p>
+<p>(E) To the maximum extent permitted by law, the Company disclaims all liability for any incidental, consequential, indirect, special, exemplary, or punitive damages, including but not limited to loss of profits, loss of goodwill, data loss, service interruptions, device malfunction, reputational harm, emotional distress, or any other intangible or economic losses, even if the Company has been advised of the possibility of such damages, and regardless of the legal theory under which such claims may arise.</p>
+<p><strong>14. Confidentiality:</strong></p>
+<p>(A) Obligations of the User<br />
 (a) You agree not to disclose, share, publish, or use any confidential or proprietary information made available through the Platform, including but not limited to unreleased features, private communications, Friend content, backend data, internal policies, or any information not generally available to the public.<br />
-(b) Any unauthorized access, use, or dissemination of such information shall constitute a breach of these Terms and may subject you to legal action, including but not limited to injunctive relief and damages.<br />
-(B) Obligations of the Company<br />
+(b) Any unauthorized access, use, or dissemination of such information shall constitute a breach of these Terms and may subject you to legal action, including but not limited to injunctive relief and damages.</p>
+<p>(B) Obligations of the Company<br />
 (a) Closerrr agrees to treat your personal data and sensitive user information in accordance with its Privacy Policy, and to take commercially reasonable measures to safeguard such data from unauthorized access or disclosure.<br />
-(b) Closerrr may, however, disclose confidential information where required by law, regulation, legal process, or governmental request, or to protect the rights, property, or safety of the Company, its users, or the public.<br />
-<strong>15. Indemnification:</strong><br />
-(A) User’s Obligation to Indemnify<br />
+(b) Closerrr may, however, disclose confidential information where required by law, regulation, legal process, or governmental request, or to protect the rights, property, or safety of the Company, its users, or the public.</p>
+<p><strong>15. Indemnification:</strong></p>
+<p>(A) User’s Obligation to Indemnify<br />
 (a) You agree to indemnify, defend, and hold harmless the Company, its affiliates, officers, directors, employees, agents, licensors, and service providers from and against any and all claims, liabilities, damages, losses, penalties, judgments, costs, and expenses (including reasonable attorneys’ fees) arising out of or in connection with:<br />
 (i) Your use of the Platform or Services;<br />
 (ii) Your violation or alleged violation of these Terms, applicable laws, or third-party rights;<br />
 (iii) Any content or material submitted, uploaded, transmitted, or otherwise made available by you through the Platform;<br />
 (iv) Any unauthorized or improper use of your account.<br />
-(b) This obligation shall survive the termination or expiration of these Terms and your use of the Services.<br />
-(B) Company’s Rights<br />
+(b) This obligation shall survive the termination or expiration of these Terms and your use of the Services.</p>
+<p>(B) Company’s Rights<br />
 (a) The Company reserves the right, at its sole discretion and at your expense, to assume the exclusive defense and control of any matter subject to indemnification by you. In such cases, you agree to cooperate with the Company in asserting any available defenses.<br />
-(b) The Company shall have no obligation to indemnify you for any claims, losses, or damages resulting from your breach of these Terms, misuse of the Platform, or any other acts or omissions attributable to you.<br />
-<strong>16. Force Majeure:</strong><br />
-(A) Definition and Scope<br />
+(b) The Company shall have no obligation to indemnify you for any claims, losses, or damages resulting from your breach of these Terms, misuse of the Platform, or any other acts or omissions attributable to you.</p>
+<p><strong>16. Force Majeure:</strong></p>
+<p>(A) Definition and Scope<br />
 (a) The Company shall not be held liable for any failure to perform, or delay in performing, any of its obligations under these Terms or in connection with the Platform or Services if such failure or delay is caused, whether directly or indirectly, by events beyond the reasonable control of the Company (“Force Majeure Events”).<br />
-(b) Force Majeure Events include but are not limited to acts of God, natural disasters, war, terrorism, riots, governmental actions or restrictions, pandemics or epidemics, labour strikes, internet outages, infrastructure failure, data breach by external actors, or failure of suppliers, service providers, or hosting partners.<br />
-(B) Consequences of Force Majeure<br />
+(b) Force Majeure Events include but are not limited to acts of God, natural disasters, war, terrorism, riots, governmental actions or restrictions, pandemics or epidemics, labour strikes, internet outages, infrastructure failure, data breach by external actors, or failure of suppliers, service providers, or hosting partners.</p>
+<p>(B) Consequences of Force Majeure<br />
 (a) Upon the occurrence of a Force Majeure Event, the Company’s obligations under these Terms shall be suspended for the duration of the event.<br />
 (b) The Company shall not be required to make any restitution, refund, or compensation for any unavailability, interruption, or degradation of the Platform or Services during such time.<br />
-(c) The Company will make reasonable efforts to resume full performance as soon as practically feasible; however, nothing herein shall obligate the Company to provide notice or updates regarding the duration or expected resolution of the Force Majeure Event.<br />
-(C) User Responsibility<br />
-You acknowledge and agree that your continued access or use of the Services during a Force Majeure Event is at your own discretion and risk, and you hereby waive any claims, demands, or actions against the Company relating to such event.<br />
-<strong>17. Assignment & Transferability:</strong><br />
-(A) Company Rights to Assign<br />
+(c) The Company will make reasonable efforts to resume full performance as soon as practically feasible; however, nothing herein shall obligate the Company to provide notice or updates regarding the duration or expected resolution of the Force Majeure Event.</p>
+<p>(C) User Responsibility<br />
+You acknowledge and agree that your continued access or use of the Services during a Force Majeure Event is at your own discretion and risk, and you hereby waive any claims, demands, or actions against the Company relating to such event.</p>
+<p><strong>17. Assignment & Transferability:</strong></p>
+<p>(A) Company Rights to Assign<br />
 (a) The Company reserves the unrestricted right to assign, delegate, sublicense, or transfer any of its rights, obligations, or interests under these Terms, in whole or in part, to any third party, including but not limited to its affiliates, subsidiaries, successors, acquirers, or assignees, without requiring prior notice to or consent from you.<br />
-(b) Any such assignment or transfer shall be binding upon you and shall not affect the validity or enforceability of these Terms. You hereby expressly waive any objection or claim arising out of such transfer or assignment by the Company.<br />
-(B) User Restrictions on Assignment<br />
+(b) Any such assignment or transfer shall be binding upon you and shall not affect the validity or enforceability of these Terms. You hereby expressly waive any objection or claim arising out of such transfer or assignment by the Company.</p>
+<p>(B) User Restrictions on Assignment<br />
 (a) You may not assign, delegate, sublicense, or otherwise transfer your rights or obligations under these Terms without the prior written consent of the Company, which may be withheld at the Company’s sole and absolute discretion.<br />
 (b) Any attempted assignment or transfer by you in violation of this Section shall be deemed null and void, and shall constitute a material breach of these Terms.<br />
-(c) These Terms shall inure to the benefit of and be binding upon the parties and their respective successors and permitted assigns.<br />
-<strong>18. Termination & Suspension:</strong><br />
-(A) Termination by Closerrr<br />
+(c) These Terms shall inure to the benefit of and be binding upon the parties and their respective successors and permitted assigns.</p>
+<p><strong>18. Termination & Suspension:</strong></p>
+<p>(A) Termination by Closerrr<br />
 (a) The Company reserves the right, in its sole and absolute discretion, to terminate, suspend, restrict, or deactivate your Account or access to any portion of the Services, at any time and without prior notice or liability, including but not limited to instances where:<br />
 (i) You have violated any provision of these Terms or any applicable law;<br />
 (ii) You have engaged in conduct that is harmful, fraudulent, abusive, or otherwise inconsistent with the integrity, functionality, or reputation of the Platform or its Users;<br />
 (iii) The Company is required to do so by applicable law, regulation, judicial order, or governmental directive;<br />
 (iv) The Services are being modified, discontinued, or rendered commercially impracticable.<br />
-(b) In the event of termination or suspension, the Company shall have no obligation to retain or provide access to any data, content, or communications associated with your Account, except as required by applicable law or expressly stated in the Privacy Policy.<br />
-(B) Termination by User<br />
+(b) In the event of termination or suspension, the Company shall have no obligation to retain or provide access to any data, content, or communications associated with your Account, except as required by applicable law or expressly stated in the Privacy Policy.</p>
+<p>(B) Termination by User<br />
 (a) You may voluntarily terminate your Account at any time by following the procedures available within the Platform or by contacting the Company through the designated support channels.<br />
 (b) Upon termination, all licenses, rights, and obligations granted to you under these Terms shall immediately cease, and you must promptly cease all access to and use of the Services.<br />
-(c) Any pre-paid Subscription amounts shall not be refundable unless required by applicable law or expressly stated otherwise in these Terms.<br />
-(C) Effect of Termination<br />
+(c) Any pre-paid Subscription amounts shall not be refundable unless required by applicable law or expressly stated otherwise in these Terms.</p>
+<p>(C) Effect of Termination<br />
 (a) Termination or suspension shall not affect any accrued rights, obligations, or liabilities of either party as of the effective date of such action.<br />
 (b) Any provisions of these Terms which by their nature are intended to survive termination, including but not limited to those concerning intellectual property, confidentiality, disclaimers, indemnity, limitations of liability, dispute resolution, and governing law, shall remain in full force and effect.<br />
 (c) The Company shall not be liable to you or any third party for any damages, claims, losses, or inconvenience resulting from any termination or suspension of your access to the Services.</p>
-<br/>
 <p><strong>19. Data Localization & Cross-Border Data Transfer:</strong></p>
-<br/>
 <p>(A) General Acknowledgment</p>
 <p>(a) By accessing or using the Services, you acknowledge and agree that Closerrr may collect, store, process, and transmit your Personal Data in and to various jurisdictions, including but not limited to the jurisdiction in which you reside and other countries where Closerrr or its third-party service providers operate.<br />
 (b) You understand that such jurisdictions may have data protection laws that are different from, and may be less protective than, the laws of your own jurisdiction.</p>
@@ -267,9 +261,7 @@ You acknowledge and agree that your continued access or use of the Services duri
 (b) The User expressly consents to such cross-border transfers, processing, and storage of their data as outlined in this section and as more fully described in the Privacy Policy.</p>
 <p>(E) User Responsibility</p>
 <p>It is your sole responsibility to ensure that your use of the Services and transmission of any data through the Platform does not violate any data sovereignty, localization, or privacy obligations applicable to you under the laws of your jurisdiction.</p>
-<br/>
 <p><strong>20. Copyright Infringement & Takedown Procedure:</strong></p>
-<br/>
 <p>(A) Policy Statement</p>
 <p>Closerrr respects the intellectual property rights of others and expects all Users, Friends, and third parties to do the same. Unauthorized use, reproduction, distribution, or communication of copyrighted material is strictly prohibited. The Company shall take appropriate actions, including removal of content and account suspension or termination, upon receiving a legally sufficient notice of alleged infringement.</p>
 <p>(B) Takedown Requests</p>
@@ -296,9 +288,7 @@ You acknowledge and agree that your continued access or use of the Services duri
 <p>Closerrr reserves the right to restore the content or maintain its removal at its discretion.</p>
 <p>(E) No Legal Advice</p>
 <p>The foregoing procedure is provided for informational purposes only and does not constitute legal advice. You are encouraged to seek legal counsel before filing any notice or counter-notice under this Section.</p>
-<br/>
 <p><strong>21. Contact & Dispute Resolution:</strong></p>
-<br/>
 <p>(A) Contact Information<br />
 All communications, inquiries, notices, or legal correspondence relating to these Terms & Conditions, the Platform, or the Services—including but not limited to questions, complaints, or claims—must be directed to the Company via email at: \\[hello@closerrr.com\\]. The Company does not guarantee response times and shall not be held liable for any delay or failure to respond within a specific timeframe.</p>
 <p>(B) Dispute Resolution Mechanism<br />
@@ -307,9 +297,7 @@ All communications, inquiries, notices, or legal correspondence relating to thes
 (c) To the maximum extent permitted by applicable law, you expressly and irrevocably waive any right to participate in class actions, consolidated proceedings, or jury trials.<br />
 (d) Notwithstanding the foregoing, either party may seek preliminary injunctive or equitable relief in a court of competent jurisdiction where such relief is necessary to prevent immediate and irreparable harm, unauthorized disclosure of confidential information, or misuse or infringement of intellectual property rights.<br />
 (e) These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles. Subject to the provisions above, the courts located in Bhopal, Madhya Pradesh, India shall have exclusive jurisdiction over any disputes or claims arising out of or in connection with these Terms or the Services.</p>
-<br/>
 <p><strong>22. Notices & Communication:</strong></p>
-<br/>
 <p>(A) Official Communication Channels<br />
 All notices, legal correspondence, or communications relating to these Terms and Conditions, the Platform, or the Services, including but not limited to user inquiries, disputes, complaints, or regulatory matters, shall be deemed valid only if delivered to the Company via the following official channel:<br />
 Email: hello@closerrr.com<br />
@@ -327,9 +315,7 @@ It shall be your sole responsibility to ensure that your contact details registe
 Unless expressly stated otherwise or required by law, all notices, correspondence, agreements, and communications shall be in the English language. The Company is not obligated to provide translations and shall not be liable for any misunderstanding or interpretation issues arising from language barriers.</p>
 <p>(E) No Obligation to Respond<br />
 While the Company may, in good faith, attempt to respond to communications received from users, it makes no representation or warranty regarding response times. The Company shall not be liable for any failure or delay in responding to user communications, including those relating to support, disputes, or legal claims.</p>
-<br/>
 <p><strong>23. Entire Agreement & Severability:</strong></p>
-<br/>
 <p>(A) Entire Agreement<br />
 (a) These Terms, along with the Privacy Policy, supplemental terms, end user license terms, and any other legal notices, policies, or guidelines published or referenced by Closerrr from time to time, constitute the complete and exclusive agreement between you and Closerrr with respect to the subject matter herein, and supersede all prior or contemporaneous understandings, communications, representations, proposals, negotiations, or agreements, whether oral or written, relating to the Services.<br />
 (b) No oral or written information or advice given by Closerrr, its representatives, or any third party shall create any warranty or obligation not expressly stated herein.</p>
@@ -339,33 +325,25 @@ While the Company may, in good faith, attempt to respond to communications recei
 <p>(C) Severability<br />
 (a) If any provision of these Terms is found to be invalid, unlawful, void, or unenforceable by a court or competent authority under Applicable Law, such provision shall be deemed severed from these Terms to the minimum extent necessary, and shall not affect the validity or enforceability of the remaining provisions.<br />
 (b) Any invalid or unenforceable portion shall, to the maximum extent possible, be interpreted so as to reflect the original intent of Closerrr and the User, or otherwise replaced with a valid and enforceable provision that most closely reflects the original commercial and legal intent.</p>
-<br/>
 <p><strong>24. No Waiver:</strong></p>
-<br/>
 <p>(A) Non-Waiver of Rights<br />
 (a) No failure, delay, or omission by Closerrr in exercising any right, remedy, power, or privilege under these Terms shall operate as a waiver thereof, nor shall any single or partial exercise of any such right, remedy, power, or privilege preclude any other or further exercise thereof or the exercise of any other right, remedy, power, or privilege.<br />
 (b) Any waiver of any provision of these Terms shall be effective only if made in writing and signed by an authorized representative of Closerrr.</p>
 <p>(B) Cumulative Rights<br />
 All rights and remedies provided to Closerrr under these Terms are cumulative and in addition to, and not in substitution of or limitation on, any rights or remedies otherwise available at law or in equity.</p>
-<br/>
 <p><strong>25. Relationship of the Parties:</strong></p>
-<br/>
 <p>(A) Independent Relationship<br />
 (a) Nothing contained in these Terms shall be construed to create any partnership, joint venture, agency, employment, fiduciary, or other similar relationship between you and Closerrr.<br />
 (b) You acknowledge that you are acting solely on your own behalf and not as a representative or agent of Closerrr, and that you have no authority to bind Closerrr in any respect or incur any obligations or liabilities on its behalf.</p>
 <p>(B) No Representations<br />
 You shall not hold yourself out as an employee, partner, agent, or authorized representative of Closerrr. Any such misrepresentation shall constitute a material breach of these Terms and may result in immediate termination of your access to the Services, without prejudice to any legal remedies available to Closerrr.</p>
-<br/>
 <p><strong>26. Survival of Terms:</strong></p>
-<br/>
 <p>(A) Obligations That Survive Termination<br />
 (a) The termination, suspension, expiration, or cancellation of your access to the Services—whether by you or by Closerrr—shall not affect those provisions of these Terms that by their nature are intended to survive such termination.<br />
 (b) Without limitation, the following sections shall survive any termination or expiration of these Terms: Intellectual Property, Confidentiality, Dispute Resolution, Limitation of Liability, Indemnification, Governing Law & Jurisdiction, and any provisions concerning disclaimers, user conduct, license restrictions, and definitions.</p>
 <p>(B) Ongoing Legal and Contractual Effect<br />
 Any rights, duties, or obligations that by express terms or necessary implication are intended to remain in effect beyond the termination of these Terms shall continue to be valid, enforceable, and binding in accordance with their terms.</p>
-<br/>
 <p><strong>27. Export Control & Sanctions Compliance:</strong></p>
-<br/>
 <p>(A) Legal Use in Permitted Jurisdictions Only<br />
 (a) You represent and warrant that you are not located in, under the control of, or a national or resident of any country or territory subject to comprehensive trade sanctions or embargoes imposed by the Government of India, the United States, the United Nations Security Council, the European Union, or any other applicable governmental authority.<br />
 (b) You further affirm that you are not identified on any government-issued list of prohibited or restricted parties, including but not limited to the Specially Designated Nationals (SDN) list maintained by the U.S. Department of the Treasury, or equivalent watchlists maintained by applicable authorities.</p>
@@ -374,9 +352,7 @@ Any rights, duties, or obligations that by express terms or necessary implicatio
 (b) You are solely responsible for ensuring that your access to and use of the Services complies with all applicable import, export, and sanctions laws in the jurisdiction from which you access the Platform.</p>
 <p>(C) Restriction Enforcement<br />
 Closerrr reserves the right to restrict or terminate access to the Services, in whole or in part, in response to applicable export control laws, sanctions regulations, or governmental directives, without prior notice and without liability.</p>
-<br/>
 <p><strong>28. Interpretation:</strong></p>
-<br/>
 <p>(A) Headings and Formatting<br />
 (a) The section titles, headings, formatting elements, and numbering used in these Terms are included solely for the sake of convenience and organizational clarity.<br />
 (b) They shall not affect the meaning, construction, or interpretation of any provision contained herein and shall not be deemed to limit or modify the substantive content of the respective sections.</p>
@@ -390,9 +366,7 @@ Unless otherwise indicated by context:<br />
 (c) The terms “including,” “such as,” or similar expressions shall be construed as illustrative and not exhaustive.</p>
 <p>(D) Language Versions<br />
 If these Terms are translated into any language other than English, the English version shall prevail in the event of any conflict, inconsistency, or interpretation dispute.</p>
-<br/>
 <p><strong>29. Publicity Rights:</strong></p>
-<br/>
 <p>(A) Non-Confidential Nature of Public Interactions<br />
 (a) You acknowledge and agree that any content, interaction, or communication shared by you on public portions of the Platform (such as public profiles, comments, visible engagement metrics, or promotional features) may be used by Closerrr for promotional, advertising, or marketing purposes.<br />
 (b) Such usage may include, but is not limited to, screenshots, anonymized testimonials, aggregated behavioural data, and other derivative materials displayed on websites, app stores, press releases, investor communications, or digital campaigns.</p>
@@ -402,9 +376,7 @@ If these Terms are translated into any language other than English, the English 
 <p>(C) Right to Decline or Withdraw Participation<br />
 (a) If you are identified, quoted, or featured in any publicly visible promotional material by name or likeness (e.g., as a Friend), and such use is not mandated by a separate commercial agreement with Closerrr, you may contact us to request a reasonable modification or withdrawal.<br />
 (b) Closerrr shall consider such requests in good faith but shall not be obligated to comply where use is lawful, non-identifying, or in aggregated form.</p>
-<br/>
 <p><strong>30. Governing Language:</strong></p>
-<br/>
 <p>(A) Authoritative Version<br />
 (a) These Terms and all related documents, notices, and communications are originally drafted and published in the English language, which shall be the sole authoritative language governing interpretation, enforcement, and dispute resolution.<br />
 (b) Any translated versions of these Terms or associated materials are provided for informational purposes only and shall not be deemed legally binding or controlling.</p>
