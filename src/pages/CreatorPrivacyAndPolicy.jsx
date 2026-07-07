@@ -363,7 +363,7 @@ Subject Line: Creator Data Rights Request<br />
 <p>(B) If you have a concern regarding the collection, use, storage, processing, or disclosure of your personal data, or if you wish to report an alleged violation of this Privacy Policy or any related rights, you may submit a formal grievance request to Closerrr using the contact protocol below:<br />
 (a) Designated Contact Email:<br />
 Email: creatorcare@closerrr.com<br />
-Subject Line: <em>Grievance Redressal – \\[Brief Description of Issue\\]</em><br />
+Subject Line: <em>Grievance Redressal – [Brief Description of Issue]</em><br />
 (b) Required Information for Submission:<br />
 (i) Your registered Creator account email address;<br />
 (ii) A clear and concise description of the issue or concern;<br />
@@ -373,7 +373,7 @@ Subject Line: <em>Grievance Redressal – \\[Brief Description of Issue\\]</em><
 <p>(D) If you are dissatisfied with the resolution provided or fail to receive a response within the applicable timeframe, you may escalate the matter by replying to the same email thread with the subject line: <em>Escalation – Unresolved Creator Privacy Grievance</em>. Closerrr’s internal escalation team shall re-evaluate the matter with oversight from legal and compliance functions, where applicable.</p>
 <p>(E) Where permitted under Applicable Law, you retain the right to lodge a formal complaint with the Data Protection Board of India or any other competent authority if your grievance remains unresolved or if you believe your rights under the DPDPA have been materially violated. However, you are encouraged to exhaust Closerrr’s internal redressal process prior to initiating regulatory escalation.</p>
 <p>(F) For general support inquiries, payout clarifications, or non-privacy platform issues, Creators may contact Closerrr at the same email address using a subject line format such as:<br />
-Subject Line: <em>Creator Support – \\[Topic\\]</em><br />
+Subject Line: <em>Creator Support – [Topic]</em><br />
 All such communication shall be handled in accordance with Closerrr’s support protocols, confidentiality obligations, and data retention standards.</p>
 <p><strong>17. Changes to This Policy:</strong></p>
 <p>(A) Closerrr reserves the right to amend, modify, revise, or update this Creator Privacy Policy at any time in order to reflect changes in legal obligations, operational practices, platform features, regulatory developments, or technological advancements. Any such updates shall be governed by the terms set forth in this Section and shall take effect upon publication, unless otherwise stated.</p>

@@ -241,7 +241,7 @@ Uploading content to Closerrr shall not be interpreted as entering into any join
 (b) We may cooperate fully with law enforcement authorities, regulatory bodies, or court orders, including disclosure of identity or other personal data, where lawfully required.<br />
 (c) Closerrr has no obligation to mediate disputes between you and any Subscriber, Creator, or third party. Any such involvement is purely at our discretion.</p>
 <p>(D) Finality of Decisions & Appeals<br />
-(a) You may submit a moderation-related appeal via the in-app support system or email at \\[creatorcare@closerrr.com\\].<br />
+(a) You may submit a moderation-related appeal via the in-app support system or email at [creatorcare@closerrr.com].<br />
 (b) However, Closerrr retains the right to reject appeals in its sole discretion — particularly in repeat, serious, or unresolved cases.<br />
 (c) All decisions made by Closerrr under this section regarding content moderation, platform management, and rule enforcement are final, binding, and not subject to appeal, except as may be explicitly required by Applicable Law.</p>
 <p><strong>10. Software License & Restrictions (EULA):</strong></p>

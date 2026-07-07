@@ -134,7 +134,7 @@ While Closerrr does not engage in the outright sale of personal information in t
 <p>Closerrr processes personal data in strict accordance with the principles and legal bases recognized under applicable data protection frameworks, including (where relevant) the Information Technology Act, 2000 (India), its associated rules, and analogous global privacy standards. Every instance of data collection, use, or disclosure is justified under one or more of the following lawful bases:</p>
 <p>(A) Consent-Based Processing<br />
 (a) Closerrr obtains explicit, informed, and voluntary consent from Users prior to processing personal data in cases where such consent is legally required (e.g., marketing notifications, analytics tracking, optional profile details).<br />
-(b) Users may withdraw their consent at any time by accessing the relevant settings within the Platform or by contacting us directly at \\[hello@closerrr.com\\]. Such withdrawal will not affect the lawfulness of prior processing conducted under valid consent.</p>
+(b) Users may withdraw their consent at any time by accessing the relevant settings within the Platform or by contacting us directly at [hello@closerrr.com]. Such withdrawal will not affect the lawfulness of prior processing conducted under valid consent.</p>
 <p>(B) Contractual Necessity<br />
 Closerrr processes personal data to fulfil its contractual obligations with Users, particularly in relation to:<br />
 (i) Account registration and authentication;<br />
@@ -380,7 +380,7 @@ Closerrr does not engage in automated decision-making that produces legal or sim
 <p>(D) User Rights and Remedies<br />
 You may contact Closerrr to inquire about decisions influenced by automated systems or to object to specific forms of profiling used for personalization purposes. Closerrr will evaluate such objections on a case-by-case basis and provide an appropriate remedy or explanation where feasible and lawful.<br />
 Contact: hello@closerrr.com<br />
-Subject Line: <em>Automated Processing Concern – \\[Your Query\\]</em></p>
+Subject Line: <em>Automated Processing Concern – [Your Query]</em></p>
 <p>(E) Data Handling and Third-Party Use<br />
 Profiling data derived from automated processing is used exclusively for internal service optimization, personalization, and compliance. Closerrr does not license or sell such data to external parties for independent commercial use. However, certain aggregated, pseudonymized, or purpose-limited outputs may be shared with verified third-party service providers who assist in analytics, infrastructure, or fraud detection, strictly under contractual confidentiality and data protection obligations.</p>
 <p><strong>16. Grievance Redressal & Contact Information:</strong></p>
@@ -388,7 +388,7 @@ Profiling data derived from automated processing is used exclusively for interna
 <p>(A) Grievance Submission Process<br />
 If you have a concern regarding the handling of your personal data, your privacy rights, or any other issue arising from this Privacy Policy, you may contact us through our official support channel:<br />
 Email: hello@closerrr.com<br />
-Subject Line: <em>Grievance Redressal – \\[Brief Description of Issue\\]</em><br />
+Subject Line: <em>Grievance Redressal – [Brief Description of Issue]</em><br />
 To help us resolve your issue effectively, please include:<br />
 (a) Your registered Closerrr email address or username<br />
 (b) A clear description of your concern or complaint<br />
@@ -404,7 +404,7 @@ Users also have the right to approach the Data Protection Board of India or othe
 <p>(D) General Contact Information<br />
 For product inquiries, subscription issues, or technical support unrelated to privacy or data protection, you may contact us at the same address:<br />
 Email: hello@closerrr.com<br />
-Subject Line: <em>Support – \\[Your Topic\\]</em></p>
+Subject Line: <em>Support – [Your Topic]</em></p>
 <p><strong>17. Changes to This Policy:</strong></p>
 <p>Closerrr reserves the right to amend, modify, or update this Privacy Policy from time to time in order to reflect evolving legal obligations, operational practices, technological developments, or changes in the Services. All such updates shall be governed by the terms set forth in this section.</p>
 <p>(A) Scope of Modifications<br />
